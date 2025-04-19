@@ -1,0 +1,50 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('announcement')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1242}</h1>
+				</div>
+				<div class="shellInfo">
+					<div class="title">
+						<h2>
+						
+						{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+								
+							{$data.title_ch}
+						
+						{else}
+						
+							{$data.title_en}
+						
+						{/if}
+						
+						</h2>
+						<p class="time">{$data.pub_time}</p>
+						<p>
+						
+						
+						{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+								
+							{$data.content_ch|htmlspecialchars_decode}
+						
+						{else}
+						
+							{$data.content_en|htmlspecialchars_decode}
+						
+						{/if}
+						
+						
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

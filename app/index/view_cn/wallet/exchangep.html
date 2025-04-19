@@ -1,0 +1,121 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="wallet">
+
+		<div class="exchange">
+			<div>
+				<div class="header"><a href="{:url("current",["id"=>$info['id']])}" class="icon-left"><img src="__INDEX__/images/left.png"
+						 alt=""></a>
+					<h1>兑换</h1>
+				</div>
+				<div class="user">
+					<div>
+						<p>{$info.name|strtoupper}余额</p>
+						<p>{$listp|sprintf4}</p>
+					</div>
+					<div>
+						<p>FRCW余额</p>
+						<p>{$list.frcw|sprintf4}</p>
+					</div>
+				</div>
+				<div class="exchange_info">
+					<div class="flex-box">
+						<div class="flex-list">
+							<p class="free">推广期免手续费</p>
+							<!---->
+							<!---->
+						</div>
+						<div class="flex-list"><span>{$info.name|strtoupper}</span> <span>${$price_eth|sprintf4}</span></div>
+					</div>
+					<div class="flex-box">
+						<!-- <div class="flex-list"><span>最小兑换</span> <span>100</span></div> -->
+						<div class="flex-list"><span>FRCW</span> <span>${$price_frcw|sprintf4}</span></div>
+					</div>
+				</div>
+				<div class="exchange_from">
+					<form>
+						<div class="ipt_num">
+							<input name="frcw_num" value="" placeholder="输入{$info.name}数量" type="text">
+							<input type="hidden" id="type" value="{$info.name}">
+						</div>
+						<div class="flex-box">
+							<span class="flex-list left" style="color: rgb(198, 197, 203);">兑换FRCW数量</span>
+							<span class="flex-list right" style="color: rgb(255, 207, 61);"> <span id="sp1">0.0000</span> FRCW</span>
+						</div>
+						<div>
+							<input name="trade_pwd" value="" placeholder="输入交易密码" type="password">
+						</div>
+						<div class="subbtn">
+							<button type="button" style="width: 15rem;">兑换</button>
+						</div>
+
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			$("input[name=frcw_num]").keyup(function(){
+				var frcw_num = $(this).val();
+				var type = $('#type').val();
+				$.post('{:url("transEthp")}', {frcw_num:frcw_num,type:type}, function(res){
+					if (res.code == 1) {
+						$('#sp1').html(res.eth_num);
+					}
+				});
+			});
+
+			$('button').click(function(){
+				var frcw_num = $("input[name=frcw_num]").val();
+				var type = $('#type').val();
+				if (!frcw_num) {
+					checkMsg('请输入'+type+'数量');
+					return false;
+				}
+
+				<!-- if (frcw_num < 100) { -->
+					<!-- checkMsg('FRCW最少兑换100'); -->
+					<!-- return false; -->
+				<!-- } -->
+
+
+				var trade_pwd = $("input[name=trade_pwd]").val();
+				if (!trade_pwd) {
+					checkMsg('请输入交易密码');
+					return false;
+				}
+				var eth_num = $('#sp1').html();
+				$.post('{:url("frcwTransEthp")}', {frcw_num:frcw_num,eth_num:eth_num,trade_pwd:trade_pwd,type:type}, function(res){
+					if (res.code == 1) {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+					} else {
+						checkMsg(res.msg);
+					}
+				});
+
+			});
+
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+		</script>
+
+
+	</body>
+</html>

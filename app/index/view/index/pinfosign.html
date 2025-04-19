@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#2196f3">
+    <title>{$Think.lang.identity_authentication}</title>
+	<link rel="stylesheet" href="/static/index/ui2/wap/css/framework7.ios.min.css">
+	<link rel="stylesheet" href="/static/index/ui2/wap/css/framework7-icons.css">
+    <link rel="stylesheet" href="/static/index/ui2/wap/css/style.css">
+	
+	<!--vue_alert_start-->
+	<link rel="stylesheet" type="text/css" href="/static/index/ui2/public/vuealert/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/static/index/ui2/public/vuealert/css/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="/static/index/ui2/public/vuealert/css/wu-ui.css" />
+	<script type="text/javascript" src="/static/index/ui2/public/vuealert/js/vue.min.js"></script>
+	<script type="text/javascript" src="/static/index/ui2/public/vuealert/js/wu-ui.js"></script>
+	<!--vue_alert_end-->
+	<style>
+		.img-upload img{
+			display: initial;
+		}
+	</style>
+</head>
+<body>
+<div id="app">
+    <div class="statusbar"></div>
+    <div class="view view-main">
+        <div class="page">
+			<div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a href="javascript:history.go(-1);" class="link icon-only external">
+                            <i class="icon icon-back"></i>
+                        </a>
+                    </div>
+                    <div class="title">{$Think.lang.identity_authentication}</div>
+                </div>
+            </div>
+            <div class="page-content">
+				<form action="#" id="form_post" name="form_post" method="post">
+					<div class="list inline-labels no-hairlines">
+						<ul>
+							<li class="item-content item-input">
+								<div class="item-inner">
+									<div class="item-title item-label" style="width: 100px;">{$Think.lang.Language_number_1111}</div>
+									<div class="item-input-wrap" style="text-align: right;color: #5f5f5f;">
+										{$psigninfostr}
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input">
+								<div class="item-inner">
+									<div class="item-title item-label" style="width: 80px;">{$Think.lang.Language_number_1112}</div>
+									<div class="item-input-wrap">
+										<input type="text" name="name" id="nameinp" placeholder="{$Think.lang.Language_number_1113}">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							<li class="item-content item-input">
+								<div class="item-inner">
+									<div class="item-title item-label" style="width: 80px;">{$Think.lang.Language_number_1114}</div>
+									<div class="item-input-wrap">
+										<input type="text" name="idcard" id="idcardinp" placeholder="{$Think.lang.Language_number_1115}">
+										<span class="input-clear-button"></span>
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="block" style="margin-top:-20px">
+						<div class="row">
+							<div class="col-50">
+								<a href="javascript:;" class="img-upload">
+									<input type="file" accept="image/png,image/jpeg,image" name="img1" id="sfz1">
+									<img src="" alt="" id="sfzimg1">
+									<div class="text">
+										<i class="f7-icons">add</i>
+										<p>{$Think.lang.Language_number_1116}</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-50">
+								<a href="javascript:;" class="img-upload">
+									<input type="file" accept="image/png,image/jpeg,image" name="img2" id="sfz2">
+									<img src="" alt="" id="sfzimg2">
+									<div class="text">
+										<i class="f7-icons">add</i>
+										<p>{$Think.lang.Language_number_1117}</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div style="margin-top: 15px;">
+								<a href="javascript:;" class="img-upload" style="padding-top: 50%;">
+									<input type="file" accept="image/png,image/jpeg,image" name="img3" id="sfz3">
+									<img src="" alt="" id="sfzimg3">
+									<div class="text" style="padding-top: 15%;">
+										<i class="f7-icons">add</i>
+										<p>{$Think.lang.Language_number_1118}</p>
+									</div>
+								</a>
+						</div>
+					</div>
+				</form>
+				<div class="block" style="margin:-20px 0">
+                    <button class="button button-big color-red button-fill postformbtn" style="">{$Think.lang.Language_number_1119}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/static/index/ui2/wap/js/jquery.min.js"></script>
+<script src="/static/index/ui2/wap/js/framework7.min.js"></script>
+<script src="/static/index/ui2/wap/js/upload.js"></script>
+<script src="/static/index/ui2/wap/js/app.js"></script>
+<script>
+
+    $('.img-upload').each(function (i) {
+        i = i + 1;
+        new uploadPreview({
+            UpBtn: 'sfz' + i,
+            ImgShow: 'sfzimg' + i,
+            callback: function (e, file) {
+                console.log(e, file);
+                $(e).closest('.img-upload').find('.text').hide();
+            }
+        });
+    });
+	
+	
+	
+	
+	
+	
+	$(".postformbtn").click(function () {
+		wu.showLoadingBg();
+		setTimeout(() => {
+			//隐藏loading
+			wu.hideToast();
+		}, 3000);
+		
+		
+		var formData = new FormData();
+		//var formData = $("#form_post").serialize();
+		
+        formData.append("img1",$("#sfz1")[0].files[0]);
+		formData.append("img2",$("#sfz2")[0].files[0]);
+		formData.append("img3",$("#sfz3")[0].files[0]);
+        formData.append("name",$("#nameinp").val());
+		formData.append("idcard",$("#idcardinp").val());
+		formData.append("phone",$("#phoneinp").val());
+		
+		var options = {
+			url: 'pinfosigndo.html',
+			type: 'post',
+			dataType: 'json',
+			processData : false,
+            contentType : false,
+			data: formData,
+			success: function (res) {
+				var restxt = "{$Think.lang.Network_anomaly}";
+				if (res["data"]["state"]=="true") {
+					if(res["data"]["msg"]=="1001"){
+						restxt = "{$Think.lang.Language_number_1121}";
+					}
+					wu.showMessage({
+						title: restxt,
+						backgroundColor: '#2bde62',
+						duration: 3000
+					});
+					setTimeout(function(){
+						history.go(-1);
+					},3000);
+				}
+				if (res["data"]["state"]=="false") {
+					if(res["data"]["msg"]=="1002"){
+						restxt = "{$Think.lang.Language_number_1122}";
+					}
+					
+					if(res["data"]["msg"]=="1003"){
+						restxt = "{$Think.lang.Language_number_1123}";
+					}
+					if(res["data"]["msg"]=="1004"){
+						restxt = "{$Think.lang.Language_number_1124}";
+					}
+					
+					if(res["data"]["msg"]=="1006"){
+						restxt = "{$Think.lang.Language_number_1125}";
+					}
+					if(res["data"]["msg"]=="1007"){
+						restxt = "{$Think.lang.Language_number_1126}";
+					}
+					if(res["data"]["msg"]=="1008"){
+						restxt = "{$Think.lang.Language_number_1127}";
+					}
+					wu.showMessage({
+						title: restxt,
+						backgroundColor: 'red',
+						duration: 3000
+					});
+				}
+			},
+			complete: function(XMLHttpRequest, textStatus){
+            },
+            error: function(){
+                wu.showMessage({
+					title: "{$Think.lang.Network_anomaly}",
+					backgroundColor: 'red',
+					duration: 3000
+				});
+            } 
+		};
+		$.ajax(options);
+		return false;
+	});
+</script>
+</body>
+</html>

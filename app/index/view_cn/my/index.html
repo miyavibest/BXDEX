@@ -1,0 +1,226 @@
+	{include file="public/header"}
+	<body class="wallet">
+			<div id="app">
+				<div class="view">
+					<div class="userinfo">
+						<div>
+							<div class="userearnings">
+								<p>总收益(FRCW实时价格 ${$price_now|sprintf4})</p>
+								<h2>{$total_price|sprintf4}</h2>
+							</div>
+							<div  class="userearnings">
+								<p >今日收益</p>
+								<p >{$personComain ? $personComain : 0}</p>
+							</div>
+							<div class="userearnings">
+								<p>伙伴总值</p>
+								<p>{$total_num|sprintf4} $</p>
+							</div>
+							<div><img src="" alt=""></div>
+							<div class="vip">
+								<span class="viptype vipbg_2">
+									{if condition="$level==1"}
+										普通
+									{elseif condition="$level==2"}
+										VIP1
+									{elseif condition="$level==3"}
+										VIP2
+                                  	{else}
+										用戶
+									{/if}
+								</span> 
+								<span class="vipicon">
+									<img src="__INDEX__/images/viptype2.png" alt="">
+								</span>
+							</div>
+							<div class="gotoEarnings">
+								<a  href="{:url('wallet/earnings')}" class="">
+								<img src="__INDEX__/images/index3.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="flex-box zone_1">
+						<div  class="flex-list">
+							<a href="{:url('partner')}" class="">
+								<p class="icon">
+									<img  src="__INDEX__/images/index2.png" alt="" width="auto" height="100%">
+								</p>
+								<p>商业伙伴</p>
+							</a>
+						</div>
+						<div class="flex-list">
+							<a href="{:url('openamount/index')}" class="">
+								<p class="icon">
+									<img src="__INDEX__/images/index4.png" alt="" width="auto" height="100%">
+								</p>
+								<p >开放量化</p>
+							</a>
+						</div>
+						<div class="flex-list">
+							<a href="{:url('generalize')}" class="">
+								<p class="icon">
+									<img  src="__INDEX__/images/index5.png" alt="" width="auto" height="100%">
+								</p>
+								<p >邀请好友</p>
+							</a>
+						</div>
+					</div>
+					<div class="my-list-box">
+						<ul >
+							<a href="{:url('index/fuli28')}" class="">
+								<li  class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index6.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p >福利</p>
+									</div>
+								</li>
+							</a> 
+							
+							<a href="{:url('change/index')}" class="">
+								<li  class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/qianbao.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p >钱包地址</p>
+									</div>
+								</li>
+							</a> 
+							<a class="router-link-exact-active router-link-active">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img src="__INDEX__/images/index7.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p>娱乐</p>
+									</div>
+								</li>
+							</a> 
+							<a class="router-link-exact-active router-link-active">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index8.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p>商城</p>
+									</div>
+								</li>
+							</a> 
+							<a class="router-link-exact-active router-link-active">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index9.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div  class="flex-list">
+										<p>交易</p>
+									</div>
+								</li>
+							</a> 
+							<a href="{:url('ucenter/security')}" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index10.png" alt="" width="auto" height="100%">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p>安全中心</p>
+									</div>
+								</li>
+							</a>
+							<a href="{:url('ucenter/setup')}" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index11.png" alt="" width="auto" height="100%">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p >系统设置</p>
+									</div>
+								</li>
+							</a>
+							<a href="{:url('ucenter/feedback')}" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img src="__INDEX__/images/index12.png" alt="" width="auto" height="100%">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p >用戶反馈</p>
+									</div>
+								</li>
+							</a> 
+							<a href="{:url('ucenter/announcement')}" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index13.png" alt="" width="100%" height="auto">
+										</i>
+									</div>
+									<div class="flex-list">
+										<p>系统消息</p>
+									</div>
+								</li>
+							</a> 
+							<a href="{:url('ucenter/about')}" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+											<img  src="__INDEX__/images/index14.png" alt="" width="auto" height="100%">
+										</i>
+									</div>
+									<div  class="flex-list">
+										<p>关于我们</p>
+									</div>
+								</li>
+							</a>
+							
+							
+							<a href="javascript:void();" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+										</i>
+									</div>
+									<div  class="flex-list">
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+									</div>
+								</li>
+							</a>
+							
+							<a href="javascript:void();" class="">
+								<li class="flex-box my_list">
+									<div class="flex-size">
+										<i class="icon">
+										</i>
+									</div>
+									<div  class="flex-list">
+										<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+									</div>
+								</li>
+							</a>
+							
+						</ul>
+					</div>
+					{include file="public/nav"}
+				</div>
+			</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

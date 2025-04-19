@@ -1,0 +1,66 @@
+{include file="common/head"/}
+<style>
+.wqs-qrcode {
+    padding: 15px;
+}
+
+.wqs-qrcode a {
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #C9C9C9;
+    background-color: #fff;
+}
+
+.wqs-qrcode a:hover {
+    opacity: .8;
+    border-color: #009688;
+    color: #333;
+}
+</style>
+
+<div class="layui-fluid"><div class="layui-card">
+
+<div class="layui-card-body">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>转入转出</legend>
+    </fieldset>
+
+    <div class="demoTable">
+        <a href="{:url('index')}" class="layui-btn" style="float:right;margin-right:10px"><i class="fa fa-plus" aria-hidden="true"></i>刷新</a>
+        <div style="clear: both;"></div>
+    </div>
+    <table class="layui-table" id="list" lay-filter="list"></table>
+</div>
+{include file="common/foot"/}
+<script type="text/html" id="order">
+    <input name="{{d.id}}" data-id="{{d.id}}" class="list_order layui-input" value=" {{d.sort}}" size="10" />
+</script>
+<script>
+layui.use('table', function() {
+    var table = layui.table, $ = layui.jquery;
+    var tableIn = table.render({
+        elem: '#list',
+        url: '{:url("infolist/index")}',
+        method: 'post',
+        page: true,
+        cols: [
+            [
+                { field: 'id', title: 'ID',sort: true, fixed: true },
+                { field: 'phone', align: 'center', title: '用户手机号'},
+                { field: 'coin', align: 'left', title: '币名'},
+                { field: 'num', title: '数量',align: 'center'},
+                { field: 'type', align: 'center', title: '类型'},
+                { field: 'add_time', align: 'center', title: '添加时间'},
+            ]
+        ],
+        limit: 20
+    });
+
+})
+</script>

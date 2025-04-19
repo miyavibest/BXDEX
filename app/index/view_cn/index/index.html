@@ -1,0 +1,167 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div id="home" class="view">
+				<div class="header">
+					<h1>FRCW</h1>
+				</div>
+				<div class="frcwinfo">
+					<div class="dayprice">
+						<h4><span>$ </span>{$price_cur}</h4>
+					</div>
+					<div class="rose">
+						<span>{$price_plus > 0 ? '+ $' . $price_plus : '$ ' . $price_plus}</span> 
+						<span><b></b> （{$price_rate|round=###,2}%）</span>
+					</div>
+				</div>
+				<div class="charts">
+					<div id="myChart"></div>
+				</div>
+				<div class="flex-box userall">
+					<div class="flex-list">
+						<p>总资产($) </p>
+						<h2>{$total_price|sprintf4}</h2>
+					</div>
+					<div class="flex-list homevip">
+						<span class="viptype vipbg_2">
+							{if condition="$level==1"}
+								普通
+							{elseif condition="$level==2"}
+								VIP1
+							{elseif condition="$level==3"}
+								VIP2
+								{else}
+								用戶
+							{/if}
+						</span>
+						<span class="vipicon"><img src="__INDEX__/images/viptype2.png" alt=""></span></div>
+				</div>
+				<div>
+					<ul class="theicon">
+						<li class="theiconlist">
+							<a href="{:url('wallet/earnings')}" class="">
+								<div><img src="__INDEX__/images/icon1.png" alt=""></div>
+								<div>
+									<p>FRCW</p>
+									<p>frcw {$frcw_num|sprintf4} = $ {$cur_price|sprintf4}</p>
+								</div>
+								<div><img src="__INDEX__/images/right.png" alt=""></div>
+							</a>
+						</li>
+						{volist name="$data_coin" id="vo"}
+						<li class="theiconlist">
+							<a href="{:url('wallet/current', ['id'=>$vo.id])}" class="">
+								<div><img src="__INDEX__/images/{$vo.logo}" alt=""></div>
+								<div>
+									<p>{$vo.name|strtoupper}</p>
+									<p>{$vo.name} {$vo.num|sprintf4} = $ {$vo.num * $vo.price|sprintf4}</p>
+								</div>
+								<div><img src="__INDEX__/images/right.png" alt=""></div>
+							</a>
+						</li>
+						{/volist}
+						
+					</ul>
+					<ul class="theicon">
+						<a href="{:url('wallet/select')}" class="">
+							<li class="theiconlist addicon">
+								<p><img src="__INDEX__/images/jia.png" alt=""></p>
+								<p>点击添加其他币种</p>
+							</li>
+						</a>
+					</ul>
+				</div>
+				{include file="public/nav"}
+			</div>
+		</div>
+
+
+		<script src="__INDEX__/js/echarts.min.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			var myChart = echarts.init(document.getElementById('myChart'));
+			var src = {$date_str},
+				src1 = {$price},
+				// num = 1;
+			option = {
+				color: ["#FDC775", "#FDC775"],
+				tooltip: {
+					trigger: 'axis'
+				},
+
+				textStyle: { //图例文字的样式
+					color: '#fff',
+				},
+				grid: {
+					left: "-5%",
+					right: "5%",
+					top: "3%",
+					bottom: "5%",
+					containLabel: !0
+				},
+				toolbox: {
+					feature: {
+						saveAsImage: {}
+					}
+				},
+				xAxis: [{
+					type: "category",
+					data: src,
+					boundaryGap: !1,
+					splitLine: {
+						show: !1
+					},
+					axisLabel: {
+						show: !0,
+						textStyle: {
+							color: "#fff",
+							fontSize: "10"
+						}
+					},
+					axisLine: {
+						lineStyle: {
+							color: "transparent"
+						}
+					}
+				}],
+				yAxis: [{
+					type: "value",
+					splitLine: {
+						show: !1
+					},
+					axisLabel: {
+						show: !0,
+						textStyle: {
+							color: "transparent",
+							fontSize: "16"
+						}
+					},
+					axisLine: {
+						lineStyle: {
+							color: "transparent"
+						}
+					}
+				}],
+				series: [{
+					data: src1,
+					type: "line",
+					smooth: !0,
+					symbol: "circle",
+					symbolSize: 3,
+					itemStyle: {
+						normal: {
+							color: "#FDC775",
+							lineStyle: {
+								color: "#FDC775",
+								width: "2"
+							}
+						}
+					}
+				}]
+			};
+			myChart.setOption(option);
+		</script>
+
+
+	</body>
+</html>

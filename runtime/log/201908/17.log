@@ -1,0 +1,371 @@
+---------------------------------------------------------------
+[ 2019-08-17T00:14:26+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.032597s] [吞吐率：30.68req/s] [内存消耗：3,664.96kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=67m9sfue0vqeo1eml9s6t77b67',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000431s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2019-08-17T00:14:26+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.024101s] [吞吐率：41.49req/s] [内存消耗：2,530.64kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=67m9sfue0vqeo1eml9s6t77b67',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T00:14:26+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.024310s] [吞吐率：41.14req/s] [内存消耗：2,500.62kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=67m9sfue0vqeo1eml9s6t77b67',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T12:15:06+08:00 ] 47.92.122.11 GET frcw1.52codes.cn/
+[运行时间：0.160118s] [吞吐率：6.25req/s] [内存消耗：3,663.21kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.002492s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2019-08-17T12:15:06+08:00 ] 47.92.122.11 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.037265s] [吞吐率：26.83req/s] [内存消耗：2,527.96kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D))',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T20:38:49+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.170808s] [吞吐率：5.85req/s] [内存消耗：3,664.79kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002279s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.004354s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2019-08-17T20:38:49+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.033588s] [吞吐率：29.77req/s] [内存消耗：2,530.85kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=bkfmskumdgo9m23aa69rblspn4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T20:38:50+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.032485s] [吞吐率：30.78req/s] [内存消耗：2,501.31kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=bkfmskumdgo9m23aa69rblspn4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T20:38:54+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.038555s] [吞吐率：25.94req/s] [内存消耗：3,665.70kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=bkfmskumdgo9m23aa69rblspn4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000427s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2019-08-17T20:38:54+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.023793s] [吞吐率：42.03req/s] [内存消耗：2,531.43kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=bkfmskumdgo9m23aa69rblspn4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-17T20:38:54+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.030846s] [吞吐率：32.42req/s] [内存消耗：2,501.40kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'authorization' => 'Basic eGlhb3poYW86MTIzNDU2',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; _ga=GA1.2.328969622.1565838357; PHPSESSID=bkfmskumdgo9m23aa69rblspn4',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

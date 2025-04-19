@@ -1,0 +1,47 @@
+html,body{width: 100%;overflow-x:hidden;}
+body{color:#000;background: #fff;overflow-x:hidden;position: relative;font-family: "Microsoft Yahei";}
+a{color:#4e4e4e;cursor:pointer;}
+a:hover{color:#de1d26;text-decoration:none;}
+.wrap{width:1160px;margin:0 auto;}
+
+.container{padding: 10px;}
+.uTop{margin: 0 -10px;}
+.uTop li{float: left;width: 33.3%;}
+.udiv{margin: 0 10px;color: #fff;height: 100px;border-radius:4px;margin:5px 10px 15px 10px; }
+.udiv1{background: #1abc9c;}
+.udiv2{background: #f1c40f;}
+.udiv3{background: #3498db;}
+.udiv4{background: #d35400;}
+.udiv5{background: #34495e;}
+.udiv6{background: #16a085;}
+.utit{height: 39px;border-bottom: 1px solid #fff;padding: 0 20px;font-size: 15px; line-height: 39px;}
+.ucont{height: 60px;line-height: 60px;text-align: center;font-size: 30px;}
+.qk_cao{margin: 40px 0;position: relative;border:1px solid #51718a;height: 48px;}
+.qk_t{position: absolute;left: 20px;top:-10px;font-size: 16px;padding: 0 8px;background: #fff;}
+.qk_nav{position: absolute;right: 0;bottom: 5px; left: 0;text-align:center;font-size: 13px;}
+.qk_nav a{display: inline-block;margin: 0 4px;}
+.qk_box{margin: 0 -10px;}
+.qkdl{float: left;width: 50%;}
+.qkdd{position: relative; margin: 0 10px;border:1px solid #e1e1e1;padding: 0px;min-height: 100px;}
+.d_tt{position: absolute;left: 10px;top:-10px;padding: 0 7px;background: #fff;font-size: 16px;color: #555;}
+.qkdd1{padding:15px 0 10px 0;}
+.qkInfor li{font-size: 13px; height: 40px;line-height: 40px;padding: 0 20px;}
+.qkInfor li:nth-child(even){background: #f8f8f8;}
+.qkInfor li span{display: inline-block;width: 130px;}
+.gxBtn{color: #fff;background: #3279b7;padding:2px 4px;display: inline-block;line-height: normal;margin: 0 3px;}
+.ifCont .iframe{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

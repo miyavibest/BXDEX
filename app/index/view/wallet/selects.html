@@ -1,0 +1,72 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="bgW zhuc">
+		
+		
+		<div class="miydiv" style="position:fixed;width:100%;height:100%;top:0;left:0;background:#fff;z-index:9999999999;text-align:center;display:;">
+			<div class="header">
+				<a href="javascript:history.go(-1);" class="icon-left clomiydiv"><img src="__INDEX__/images/left.png" alt=""></a>
+				<h1>{$list['coin']}</h1>
+			</div>
+			
+			
+			
+			<div class="" style="width:90%;margin-left:5%;border:1px solid #c7c7c7;border-radius: 5px;padding-top:20px;padding-bottom:20px;margin-top:30px;">
+				
+
+				<div style="width:96%;margin-left:2%;background: #f3f3f3;border:1px solid #e8e8e8;border-radius: 3px;text-align:left;line-height: 1.2em;">
+					<div style="color:#4e4e4e;font-size:14px;padding:2%;text-align:left;width: 20%;display: inline-block;">私钥</div>
+					<input type="text" readonly="readonly" id="encrypt1" value="{$list['pck_privateKey']}" class="miyuname" style="color:#4e4e4e;font-size:14px;padding:2%;border:0px;width: 70%;display: inline-block;background: #f3f3f3;" />
+				</div>
+				
+				
+				<div style="width:96%;margin-left:2%;background: #f3f3f3;border:1px solid #e8e8e8;border-radius: 3px;margin-top:20px;">
+					<div style="color:#4e4e4e;font-size:14px;padding:2%;text-align:left;">助记词</div>
+					<textarea readonly="readonly" class="miyinp" id="encrypt2" style="color:#4e4e4e;font-size:14px;height:4em;padding:2%;border:0px;width: 96%;background: #f3f3f3;">{$list['pck_mnemonic']}</textarea>
+				</div>
+				
+				
+				<div style="width:96%;margin-left:2%;margin-top:6px;text-align:left;">
+					<!--<h2 style="font-size: 14px;color: #3077d8;">{$Think.lang.Language_number_1438}</h2>
+					<p style="font-size: 14px;color: #777777;">{$Think.lang.Language_number_1439}</p>-->
+				</div>
+			</div>
+			
+			<div class="landing_btn">
+			    <button class="cmiyinp copylinkok" data-clipboard-action="copy" data-clipboard-target="#encrypt1">复制私钥</button>
+			</div>
+			<div class="landing_btn">
+			    <button class="cmiyinp copylinkok" data-clipboard-action="copy" data-clipboard-target="#encrypt2">复制助记词</button>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		  <script src="__STATIC__/src/js/clipboard.min.js"></script>
+		<script>
+		var clipboard = new Clipboard('.copylinkok');
+		clipboard.on('success', function(e) {
+			console.log(e);alert("复制成功！");
+		});
+		clipboard.on('error', function(e) {
+			console.log(e);
+		});
+		</script>
+		<script>
+			function checkMsg(msg){
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+
+		    
+		</script>
+	</body>
+</html>

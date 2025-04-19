@@ -1,0 +1,80 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw"><a href="{:url('index/index/index')}" class="icon-left"><img src="__INDEX__/images/left.png" alt=""></a>
+					<h1>选择币种</h1>
+				</div>
+				<div>
+					<ul>
+						{volist name="$list" id="vo"}
+						<li class="selectlist selectlist1" attr-id="{$vo.id}">
+							<span class="imgbox">
+								<img src="__INDEX__/images/{$vo.logo}" alt="">
+							</span> 
+							<span class="type">{$vo.name|strtoupper}</span> 
+
+							{if condition="in_array($vo.id, $ids_arr)"}
+							<span class="coin green">
+								<input type="hidden" name="type" value="1">
+								<img src="__INDEX__/images/hs.png" alt="">
+							</span>
+							{else}
+							<span class="coin green">
+								<input type="hidden" name="type" value="2">
+								<img src="__INDEX__/images/hse.png" alt="">
+							</span>
+							{/if}
+						</li>
+						{/volist}
+
+						<li class="selectlist"><span class="imgbox"><img src="__INDEX__/images/935597e93058d845.jpg"
+								 alt=""></span> <span class="type">XRP</span> <span class="coin ccc"><img
+								 src="" alt="">
+								暂未开放
+							</span></li>
+						<li class="selectlist"><span class="imgbox"><img src="__INDEX__/images/d51674ad9e6f9470.png"
+								 alt=""></span> <span class="type">BCH</span> <span class="coin ccc"><img
+								 src="" alt="">
+								暂未开放
+							</span></li>
+						<li class="selectlist"><span class="imgbox"><img src="__INDEX__/images/5c2f1f7f080dabbc.png"
+								 alt=""></span> <span class="type">ETC</span> <span class="coin ccc"><img
+								 src="" alt="">
+								暂未开放
+							</span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+    	<script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$('.selectlist1').click(function(){
+				var id = $(this).attr('attr-id');
+				var type = $(this).find('input').val();
+
+				$.get('{:url("selectCoin")}', {id:id,type:type}, function(res){
+					if (res.code == 1) {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.reload();
+					        },
+					    });
+					}
+				});
+
+
+			});
+		</script>
+
+
+	</body>
+</html>

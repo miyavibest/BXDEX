@@ -1,0 +1,90 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="out">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('wallet/current', ['id'=>input('param.id')])}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$name|strtoupper}转出</h1> 
+					<a href="javascript:;" class="icon-right"><img src="__INDEX__/images/sys.png" alt=""></a>
+				</div>
+				<div>
+					<div class="ipt_box ipt_1">
+						<input name="encrypt" placeholder="收款人钱包地址" type="text">
+					</div>
+					<div class="ipt_box ipt_2">
+						<input name="num" placeholder="转出数量" type="number">
+					</div>
+					<p class="balance">可用余额：{$num|sprintf4} {$name|strtoupper}</p>
+					<div class="charge">
+						<div>
+							<p>矿工费</p>
+							<p class="chargesize">{$fee}</p>
+						</div>
+						<div>{$name|strtoupper}</div>
+					</div>
+					<div class="ipt_box ipt_box_la">
+						<input name="trade_pwd" placeholder="输入交易密码" type="password">
+					</div>
+					<div class="subbtn outbtn">
+						<button type="button">提交</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$('button').click(function(){
+				var encrypt = $("input[name=encrypt]").val();
+				if (!encrypt) {
+					checkMsg('请输入钱包地址');
+					return false;
+				}
+				var num = $("input[name=num]").val();
+				if (!num) {
+					checkMsg('请输入转出数量');
+					return false;
+				}
+				var trade_pwd = $("input[name=trade_pwd]").val();
+				if (!trade_pwd) {
+					checkMsg('请输入交易密码');
+					return false;
+				}
+				var id = '{$id}';
+				$.post('{:url("out")}', {id:id,encrypt:encrypt,num:num,trade_pwd:trade_pwd}, function(res){
+					if (res.code == 1) {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+					} else {
+						checkMsg(res.msg);
+					}
+				});
+
+
+			});
+
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+		</script>
+
+
+	</body>
+</html>

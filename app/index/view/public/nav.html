@@ -1,0 +1,26 @@
+<style>
+.footr div img {
+    height: 1.2rem;
+}
+</style>
+<div class="footr">
+	<div>
+		<a href="{:url('index/index/index',['nav'=>1])}" class="{eq name='$nav' value='1'}ace{/eq}"><img src="__INDEX__/images/{eq name='$nav' value='1'}n11.png{else}n1.png{/eq}"><br>{$Think.lang.Language_number_1230}
+		</a>
+	</div>
+
+	<div>
+		<a href="{:url('index/market/index',['nav'=>2])}" class="{eq name='$nav' value='2'}ace{/eq}"><img src="__INDEX__/images/{eq name='$nav' value='2'}n22.png{else}n2.png{/eq}"><br>{$Think.lang.Language_number_1231}
+		</a>
+	</div>
+
+	<div>
+		<a href="{:url('index/information/index',['nav'=>3])}" class="{eq name='$nav' value='3'}ace{/eq}"><img src="__INDEX__/images/{eq name='$nav' value='3'}n33.png{else}n3.png{/eq}"><br>{$Think.lang.Language_number_1232}</a>
+	</div>
+
+	<div>
+		<a href="{:url('index/my/index',['nav'=>4])}" class="{eq name='$nav' value='4'}ace{/eq}"><img src="__INDEX__/images/{eq name='$nav' value='4'}n44.png{else}n4.png{/eq}"> <br>{$Think.lang.Language_number_1233}
+		</a>
+	</div>
+
+</div>

@@ -1,0 +1,47 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('my/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1241}</h1>
+				</div>
+				<div class="shell">
+					<ul>
+						{volist name="$data" id="vo"}
+						<li uid="40" class="ann-list">
+							<a href="{:url('announcementInfo', ['id'=>$vo.id])}" class="">
+								<div class="title">
+									<h4>
+									
+									
+									
+									{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+								
+										{$vo.title_ch}
+									
+									{else}
+									
+										{$vo.title_en}
+									
+									{/if}
+									
+									
+									</h4>
+									<p>{$vo.pub_time}</p> 
+									<i class="icon"><img src="__INDEX__/images/right.png" alt=""></i>
+								</div>
+							</a>
+						</li>
+						{/volist}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

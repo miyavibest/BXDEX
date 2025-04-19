@@ -1,0 +1,53 @@
+	{include file="public/header"}
+	<body class="bgW">
+		<div id="app">
+			<div class="header">
+				<a href="{:url('information/index')}" class="icon-left">
+					<img src="__INDEX__/images/left.png" alt="">
+				</a>
+				<h1>{$Think.lang.Language_number_1155}</h1>
+			</div>
+			<div>
+				<div class="news">
+					<h4>{$list.title_ch}
+					
+					
+					
+					{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+							
+						{$list.title_ch}
+					
+					{else}
+					
+						{$list.title_en}
+					
+					{/if}
+					
+					
+					</h4>
+					<p class="time">{$list.pub_time}</p>
+					<p>
+					
+					
+					{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+							
+						{$list.content_ch|htmlspecialchars_decode}
+					
+					{else}
+					
+						{$list.content_en|htmlspecialchars_decode}
+					
+					{/if}
+					
+					
+					
+					</p>
+				</div>
+				<div></div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

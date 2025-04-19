@@ -1,0 +1,36 @@
+	{include file="public/header"}
+	<style type="text/css">
+	.bit ul li img{width: 20px;}
+	.bit ul li {margin-top: 20px;padding: 0 10px}
+	.bit ul li .top{margin-bottom: 10px;}
+	.bit ul li .bottomnav{margin-left: 20px;}
+	.bit ul li .bottomnav a{background: #ffcf3d;padding:5px 10px; color: #fff;border-radius: 10px;}
+	</style>
+	<body class="wallet">
+		<div id="app" class="smart">
+			<div>
+				<div class="header">
+					<a href="{:url('my/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1140}</h1> 
+				</div>
+				<div class="bit">
+					<ul>
+					{volist name="list" id="vo"}
+						<li >
+							<div class="top"><span><img src="__INDEX__/images/{$vo['logo']}" alt="">
+							</span><span><span style="text-transform: uppercase; width: auto">{$vo['name']}{$Think.lang.Language_number_1141}</span>{if condition="$vo['address']"} {$vo['address']} {else/} {$Think.lang.Language_number_1142}{/if}</span></div>
+							<div class="bottomnav">
+								<a href="{:url('change/addwetall',['coinid'=>$vo['id']])}" >{$Think.lang.Language_number_1143}</a>
+								<a href="{:url('change/chongbi',['coinid'=>$vo['id']])}"  >{$Think.lang.Language_number_1144}</a>
+								<a href="{:url('change/tibi',['coinid'=>$vo['id']])}">{$Think.lang.Language_number_1145}</a>
+							</div>
+						</li>
+					{/volist}
+					</ul>
+				</div> 
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+	{include file="public/header"}
+	<body class="out">
+		<div id="app">
+			<div id="gathering" style="background: #fff;">
+				<div class="header">
+					<a href="{:url('wallet/current', ['id'=>input('param.id')])}" class="icon-left">
+						<img src="__INDEX__/images/left1.png" alt="">
+					</a>
+					<h1 style="text-transform: uppercase;">{$name}转入</h1>
+				</div>
+				
+				
+				
+				
+				<div class="code_box">
+					<div class="qrcode">
+						<div id="qrcode" title="14NSNiN3CPcaAnX1rk45fKsVqNCEuKCowf">
+							<p style="text-transform: uppercase;text-align: center;font-weight: bolder;padding-bottom: 10px;">{$name}地址</p> 
+				
+							<img alt="Scan me!" style="display: block;" src="http://qr.liantu.com/api.php?text={$info.address}">
+						</div>
+					</div>
+					<div class="useradd">
+						<textarea readonly="readonly" id="article" style="resize: none;background: #fff;text-align: center;margin-bottom: 0;line-height: inherit;padding: .7rem .5rem 0 .5rem;">{$info.address}</textarea>
+					</div>
+				</div>
+				<div class="copybtn">
+					<button type="button" onclick="copyArticle()" style="background: none;border:0;color: #f72525;border-radius: 3px;margin-top: 0px;">点击复制地址</button>
+				</div>
+				
+				<form action="{:url('wallet/formpost')}"  id="goto" method="post">
+				<div class="code_box" style="border-top: 20px solid #e8e8e8;border-radius: 0px;width:100%;">
+				     <input type="hidden" value="{$name}" name="type"> 
+					<div class="useradd" style="width: 90%;margin-left: 5%;    margin-top: 10px;margin-bottom: 10px;">
+						<p style="text-transform: uppercase;width: 28%;display: inline-block;    color: #565656;font-size: 16px;">充币数量：</p> 
+						<input type="text" name="num" style="margin-left:1%;width: 60%;display: inline-block;    border: none;border-bottom: 1px solid #848484;">
+					</div>
+					<div class="useradd"style="width: 90%;margin-left: 5%;   margin-top: 10px;margin-bottom: 10px;">
+						<p style="text-transform: uppercase;width: 28%;display: inline-block;    color: #565656;font-size: 16px;">充币备注：</p> 
+						<input type="text" name="remark" style="margin-left:1%;width: 60%;display: inline-block;    border: none;border-bottom: 1px solid #848484;">
+					</div>
+					<div class="useradd" style="width: 90%;margin-left: 5%;   margin-top: 10px;margin-bottom: 10px;">
+						<p style="text-transform: uppercase;color: #565656;font-size: 16px;">我的钱包地址</p> 
+					    <textarea name="dizhi" style="resize: none;border-bottom: 1px solid #848484;background: #fff;padding:0;line-height: inherit;"></textarea>
+					</div>
+				</div>
+				<div class="copybtn">
+					<button type="button" onclick="tijiao()" style="background: #302f35;color: #fff;border: #fff;margin-top: 1rem;">确定</button>
+				</div>
+				</form>
+				
+				
+				
+				
+				
+				<div class="useradd" style="width: 90%;margin-left: 5%;   margin-top: 20px;margin-bottom: 10px;padding-top:10px;background: ;font-weight:bolder;border:none;border-radius: 0px;">
+					<p style="color: #f00;font-size: 14px;">温馨提示：</p> 
+					<p style="color: #f00;font-size: 12px;">1、请确认以上地址种类，如充值其他币种，将无法找回。</p> 
+					<p style="color: #f00;font-size: 12px;">2、请在充币提交后2个小时内将币转入指定的账号，恶意操作将会冻结账号。</p> 
+					<p style="color: #f00;font-size: 12px;">3、正常情况两个小时内会冲入个人账号，若因区块链网络拥堵，则会延迟到账。</p> 
+				</div>
+				
+				
+			</div>
+			
+		</div>
+
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+				function copyArticle(){
+			        const range = document.createRange();
+			        range.selectNode(document.getElementById('article'));//复制内容id
+			        const selection = window.getSelection();
+			        if(selection.rangeCount > 0) selection.removeAllRanges();
+			        selection.addRange(range);
+			        
+			        document.execCommand('copy');
+					alert("复制成功！");
+			    }
+			function tijiao()
+			{
+			  $("#goto").submit();
+ 			}	
+		</script>
+	</body>
+</html>

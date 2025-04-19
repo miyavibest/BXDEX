@@ -1,0 +1,150 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="Currency">
+
+		<div id="app">
+			<div class="Currency1">
+				<div class="header headerw">
+					<a href="javascript:history.go(-1);" class="icon-left router-link-active">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Attendance_benefits}</h1>
+				</div>
+				<div class="usericoninfo">
+					<p>{$Think.lang.Attendance_benefits_msg}</p>
+					<p>{$cset1}</p>
+					<p>{$days_remaining}</p>
+					
+					<div class="footer-btn" style="position: initial;">
+						{eq name='$signtdayed' value='none'}
+						<div><a href="javascript:void();" class="signbtn" style="background: #6376ff;"><!--{$Think.lang.Sign_in}-->{$signtdayedstr2}</a></div>
+						{else}
+						<div><a href="javascript:checkMsg('{$signtdayedstr}');" class="" style="background: #ffcf3d;">{$signtdayedstr}</a></div>
+						{/eq}
+					</div>
+				</div>
+				<div class="info">
+					<h4 class="title">{$Think.lang.Capital_record}</h4>
+					<ul>
+						{volist name="$record" id="vo"}
+						{eq name='$vo.inout' value='out'}
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from">
+								{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+									{$vo.type}
+								{else}
+									{if condition=" ($vo.type eq '签到福利') "}
+										Sign-in Welfare
+									{else}
+										{$vo.type}
+									{/if}
+								{/if}
+								
+								</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">{$Think.lang.Success}</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$vo.num}{$vo.coin|strtoupper}</p>
+							</div>
+						</li>
+						{else}
+						<li class="flex-box">
+							<div class="flex-list flxe-img"><span><img src="__INDEX__/images/dh.png"
+									 alt=""></span></div>
+							<div class="flex-list">
+								<h4 class="to">
+								
+								{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+									{$vo.type}
+								{else}
+									{if condition=" ($vo.type eq '签到福利') "}
+										Sign-in Welfare
+									{else}
+										{$vo.type}
+									{/if}
+								{/if}
+								
+								</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">{$Think.lang.Success}</p>
+							</div>
+							<div class="flex-list">
+								<p class="fromcolor">+ {$vo.num}{$vo.coin}</p>
+							</div>
+						</li>
+						{/eq}
+						{/volist}
+					</ul>
+				</div>
+				<div class="float_user">
+					<h4></h4>
+					<p></p>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		
+		
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			
+			
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+			
+			
+			$(".signbtn").click(function(){
+				$.post("fulido28.html",function(data,status){
+					if(data == "ed"){
+						checkMsg('{$Think.lang.Signed_in_today}');
+						
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					if(data == "ss"){
+						checkMsg('{$Think.lang.Check_in_successfully}');
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					if(data == "28g"){
+						checkMsg('{$Think.lang.Only_28_days}');
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					
+					if(data == "psignnone"){
+						checkMsg('{$Think.lang.Real_name_certification_e}');
+						setTimeout(function(){
+							location.href="pinfosign.html";
+						}, 1500);
+					}
+					//location.reload();
+				});
+			});
+		</script>
+
+
+	</body>
+</html>

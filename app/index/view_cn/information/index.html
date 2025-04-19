@@ -1,0 +1,50 @@
+	{include file="public/header"}
+	<link href="__INDEX__/css/swiper.min.css" rel="stylesheet">
+	<body class="infomar bgW">
+		<div id="app">
+			<div>
+				<div class="header-f">
+					<h1>资讯</h1>
+				</div>
+				<div class="banner" id="slider">
+						<ul class="swiper-wrapper">
+							<li class="swiper-slide"><img src="__INDEX__/images/ban1.png"
+								 alt="" ></li>
+							<li class="swiper-slide"><img src="__INDEX__/images/ban2.png"
+								 alt="" ></li>
+							<li class="swiper-slide"><img src="__INDEX__/images/ban3.png"
+								 alt="" ></li>
+						</ul>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div>
+					<ul class="news-box">
+						{volist name="$info" id="vo"}
+						<li uid="54" class="news-list">
+							<div>
+								<a href="{:url('newsInfo', ['id'=>$vo.id])}" class="">
+									<p>{$vo.title_ch}</p>
+									<p>{$vo.pub_time}</p>
+								</a>
+							</div>
+							<div><img src="{$vo.thumb}" alt=""></div>
+						</li>
+						{/volist}
+					</ul>
+				</div>
+				{include file="public/nav"}
+			</div>
+		</div>
+		<script src="__INDEX__/js/swiper.min.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			var swiper = new Swiper('#slider', {
+				pagination: '.swiper-pagination',
+				paginationClickable: true,
+				autoplay: 10000,
+				loop:true,
+				autoplayDisableOnInteraction: false
+			});
+		</script>
+	</body>
+</html>

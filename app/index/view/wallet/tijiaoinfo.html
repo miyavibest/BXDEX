@@ -1,0 +1,120 @@
+	{include file="public/header"}
+	<style>
+		.listnavdiv{
+			width:100%;
+			margin: 0;
+			padding: 0;
+		}
+		.listnavi{
+			width:32.1%;display: inline-block;
+			text-align: center;
+			margin: 0;
+			padding: .3rem 0;
+			font-family: "微软雅黑";
+			font-size: 15px;
+		}
+		.span1{
+			width: 40%;
+			display: inline-block;
+			padding: .6rem 0;
+			font-size: .6em;
+			color: #c7c7c7;
+		}
+		.span2{
+			width:55%;display: inline-block;
+			padding: .6rem 0;
+			font-size: .6em;
+			color: #757575;
+			/*font-weight: bold;*/
+		}
+		.span3{
+			width:55%;display: inline-block;
+			padding: .6rem 0;
+			font-size: .9em;
+			color: #757575;
+			font-weight: bold;
+		}
+		.span22{
+			word-wrap: break-word;
+			vertical-align: top;
+		}
+		
+		
+	</style>
+	<body class="Currency">
+
+		<div id="app" style="background:#fff;">
+			<div class="Currency1">
+				<div class="header headerw">
+					<a href="javascript:history.go(-1);" class="icon-left router-link-active">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>详情</h1>
+				</div>
+				<div class="usericoninfo" style="border-bottom: 2px #d8d8d8 dashed;width: 90%;margin-left: 5%;">
+					<p><img src="/static/index/images/index10.png" style="width:10%;"></p>
+					<p>{$status_arr[$tijiao['status']]}</p>
+					<p></p>
+				</div>
+				
+				<div style="width: 90%;margin-left: 5%;">
+					<div>
+						<span class="span1">金额：</span>
+						<span class="span3">{$tijiao.num}</span>
+					</div>
+					
+					<div>
+						<span class="span1">发款方：</span>
+						<span class="span2 span22">{$tijiao.dizhi}</span>
+					</div>
+					
+					
+					{if condition=" ($tijiao.type eq 'eos') "}
+					<div>
+						<span class="span1">EosMemo(发)：</span>
+						<span class="span2">{$tijiao.eosmemo}</span>
+					</div>
+					{/if}
+					
+					
+					<div>
+						<span class="span1">收款方：</span>
+						<span class="span2 span22">{$info['address']}</span>
+					</div>
+					
+					
+					{if condition=" ($tijiao.type eq 'eos') "}
+					<div>
+						<span class="span1">EosMemo(收)：</span>
+						<span class="span2">{$info['eosmemo']}</span>
+					</div>
+					{/if}
+					
+					<div>
+						<span class="span1">币种：</span>
+						<span class="span2">{$tijiao.type|strtoupper}</span>
+					</div>
+					
+					<div>
+						<span class="span1">备注：</span>
+						<span class="span2">{$tijiao.remark}</span>
+					</div>
+					
+					<div>
+						<span class="span1">交易时间：</span>
+						<span class="span2">{$tijiao.time|date='Y-m-d H:i:s',###}</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			
+			
+			
+		</script>
+
+
+	</body>
+</html>

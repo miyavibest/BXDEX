@@ -1,0 +1,23 @@
+	{include file="public/header"}
+	<body class="bgW">
+		<div id="app">
+			<div class="header">
+				<a href="{:url('information/index')}" class="icon-left">
+					<img src="__INDEX__/images/left.png" alt="">
+				</a>
+				<h1>资讯</h1>
+			</div>
+			<div>
+				<div class="news">
+					<h4>{$list.title_ch}</h4>
+					<p class="time">{$list.pub_time}</p>
+					<p>{$list.content_ch|htmlspecialchars_decode}</p>
+				</div>
+				<div></div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

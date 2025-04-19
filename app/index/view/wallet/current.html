@@ -1,0 +1,345 @@
+	{include file="public/header"}
+	<style>
+		.listnavdiv{
+			width:100%;
+			margin: 0;
+			padding: 0;
+		}
+		.listnavi{
+			width:32.1%;display: inline-block;
+			text-align: center;
+			margin: 0;
+			padding: .3rem 0;
+			font-family: "微软雅黑";
+			font-size: 15px;
+		}
+		.listnavibc1{
+			border-bottom: 3px solid #fff;
+		}
+		.listnavibc2{
+			border-bottom: 3px solid #777;
+		}
+		
+		
+	</style>
+	<body class="Currency">
+
+		<div id="app">
+			<div class="Currency1">
+				<div class="header headerw">
+					<a href="{:url('index/index/index')}" class="icon-left router-link-active">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$name|strtoupper}</h1>
+				</div>
+				<div class="usericoninfo">
+					<p>{$Think.lang.Language_number_1403}</p>
+					<p>{$num|sprintf4}</p>
+					<p>≈ $ {$num * $price|sprintf4}</p>
+				</div>
+				<div class="info">
+					<h4 style="background: #ececec;" class="title">{$Think.lang.Language_number_1404}</h4>
+					
+					
+					
+					<div class="listnavdiv">
+						<div class="listnavi listnavi1">全部</div>
+						<div class="listnavi listnavi2">转出</div>
+						<div class="listnavi listnavi3">转入</div>
+					</div>
+					
+					
+					<ul class="list1">
+						{volist name="$record" id="vo"}
+						{eq name='$vo.inout' value='out'}
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from" style="font-size: 13px;">
+								
+								
+								
+								
+								{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+										{$vo.type}
+									{else}
+										{if condition=" ($vo.type eq '签到福利') "}
+											Sign-in Welfare
+										{elseif condition=" ($vo.type eq '转出') "}
+										
+										Transfer
+										{elseif condition=" ($vo.type eq '转入') "}
+										
+										into
+										{elseif condition=" ($vo.type eq '开启量化') "}
+										
+										Open Quantity
+										{elseif condition=" ($vo.type eq '关闭量化-') "}
+										
+										Close Quantity -
+										{elseif condition=" ($vo.type eq '每日收益') "}
+										
+										
+										Daily Revenue 
+										{elseif condition=" ($vo.type eq '系统充值') "}
+										System Refill
+										
+										{elseif condition=" ($vo.type eq '兑换') "}
+										Exchange 
+										
+										{elseif condition=" ($vo.type eq '提币') "}
+										
+										Tenancy
+										{elseif condition=" ($vo.type eq '充币通过') "}
+										
+										Refund through 
+										{else}
+											{$vo.type}
+										{/if}
+									{/if}
+								
+								
+								
+								
+								
+								
+								</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok" style="font-size: 13px;">{$Think.lang.Language_number_1405}</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$vo.num}{$vo.coin|strtoupper}</p>
+							</div>
+						</li>
+						{else}
+						<li class="flex-box">
+							<div class="flex-list flxe-img"><span><img src="__INDEX__/images/dh.png"
+									 alt=""></span></div>
+							<div class="flex-list">
+								<h4 class="to" style="font-size: 13px;">
+								
+								
+								
+								
+								{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+										{$vo.type}
+									{else}
+										{if condition=" ($vo.type eq '签到福利') "}
+											Sign-in Welfare
+										{elseif condition=" ($vo.type eq '转出') "}
+										
+										Transfer
+										{elseif condition=" ($vo.type eq '转入') "}
+										
+										into
+										{elseif condition=" ($vo.type eq '开启量化') "}
+										
+										Open Quantity
+										{elseif condition=" ($vo.type eq '关闭量化-') "}
+										
+										Close Quantity -
+										{elseif condition=" ($vo.type eq '每日收益') "}
+										
+										
+										Daily Revenue 
+										{elseif condition=" ($vo.type eq '系统充值') "}
+										System Refill
+										
+										{elseif condition=" ($vo.type eq '兑换') "}
+										Exchange 
+										
+										{elseif condition=" ($vo.type eq '提币') "}
+										
+										Tenancy
+										{elseif condition=" ($vo.type eq '充币通过') "}
+										
+										Refund through 
+										{else}
+											{$vo.type}
+										{/if}
+									{/if}
+								
+								
+								
+								
+								
+								
+								</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok" style="font-size: 13px;">{$Think.lang.Language_number_1406}</p>
+							</div>
+							<div class="flex-list">
+								<p class="fromcolor">+ {$vo.num}{$vo.coin}</p>
+							</div>
+						</li>
+						{/eq}
+						{/volist}
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<ul class="list2" style="display:none;">
+						{volist name="$user_tibi" id="voc"}
+						<a href="{:url('wallet/usertibiinfo',['id'=>$voc.id])}">
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from" style="max-width: 40%;overflow: hidden;font-size: 12px;">&nbsp;</h4>
+								<h4 class="from" style="max-width: 40%;overflow: hidden;font-size: 12px;display:none;">
+									#ID:{$voc.id}<!--{$voc.address}-->
+								</h4>
+								<p>{$voc.updatetime|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok" style="font-size: 12px;">{$status_arr[$voc['status']]}</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$voc.number}{$voc.coin|strtoupper}</p>
+								<p class="outcolor" style="line-height: 1rem;font-size: .5rem;color: #9e9e9e;">(- {$voc.number2}{$voc.coin|strtoupper})</p>
+							</div>
+						</li>
+						</a>
+						{/volist}
+					</ul>
+					
+					<ul class="list3" style="display:none;">
+						{volist name="$tijiao" id="vor"}
+						<a href="{:url('wallet/tijiaoinfo',['id'=>$vor.id])}">
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from" style="max-width: 40%;overflow: hidden;font-size: 12px;">&nbsp;</h4>
+								<h4 class="from" style="max-width: 40%;overflow: hidden;font-size: 12px;display:none;">
+									#ID:{$vor.id}<!--{$vor.dizhi}-->
+								</h4>
+								<p>{$vor.time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok" style="font-size: 12px;">{$status_arr[$vor['status']]}</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$vor.num}{$vor.type|strtoupper}</p>
+							</div>
+						</li>
+						</a>
+						{/volist}
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="float_user">
+					<h4></h4>
+					<p></p>
+				</div>
+				<div class="footer-btn">
+					<div><a href="{:url('wallet/out',['id'=>$id])}" class="">{$Think.lang.Language_number_1407}</a></div>
+					<div><a href="{:url('wallet/exchangep',['id'=>$id])}" class="" style="background: #5ccbd6;">{$Think.lang.Language_number_1408}</a></div>
+					
+					<!---->
+					<div><a href="{:url('wallet/gathering',['id'=>$id])}" class="" style="background: #e21ed2;">{$Think.lang.Language_number_1409}</a></div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			
+			
+			$(".listnavi1").addClass("listnavibc2");
+			
+			$('.listnavi1').click(function(){
+				$('.list2').fadeOut();
+				$('.list3').fadeOut();
+				$('.list1').fadeIn();
+				
+				$(".listnavi2").removeClass("listnavibc2");
+				$(".listnavi3").removeClass("listnavibc2");
+				
+				$(".listnavi2").addClass("listnavibc1");
+				$(".listnavi3").addClass("listnavibc1");
+				$(".listnavi1").addClass("listnavibc2");
+			});
+			
+			$('.listnavi2').click(function(){
+				$('.list1').fadeOut();
+				$('.list3').fadeOut();
+				$('.list2').fadeIn();
+				
+				$(".listnavi1").removeClass("listnavibc2");
+				$(".listnavi3").removeClass("listnavibc2");
+				
+				$(".listnavi1").addClass("listnavibc1");
+				$(".listnavi3").addClass("listnavibc1");
+				$(".listnavi2").addClass("listnavibc2");
+			});
+			
+			$('.listnavi3').click(function(){
+				$('.list2').fadeOut();
+				$('.list1').fadeOut();
+				$('.list3').fadeIn();
+				
+				$(".listnavi2").removeClass("listnavibc2");
+				$(".listnavi1").removeClass("listnavibc2");
+				
+				$(".listnavi2").addClass("listnavibc1");
+				$(".listnavi1").addClass("listnavibc1");
+				$(".listnavi3").addClass("listnavibc2");
+			});
+		</script>
+
+
+	</body>
+</html>

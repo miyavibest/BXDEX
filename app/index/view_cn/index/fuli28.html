@@ -1,0 +1,128 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="Currency">
+
+		<div id="app">
+			<div class="Currency1">
+				<div class="header headerw">
+					<a href="javascript:history.go(-1);" class="icon-left router-link-active">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>签到福利</h1>
+				</div>
+				<div class="usericoninfo">
+					<p>注册送平台币，签到领取福利，可领28天</p>
+					<p>{$cset1}</p>
+					<p></p>
+					
+					
+					<div class="footer-btn" style="position: initial;">
+						{eq name='$signtdayed' value='none'}
+						<div><a href="javascript:void();" class="signbtn" style="background: #6376ff;">签到</a></div>
+						{else}
+						<div><a href="javascript:checkMsg('{$signtdayedstr}');" class="" style="background: #ffcf3d;">{$signtdayedstr}</a></div>
+						{/eq}
+					</div>
+				</div>
+				<div class="info">
+					<h4 class="title">资金记录</h4>
+					<ul>
+						{volist name="$record" id="vo"}
+						{eq name='$vo.inout' value='out'}
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from">{$vo.type}</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">成功</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$vo.num}{$vo.coin|strtoupper}</p>
+							</div>
+						</li>
+						{else}
+						<li class="flex-box">
+							<div class="flex-list flxe-img"><span><img src="__INDEX__/images/dh.png"
+									 alt=""></span></div>
+							<div class="flex-list">
+								<h4 class="to">{$vo.type}</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">成功</p>
+							</div>
+							<div class="flex-list">
+								<p class="fromcolor">+ {$vo.num}{$vo.coin}</p>
+							</div>
+						</li>
+						{/eq}
+						{/volist}
+					</ul>
+				</div>
+				<div class="float_user">
+					<h4></h4>
+					<p></p>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		
+		
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			
+			
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+			
+			
+			$(".signbtn").click(function(){
+				$.post("fulido28.html",function(data,status){
+					if(data == "ed"){
+						checkMsg('今日已签到！');
+						
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					if(data == "ss"){
+						checkMsg('签到成功！');
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					if(data == "28g"){
+						checkMsg('仅可领28天！');
+						setTimeout(function(){
+							location.reload();
+						}, 1500);
+					}
+					
+					if(data == "psignnone"){
+						checkMsg('实名认证后才可签到领取！');
+						setTimeout(function(){
+							location.href="pinfosign.html";
+						}, 1500);
+					}
+					//location.reload();
+				});
+			});
+		</script>
+
+
+	</body>
+</html>

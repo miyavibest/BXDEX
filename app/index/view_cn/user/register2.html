@@ -1,0 +1,205 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="bgW zhuc">
+				<div class="header">
+					<a href="{:url('index/user/register1')}" class="icon-left"><img src="__INDEX__/images/left.png" alt=""></a>
+					<h1>注册账号</h1>
+				</div>
+		<div id="landing">
+			<div class="landing_box">
+				<div class="landing_ipt register_phone">
+					<label>+86 <img src="__INDEX__/images/index.png" alt="" width="18"></label>
+					<input name="phone" placeholder="请输入手机号码" type="text">
+				</div>
+				<div class="landing_ipt">
+					<span><img src="__INDEX__/images/yzm2.png" alt=""></span> 
+					<input style="width: 110px;" name="code" placeholder="请输入验证码" type="text">
+					<a class="imgcode">
+						<img style="width: 100px" src="{:url('createVerify')}" id="captcha" onclick="this.src=this.src+'?'+'id='+Math.random()"/>
+					</a>
+				</div>
+				<div class="landing_ipt">
+					<span><img src="__INDEX__/images/yzm2.png" alt=""></span>
+					<input name="verify" placeholder="请输入验证码" type="text">
+					<button type="button" id="button2">发送验证码</button>
+				</div>
+						 
+				<div class="landing_ipt">
+					<span><img src="__INDEX__/images/mm.png" alt=""></span> 
+					<input type="text" name="trade_pwd" value="" placeholder="输入交易密码"></div>
+				<div class="retitle">
+					<p>密码格式为6位数字，不允许有字母、空格和符号</p>
+				</div>
+			</div>
+		</div>
+		<div class="landing_btn">
+			<input type="hidden" name="parent_id" value="{$parent_id}">
+			<button type="button" id="button1">下一步</button>
+		</div>
+		<a href="https://cw.pub/pouc" class="download">点击下载APP</a>
+		<div id="toast" style="display: none;">
+			<p><img src="__INDEX__/images/index.svg" alt=""></p>
+			<p>密码格式为6位数，不允許有字母、空格和符号</p>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			function checkMsg(msg){
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+
+		    function isMobile(str) {
+		        var myreg = /^([0]?)(((13[0-9]{1})|(14[0-9]{1})|(15[0-9]{1})|(16[0-9]{1})|(17[0-9]{1})|(18[0-9]{1})|(19[0-9]{1}))+\d{8})$/;
+		        return myreg.test(str);
+		    }
+
+			$('#button2').click(function(){
+				var phone = $("input[name=phone]").val();
+		        if (phone == "") {
+		            checkMsg('请填写手机号码');
+		            return false;
+		        }
+		        if (!isMobile(phone)) {
+		            checkMsg('手机格式不对');
+		            return false;
+		        }
+
+		        var code = $("input[name=code]").val();
+		        if (code == "") {
+		            checkMsg('请填写验证码');
+		            return false;
+		        }
+		        $.post('{:url("checkVerify")}', {code:code}, function(res){
+		        	if (res.code == 0) {
+		        		checkMsg(res.msg);
+		            	return false;
+		        	} else {
+						buttonCountdown($('#button2'), 6000 * 10 * 1, "ss");
+						$.post('{:url("sendMobile")}', {phone:phone,type:'register'}, function(res){
+				            if (res.code == 1) {
+				            	checkMsg(res.msg);
+				            } else {
+				            	$('#button2').trigger("bc.clear");
+				            	checkMsg(res.msg);
+				            	console.log(134);
+				            }
+				        });
+		        	}
+		        });
+			});
+
+			$('#button1').click(function(){
+				var phone = $("input[name=phone]").val();
+		        if (phone == "") {
+		            checkMsg('请填写手机号');
+		            return false;
+		        }
+		        if (!isMobile(phone)) {
+		            checkMsg('手机格式不正确');
+		            return false;
+		        }
+
+		        var verify = $("input[name=verify]").val();
+		        if (verify == "") {
+		            checkMsg('请填写验证码');
+		            return false;
+		        }
+
+		        var trade_pwd = $("input[name=trade_pwd]").val();
+		        if (trade_pwd == "") {
+		            checkMsg('请填写交易密码');
+		            return false;
+		        }
+		        if (trade_pwd.length != 6) {
+		        	checkMsg('请填写6位数交易密码');
+		            return false;
+		        }
+		        if (!(/^[0-9]+$/.test(trade_pwd))) {
+		        	checkMsg('请填写6位数交易密码');
+		            return false;
+		        }
+				var parent_id = $("input[name=parent_id]").val();
+		        $.post('{:url("register2")}', {phone:phone,verify:verify,trade_pwd:trade_pwd,parent_id:parent_id}, function(res){
+		        	if (res.code == 1) {
+		        		$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+		        	} else {
+		        		$(document).dialog({
+					        type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					    });
+
+						$("input[name=code]").val('');
+						$('#captcha').attr('src','{:url("createVerify")}?id='+Math.random());
+		        	}
+		        });
+
+
+			});
+
+
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			function lan() {
+				$(".lanbtn").show()
+			}
+			function hide() {
+				$(".lanbtn").hide()
+			}
+
+			function buttonCountdown($el, msNum, timeFormat){
+	        var text = $el.data("text") || $el.text(),
+	            timer = 0;
+	        $el.prop("disabled", true).addClass("disabled")
+	                .on("bc.clear", function () {
+	                    clearTime();
+	                });
+	        (function countdown() {
+	            var time = showTime(msNum)[timeFormat];
+	            $el.text(time + '再次获取');
+	            if (msNum <= 0) {
+	                msNum = 0;
+	                clearTime();
+	            } else {
+	                msNum -= 1000;
+	                timer = setTimeout(arguments.callee, 1000);
+	            }
+	        })();
+	        function clearTime() {
+	            clearTimeout(timer);
+	            $el.prop("disabled", false).removeClass("disabled").text(text);
+	        }
+	        function showTime(ms) {
+	            var d = Math.floor(ms / 1000 / 60 / 60 / 24),
+	                    h = Math.floor(ms / 1000 / 60 / 60 % 24),
+	                    m = Math.floor(ms / 1000 / 60 % 60),
+	                    s = Math.floor(ms / 1000 % 60),
+	                    ss = Math.floor(ms / 1000);
+	            return {
+	                d: d + "天",
+	                h: h + "小时",
+	                m: m + "分",
+	                ss: ss + "秒",
+	                "d:h:m:s": d + "天" + h + "小时" + m + "分" + s + "秒",
+	                "h:m:s": h + "小时" + m + "分" + s + "秒",
+	                "m:s": m + "分" + s + "秒"
+	            };
+	        }
+	        return this;
+	    }
+		</script>
+	</body>
+</html>

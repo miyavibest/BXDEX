@@ -1,0 +1,88 @@
+	{include file="public/header"}
+	<body class="wallet">
+
+		<div id="app">
+			<div>
+				<div class="earnings">
+					<div class="header-f">
+						<a href="{:url('index/index/index')}" class="icon-left">
+							<img src="__INDEX__/images/left1.png" alt="">
+						</a>
+						<h1>我的收益</h1>
+					</div>
+				</div>
+				<div class="view view1">
+					<div class="userinfo">
+						<div class="userearnings">
+							<p>总收益(FRCW实时价格${$price_now|sprintf4})</p>
+							<h2>{$total_price|sprintf4}</h2>
+						</div>
+						<div class="userearnings">
+							<p>今日收益</p>
+							<p>{$personComain ? $personComain : 0}</p>
+						</div>
+						<div class="userearnings">
+							<p>伙伴价值</p>
+							<p>{$total_num|sprintf4} $</p>
+						</div>
+						<div><img src="" alt=""></div>
+						<div class="vip">
+							<span class="viptype vipbg_2">
+								{if condition="$level==1"}
+									普通
+								{elseif condition="$level==2"}
+									VIP1
+								{elseif condition="$level==3"}
+									VIP2
+								{/if}
+									用戶
+							</span>
+							<span class="vipicon">
+								<img src="__INDEX__/images/viptype2.png" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="ctitle">
+						<div>收益记录</div>
+					</div>
+					<div>
+						<ul>
+							{volist name="$list" id="vo"}
+							{eq name="$vo.inout" value="out"}
+							<li class="flex-box earningsinfo_list">
+								<div class="flex-list left">
+									<h4>{$vo.type}</h4>
+									<p>{$vo.add_time|date='Y-m-d H:i:s', ###}</p>
+								</div>
+								<div class="flex-list right"><b class="subtract">-{$vo.num|sprintf4}</b></div>
+							</li>
+							{else}
+							<li class="flex-box earningsinfo_list">
+								<div class="flex-list left">
+									<h4>{$vo.type}</h4>
+									<p>{$vo.add_time|date='Y-m-d H:i:s', ###}</p>
+								</div>
+								<div class="flex-list right"><b class="up">+{$vo.num|sprintf4}</b></div>
+							</li>
+							{/eq}
+							{/volist}
+						</ul>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="subbtn">
+						<a href="{:url('wallet/exchange')}" class="">
+							<button type="button">兑换</button>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+
+
+	</body>
+</html>

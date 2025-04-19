@@ -1,0 +1,34 @@
+	{include file="public/header"}
+	<body class="wallet bitinfo">
+		<div id="app">
+			<div>
+				<div class="header">
+					<a href="{:url('openamount/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>启动记录</h1>
+				</div>
+				<div class="bit">
+					<ul>
+					{volist name="list" id="vo"}
+						<li class="flex-box bit_list">
+							<div class="flex-list bittype"><span><img src="__INDEX__/images/{$vo['logo']}" alt=""></span> <span>
+									<p style="text-transform: uppercase;">{$vo['coin']}</p>
+								</span></div>
+							<div class="flex-list bittime">
+								<p style="text-transform: uppercase;">{if condition="$vo['inout'] eq 'in'"}已转出{else/} 已转入{/if}{$vo['num']}{$vo['coin']}</p>
+								<p>{:date("Y-m-d H:i:s",$vo['add_time'])}</p>
+							</div>
+						</li>
+					{/volist}
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

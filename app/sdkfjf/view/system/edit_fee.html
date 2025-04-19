@@ -1,0 +1,201 @@
+{include file="common/head"/}
+
+<style>
+	{if condition="$list.id !=1 "}
+	.eosmemocla{display:none;}
+	{/if}
+</style>
+
+<div class="layui-fluid"><div class="layui-card">
+
+<div class="layui-card-body">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>修改矿工费</legend>
+    </fieldset>
+    <form class="layui-form layui-form-pane" method="post" action="" enctype="multipart/form-data">
+        <div class="layui-form-item">
+            <label class="layui-form-label">币种</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" value="{$list.name|strtoupper}" class="layui-input" disabled>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">矿工费</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="fee" value="{$list.fee}" class="layui-input" lay-verify="required">
+            </div>
+        </div>
+        <div class="layui-form-item" style="display:none;">
+            <label class="layui-form-label">充币地址</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address" value="{$list.address}" class="layui-input" lay-verify="required">
+            </div>
+        </div>
+
+
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址1</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address1" value="{$list.address1}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_1</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo1" value="{$list.eosmemo1}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址2</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address2" value="{$list.address2}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_2</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo2" value="{$list.eosmemo2}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址3</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address3" value="{$list.address3}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_3</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo3" value="{$list.eosmemo3}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址4</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address4" value="{$list.address4}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_4</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo4" value="{$list.eosmemo4}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址5</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address5" value="{$list.address5}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_5</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo5" value="{$list.eosmemo5}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址6</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address6" value="{$list.address6}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_6</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo6" value="{$list.eosmemo6}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址7</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address7" value="{$list.address7}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_7</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo7" value="{$list.eosmemo7}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址8</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address8" value="{$list.address8}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_8</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo8" value="{$list.eosmemo8}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址9</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address9" value="{$list.address9}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_9</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo9" value="{$list.eosmemo9}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		<div class="layui-form-item">
+            <label class="layui-form-label">充币地址10</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="address10" value="{$list.address10}" class="layui-input" lay-verify="required">
+            </div>
+			
+			<label class="layui-form-label eosmemocla">Eos_Memo_10</label>
+            <div class="layui-input-inline eosmemocla" style="width:400px;">
+                <input type="text" name="eosmemo10" value="{$list.eosmemo10}" class="layui-input" lay-verify="">
+            </div>
+        </div>
+		
+		
+		
+		
+		
+        <div class="layui-form-item">
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="hidden" name="id" value="{$list.id}">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">{:lang('submit')}</button>
+                <a href="{:url('fee')}" class="layui-btn layui-btn-primary">{:lang('back')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+{include file="common/foot"/}
+
+<script>
+layui.use(['form','laydate','upload'], function() {
+    var form  = layui.form,
+        $     = layui.$,
+        laydate = layui.laydate,
+        layer = layui.layer,
+        upload = layui.upload;
+
+    //年选择器
+    laydate.render({
+        elem: '#date1'
+        ,type: 'datetime'
+        ,format: 'yyyy-MM-dd HH:mm'
+
+    });
+
+    //监听提交
+    form.on('submit(submit)', function(data) {
+        var loading = layer.load(1, { shade: [0.1, '#fff'] });
+        $.post("{:url('editFee')}", data.field, function(res) {
+            layer.close(loading);
+            if (res.code > 0) {
+                layer.msg(res.msg, { time: 1800, icon: 1 }, function() {
+                    location.href = res.url;
+                });
+            } else {
+                layer.msg(res.msg, { time: 1800, icon: 2 });
+            }
+        });
+    });
+
+
+
+});
+</script>
+</body>
+</html>

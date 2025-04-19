@@ -1,0 +1,33 @@
+	{include file="public/header"}
+	<body class="wallet">
+		<div id="app">
+			<div class="partner">
+				<div class="header">
+					<a href="{:url('index')}" class="icon-left">
+						<img src="__INDEX__/images/left1.png" alt="">
+					</a>
+					<h1>商业伙伴</h1>
+				</div>
+				<div>
+					<ul id="phone"></ul>
+					<ul style="display: none;"></ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$(function(){
+				$.get('{:url("partner")}', {'id':'id'}, function(res){
+						html = '';
+						$.each(res.data, function(k, v){
+							html += '<li class="userparlist">';
+							html +=	'<p>'+v.phone+'</p>';
+							html +=	'<p class="openno">'+v.open+'</p>';
+							html += '</li>';
+						});
+						$('#phone').html(html);
+					});
+			})
+		</script>
+	</body>
+</html>

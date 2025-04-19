@@ -1,0 +1,343 @@
+img {
+    max-width: 100%
+}
+* {
+    word-wrap: break-word;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+}
+*{word-wrap: break-word; list-style: none; font-style: normal; box-sizing: border-box; font-style: normal; margin: 0; padding: 0; text-decoration: none;}
+
+ 
+html, body {
+     
+    font-family: 微软雅黑, 'Arial';
+    font-size: .25rem
+}
+.clear {
+    clear: both;
+}
+a:hover{color: #fff; opacity: 1}
+
+@media screen and (min-width:320px){
+    html{font-size:50px}
+}
+@media screen and (min-width:360px){
+    html{font-size:56.25px}
+}
+@media screen and (min-width:375px){
+    html{font-size:58.5938px}
+}
+@media screen and (min-width:384px){
+    html{font-size:60px}
+}
+@media screen and (min-width:400px){
+    html{font-size:62.5px}
+}
+@media screen and (min-width:414px){
+    html{font-size:64.6875px}
+}
+ 
+/*登录*/
+.loginBg{background: #387fb5 url(../../images/timg.jpg) no-repeat top center  / cover}
+.loginBg .logo img{width: 30%; max-width: 200px}
+.loginBg .logo,.loginBg .text{text-align: center; margin-top: 1.5rem}
+.loginBg .text img{width: 37%; max-width: 260px}
+.loginBg .text{margin: .3rem .6rem}
+.loginBg form{text-align: center; padding:0 .4rem 0; margin: 0 auto; max-width: 600px }
+.loginBg dd input{width: 100%;text-align: center; font-size: .3rem; padding: .3rem ;margin: .3rem 0 0; border: 0; background: #fff; border-radius: 20px}
+.loginBg dd button{width: 100%;text-align: center; font-size: .3rem; padding: .3rem ;margin: .3rem 0 ; border: 0; background: #77b3d7; border-radius: 20px; color: #fff}
+.loginBg a{color: #fff}
+.yyxz{text-align: center;}
+.yyxz a{margin: 0 .2rem}
+
+.loginBg p{ color: #fff}
+.loginBg p span{padding-right: .3rem}
+.loginBg p input{ margin: 0 5px 0 0}
+
+
+/*忘记密码*/
+.loginBg dd.yzm{position: relative;}
+.loginBg dd.yzm button{position: absolute; top:0; right: 0;  width: auto; background: #eee; color: #000;}
+.loginBg dd.yzm input{text-align: left;}
+
+
+/* 底部 */
+header{padding: 10px; background: #cb4965; text-align: center; font-size: .3rem; color: #fff}
+.footH{height: 55px}
+.foot{position: fixed; bottom: 0; overflow: hidden; left: 0; width: 100%; background: #fff; text-align: center;}
+.foot li{width: 25%; float: left; text-align: center;border-top:1px solid #eee;}
+.foot li a{display: block; padding: 5px 10px 3px; font-size: 12px; color: #000 }
+.foot li img{display: block; width: 20px; margin: 0 auto}
+.foot li.on a{color: #ffa200}
+
+/*首页*/
+ 	.tip{
+       width:100%;
+       margin:0 auto;
+       position:relative;
+       z-index:13;
+       padding:6px 10px 6px 50px;
+       border-radius:10px;
+       /*box-shadow:0px 5px 5px 0 #8596fc;*/
+       font-size:15px;
+       background:#fff;
+       height:38px;
+       line-height:28px;
+       overflow:hidden;
+       background-size:22px 24px;
+}
+  .tip li{
+     overflow:hidden;
+     white-space:nowrap;
+     text-overflow:ellipsis;
+}
+.tip span{
+	background: #CB4965;
+	float: left;
+  color:#fff;
+  width: 1rem;
+  margin-left: -0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 0.3rem;
+}
+.shou{
+	margin:5%;
+	width: 90%;
+	background: #fff;
+	display: inline-block;
+	border-radius: 10px;
+}
+.shou li{width: 25%; padding: 10px; float: left;}
+.shou .l1{
+	text-align: center;
+	color:#000;
+}
+.shou li img{
+	width: 80%;
+}
+.shou li a{display: block; color: #000}
+.shou li a i{float: right;}
+
+.shouye{
+	margin:0 5%;
+	width: 90%;
+	background: #fff;
+}
+.shouye li{ padding: 10px; border-bottom: 1px solid #eee}
+.shouye li a{display: block; color: #000}
+.shouye li a i{float: right;}
+
+/*我的*/
+.wdTop{ padding:5px 15px 15px; color: #fff; text-align: center; border-bottom: 1px solid #eee; background: #cb4965; overflow: hidden;}
+.wdTop  img{height: 40px; margin: 0 0 8px; border-radius: 100%; background: #fff; width: 40px;}
+.wdTop .img{position: relative; display: inline-block;}
+.wdTop input{width: 100%; height: 100%; position: absolute; top: 0; left: 0; opacity: 0}
+.wdTop span{padding-right: 10px;}
+.wdList li{ padding: 10px; border-bottom: 1px solid #eee}
+.wdList li a{display: block; color: #000}
+.wdList li a i{float: right;}
+header a{float: left; color: #fff}
+header a:hover{ color: #fff}
+.wdList img{ height: .3rem; margin-right: 6px}
+
+
+/*基本资料*/
+.jbzl{padding: 10px;}
+.jbzl dd{margin: 10px 0 0; position: relative;}
+.jbzl dd input{width: 100%; height: 30px; padding: 5px; border-radius: 5px; border: 1px solid #eee}
+.jbzl dd button{position: absolute; height: 100%; color: #fff; padding: 0 10px; background: rgba(0,0,0,.2); border: 0; border-radius: 4px; top: 0px; right: 0}
+.jbzl dt{margin-top: 20px;}
+.jbzl dt button{width: 100%; height: 30px; color: #fff; padding: 5px; border-radius: 5px; border: 0; background: #cb4965}
+.jbzl dd textarea{width: 100%; height: 130px; padding: 5px; border-radius: 5px; border: 1px solid #eee}
+
+.id{display: none;}
+.id input{width: 100%; margin-bottom: 10px; height: 30px; padding: 5px; border-radius: 5px; border: 1px solid #eee}
+.id form{padding: 10px;}
+.id button{width: 100%; height: 30px; color: #fff; padding: 5px; border-radius: 5px; border: 0; background: #387fb5}
+
+.id p{color: #f00; margin-bottom: 10px;}
+
+
+/*团队*/
+
+
+
+/*投资记录*/
+.tzjl table{width: 100%; text-align: center;}
+.tzjl table td,.tzjl table th{ padding: 5px;}
+.tzjl table td{border-top: 1px solid #eee}
+
+
+/*公告*/
+.ggList{margin: 20px 0 ; background: #fff}
+.ggList h3{font-size: .23rem; }
+.ggList li{padding: 10px ; overflow: hidden; border-bottom: 1px solid #eee}
+.ggList p{font-size: .22rem; color: #999; padding: 2px 0 4px}
+.ggList .time{font-size: .22rem; color: #999; padding: 0 0 5px }
+
+.ggList h3 a{ color: #000}
+.ggList h3 a:hover{ color: #000}
+.ggList h3 b{font-size: .28rem;}
+ 
+ 
+
+/*公告详情*/
+.ggxq{background: #fff; padding: 0 0 30px}
+.ggxq h3{text-align: center; padding: 15px 0 0}
+.ggxq .time{text-align: center; color: #999; padding: 4px 0 10px; margin-bottom: 10px; border-bottom: 1px solid #999}
+.textNr{padding: 0 15px}
+
+
+/*我的级别*/
+.wdjb{
+	margin-top:10%;
+}
+.wdjb li{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.wdjb li span{
+	color:red;
+}
+.wdjb p{
+	text-align: center;
+	
+}
+.wdjb button{
+	margin-top: 5%;
+	width: 90%;
+	height:30px;
+	background: #CB4965;
+	color:#fff;
+	border-radius: 5px;
+	border:1px solid #CB4965;
+}
+.sjjl{
+	float: right;
+	margin-right: 10%;
+	margin-top: 5%;
+	color: #CB4965;
+}
+/**会员升级**/
+.s_sj{
+	width: 90%;
+	margin: 15px auto;
+	text-align: center;
+	border-collapse:collapse;
+}
+.s_sj td{
+	border:1px solid #ddd;
+	padding: 3px;
+	font-size: 0.22rem;
+
+}
+.s_sqsj{
+	padding: 8px;
+	background:#cb4965;
+	border: 1px solid #cb4965;
+	border-radius: 5px;
+	color: #fff;
+}
+.s_top{
+	background: #cb4965;
+	color: #fff;
+}
+
+
+/**升级记录**/
+.cj_main{
+	text-align: center;
+	margin-top: 10px;
+}
+.cj_yh{
+	/*height: 0.4rem;*/
+	width: 45%;
+	padding: 5px;
+	border-radius: 5px;
+	box-sizing:border-box;
+}
+.cj_main select{
+	border-radius: 5px;
+	/*height: 0.4rem;*/
+}
+.cj_cx{
+	padding:1px 8px;
+	/*height: 0.4rem;*/
+	border-radius: 5px;
+	background: #cb4965;
+	border-color: #cb4965;
+	color: #fff;
+}
+.cj_zan{
+	margin-top: 60px;
+	text-align: center;
+}
+.cj_zan p{
+	margin: 0
+}
+/* 商城 */
+ .search{
+	  font-size:1rem;
+	  background:#f4f4f4; 
+	  margin:0 auto;
+	  border-bottom:1px solid #f1f1f1;
+	  text-align:center;
+	  padding:10px;
+	}
+	.sou{
+	  display:inline-block;
+	  width:85%;
+	  height:30px;
+	  background-color:#fff;
+	  border-radius:4px;
+	}
+	.bts{
+	   background:#2288e7;
+	   color:#fff;
+	   height:28px;
+	   width:12%;
+	   border:0;
+	   border-radius:4px; 
+	}
+	.pro{
+	   width:50%;
+	   float:left;
+	   padding:0 5%;
+	}
+	.product{
+	   width:100%;
+	   overflow:hidden;
+	   margin:.5rem 0;
+	   display:block;
+	}
+	.pro .cssp{
+	   background-color:#fff;
+	   /*height:2rem;*/
+	   padding:2%;
+	}
+	.pro .jg{
+	   background-color:#fff;
+	   padding:2%;
+	   color:#ff0000; 
+	}
+	.pro .ys{
+	   float:right;
+	   color:#aaa;
+	   /*font-size:0.5rem;*/
+	}
+  .pimg{
+  	position: relative;
+  	width: 100%;
+  	height: 120px;
+  }
+  .pimg img{
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  }

@@ -1,0 +1,87 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="loginBg bgW">
+
+		<div id="landing">
+			<div id="agreement">
+				<div class="header"><a href="{:url('index/user/logins')}" class="icon-left"><img src="__INDEX__/images/left.png"
+						 alt=""></a>
+					<h1>{$Think.lang.Language_number_1322}</h1>
+				</div>
+				<div class="title_logo"><img src="__INDEX__/images/logo.png" alt=""></div>
+				<div class="agreement">
+					<h4>{$Think.lang.Language_number_1323}</h4>
+					<div>
+						{$Think.lang.Language_number_1324}
+					</div>
+				</div>
+				<div class="agreement_ipt">
+					<input  name="" id="agreement_ok" type="checkbox"> 
+					<label for="agreement_ok">{$Think.lang.Language_number_1325}</label>
+				</div>
+				<div class="forget flex-box">
+					<div class="flex-list" style="text-align: left;"><a onclick="lan()">Language</a></div>
+				</div>
+				<div class="landing_btn">
+					<!-- <button type="button" onclick="window.open('reg1.html','_self')">{$Think.lang.Language_number_1326}</button> -->
+					<button type="button">{$Think.lang.Language_number_1326}</button>
+				</div>
+			</div>
+			
+		</div>
+		<div id="toast" style="display: none;"><p><img src="__INDEX__/images/index.svg" alt=""></p> <p>{$Think.lang.Language_number_1327}</p></div>
+		<div class="lanbtn">
+			<ul>
+				<li class="lanlist" onclick="langcn()">中文</li>
+				<li class="lanlist" onclick="langen()">English</li>
+			</ul>
+			<ul>
+				<li onclick="hide()" class="lanlist">{$Think.lang.Language_number_1328}</li>
+			</ul>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			function lan() {
+				$(".lanbtn").show()
+			}
+			function hide() {
+				$(".lanbtn").hide()
+			}
+			
+			function langcn() {
+				$.post('{:url("/index/user/langcn")}', {}, function(res){
+					$(".lanbtn").hide();
+					location.reload();
+				});
+				
+			}
+			function langen() {
+				$.post('{:url("/index/user/langen")}', {}, function(res){
+					$(".lanbtn").hide();
+					location.reload();
+				});
+				
+			}
+			
+			$('button').click(function(){
+				var val = $('#agreement_ok').prop('checked');
+				if (val == false) {
+					$(document).dialog({
+				        type : 'toast',
+				        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+				        infoText: '{$Think.lang.Language_number_1329}',
+				        autoClose: 2500
+				    });
+					
+				} else {
+					//var url = '{:url("index/user/register2")}';
+					var url = "/index/user/register2?id={$_GET['id']}";
+					
+					location.href=url;
+				}
+			});
+		</script>
+	</body>
+</html>

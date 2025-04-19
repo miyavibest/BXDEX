@@ -1,0 +1,76 @@
+{include file="common/head"/}
+<div class="layui-fluid"><div class="layui-card">
+
+<div class="layui-card-body">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>用户修改</legend>
+    </fieldset>
+    <form class="layui-form layui-form-pane" method="post" action="" enctype="multipart/form-data">
+   
+        <div class="layui-form-item">
+            <label class="layui-form-label">会员名</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="phone" value="{$user.phone}" readonly="readonly" class="layui-input" lay-verify="required">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">交易密码</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="password" name="first_pwd" class="layui-input" >
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">确认密码</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="password" name="first_pwd_confirm" class="layui-input" >
+            </div>
+        </div>
+  
+        <div class="layui-form-item">
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="hidden" name="id" value="{$user.id}">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">{:lang('submit')}</button>
+                <a href="{:url('index')}" class="layui-btn layui-btn-primary">{:lang('back')}</a>
+            </div>
+        </div>
+    </form>
+</div>
+{include file="common/foot"/}
+
+<script>
+layui.use(['form','laydate','upload'], function() {
+    var form  = layui.form,
+        $     = layui.$,
+        laydate = layui.laydate,
+        layer = layui.layer,
+        upload = layui.upload;
+
+    //年选择器
+    laydate.render({
+        elem: '#date1'
+        // ,type: 'datetime'
+        // ,format: 'yyyy-MM-dd HH:mm'
+
+    });
+
+    //监听提交
+    form.on('submit(submit)', function(data) {
+        var loading = layer.load(1, { shade: [0.1, '#fff'] });
+        $.post("{:url('edit')}", data.field, function(res) {
+            layer.close(loading);
+            if (res.code > 0) {
+                layer.msg(res.msg, { time: 1800, icon: 1 }, function() {
+                    location.href = res.url;
+                });
+            } else {
+                layer.msg(res.msg, { time: 1800, icon: 2 });
+            }
+        });
+    });
+
+
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="out">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('change/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$coinname|strtoupper}地址编辑</h1> 
+				</div>
+				<div>
+					<div class="ipt_box ipt_box_la">
+						<input name="address" placeholder="输入地址" value="{$address}" type="text" maxlength="200">
+					</div>
+					<div class="subbtn outbtn">
+					    <input type="hidden" name="coinid" value="{$coinid}">
+						<button type="button">提交</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$('button').click(function(){
+				var address = $("input[name=address]").val();
+				if (!address) {
+					checkMsg('请输入钱包地址');
+					return false;
+				}
+				var coinid = $("input[name=coinid]").val();
+				$.post('{:url("addwetall")}', {'coinid':coinid,'address':address}, function(res){
+					if (res.code == 1) {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+					} else {
+						checkMsg(res.msg);
+					}
+				});
+			});
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+		</script>
+
+
+	</body>
+</html>

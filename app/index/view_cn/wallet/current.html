@@ -1,0 +1,76 @@
+	{include file="public/header"}
+	<body class="Currency">
+
+		<div id="app">
+			<div class="Currency1">
+				<div class="header headerw">
+					<a href="{:url('index/index/index')}" class="icon-left router-link-active">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$name|strtoupper}</h1>
+				</div>
+				<div class="usericoninfo">
+					<p>钱包余额</p>
+					<p>{$num|sprintf4}</p>
+					<p>≈ $ {$num * $price|sprintf4}</p>
+				</div>
+				<div class="info">
+					<h4 class="title">资金记录</h4>
+					<ul>
+						{volist name="$record" id="vo"}
+						{eq name='$vo.inout' value='out'}
+						<li class="flex-box">
+							<div class="flex-list flxe-img">
+								<span><img src="__INDEX__/images/zc1.png" alt=""></span>
+							</div>
+							<div class="flex-list">
+								<h4 class="from">{$vo.type}</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">成功</p>
+							</div>
+							<div class="flex-list">
+								<p class="outcolor">- {$vo.num}{$vo.coin|strtoupper}</p>
+							</div>
+						</li>
+						{else}
+						<li class="flex-box">
+							<div class="flex-list flxe-img"><span><img src="__INDEX__/images/dh.png"
+									 alt=""></span></div>
+							<div class="flex-list">
+								<h4 class="to">{$vo.type}</h4>
+								<p>{$vo.add_time|date='Y-m-d H:i:s',###}</p>
+							</div>
+							<div class="flex-list flex-num">
+								<p class="ok">成功</p>
+							</div>
+							<div class="flex-list">
+								<p class="fromcolor">+ {$vo.num}{$vo.coin}</p>
+							</div>
+						</li>
+						{/eq}
+						{/volist}
+					</ul>
+				</div>
+				<div class="float_user">
+					<h4></h4>
+					<p></p>
+				</div>
+				<div class="footer-btn">
+					<div><a href="{:url('wallet/out',['id'=>$id])}" class="">转出</a></div>
+					<div><a href="{:url('wallet/exchangep',['id'=>$id])}" class="" style="background: #5ccbd6;">兑换</a></div>
+					
+					<!---->
+					<div><a href="{:url('wallet/gathering',['id'=>$id])}" class="" style="background: #e21ed2;">转入</a></div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+
+
+	</body>
+</html>

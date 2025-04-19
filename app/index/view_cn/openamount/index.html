@@ -1,0 +1,119 @@
+	{include file="public/header"}
+	<style type="text/css">
+	.openview_info p{text-transform: uppercase;}
+	</style>
+	<body class="wallet">
+		<div id="app" class="smart">
+			<div>
+				<div class="header">
+					<a href="{:url('my/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>量化交易</h1> 
+					<a href="{:url('openamount/openlist')}" class="icon-right">
+						<img src="__INDEX__/images/jl.png" alt="">
+					</a>
+				</div>
+				<div class="bit">
+					<ul>
+					{volist name="coinlist" id="vo"}
+						<li class="flex-box bit_list">
+							<div class="flex-list bittype"><span><img src="__INDEX__/images/{$vo['logo']}" alt=""></span>
+							<span>{$vo['name']}</span></div>
+							{if condition="$vo['open'] eq 1"}
+							<div class="flex-list"><span class="off bitok">已开启</span></div>
+							{else/}
+							<div class="flex-list"><span class="off bitok">未开启</span></div>
+							{/if}
+							<div class="flex-list"><span class="btnokbtm" data='{:json_encode($vo)}'>开启</span></div>
+							<div class="flex-list"><span class="btnnoup"  data='{:json_encode($vo)}'>转出</span></div>
+						</li>
+					{/volist}
+					</ul>
+				</div>
+				<div class="openview" style="display: none;">
+					<div class="setview">
+						<div>
+							<div class="openview_info">
+								<h4>开启量化钱包</h4>
+								<p id="open_money">已开启DOGE 0</p>
+								<p id="able_money">余额DOGE 0</p>
+							</div>
+						</div>
+						<div><input name="number" placeholder="输入开启数量" type="number"></div>
+						<div><input name="bypass" placeholder="输入交易密码" type="password"></div>
+						<input type="hidden" value="0" name="coinid" id="coinid">
+						<div><button type="button" onclick="openmoney()">确定</button></div>
+						<div class="hidebtn"><img src="__INDEX__/images/close.png" alt=""></div>
+					</div>
+				</div>
+				<div class="openview" style="display: none;">
+					<div class="setview locksetview">
+						<div>
+							<div class="openview_info">
+								<h4>输入转出数量</h4>
+								<p id="close_money">可转DOGE 0</p>
+							</div>
+						</div>
+						<div><input name="close_number" value="" placeholder="输入转出数量" type="number"></div>
+						<div><input name="close_bypass" value="" placeholder="输入交易密码" type="password"></div>
+						<input type="hidden" id="close_coinid" name="close_coinid">
+						<div><button type="button" onclick="closemoney()">确定</button></div>
+						<div class="hidebtn"><img src="__INDEX__/images/close.png" alt=""></div>
+					</div>
+				</div>		 
+			</div>
+		</div>
+		<script>
+			$(".btnokbtm").click(function(){
+				var data = $(this).attr('data');
+				var data_arr = JSON.parse(data);
+				$("#open_money").html('已开启'+data_arr.name+' '+data_arr.openmoney);
+				$("#able_money").html('余额'+data_arr.name+' '+data_arr.able_money);
+				$("#coinid").val(data_arr.id);
+				$(".openview").eq(0).show();
+			})
+			$(".btnnoup").click(function(){
+				var data = $(this).attr('data');
+				var data_arr = JSON.parse(data);
+				$("#close_money").html('可转'+data_arr.name+' '+data_arr.openmoney);
+				$("#close_coinid").val(data_arr.id);
+				$(".openview").eq(1).show()
+			});
+			$(".hidebtn").click(function(){
+				$(".openview").hide();
+			})
+			//开启提交
+			function openmoney(){
+				var number = $("input[name='number']").val();
+				var bypass = $("input[name='bypass']").val();
+				var coinid = $("#coinid").val();
+				$.post('{:url("openamount/openmoney")}', {'number':number,'bypass':bypass,'coinid':coinid}, function(res){
+		        	if(res.code){
+		        	  $(".openview").hide();
+		        	  alert(res.msg);
+		              window.location=res.url
+		          }else{
+		              alert(res.msg);
+		          }
+		        },'json');
+			}
+			//关闭提交
+			function closemoney(){
+				var number = $("input[name='close_number']").val();
+				var bypass = $("input[name='close_bypass']").val();
+				var coinid = $("#close_coinid").val();
+				$.post('{:url("openamount/closemoney")}', {'number':number,'bypass':bypass,'coinid':coinid}, function(res){
+		        	if(res.code){
+		        	  $(".openview").hide();
+		        	  alert(res.msg);
+		              window.location=res.url
+		          }else{
+		              alert(res.msg);
+		          }
+		        },'json');
+			}
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

@@ -1,0 +1,86 @@
+{include file="common/head"/}
+<div class="layui-fluid"><div class="layui-card"><div class="layui-card-body">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>邮箱配置</legend>
+    </fieldset>
+    <form class="layui-form layui-form-pane">
+        <div class="layui-form-item">
+            <label class="layui-form-label">收件人邮箱</label>
+            <div class="layui-input-block">
+                <input type="text" lay-verify="required" name="receive_email" placeholder="SMTP服务器" value="{$info.receive_email}" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">收件人姓名</label>
+            <div class="layui-input-block">
+                <input type="text" lay-verify="required" name="receive_name" placeholder="SMTP端口" value="{$info.receive_name}" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">邮件标题</label>
+            <div class="layui-input-block">
+                <input type="text" name="receive_title" lay-verify="required" placeholder="发信人邮件地址" value="{$info.receive_title}" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">邮件内容</label>
+            <div class="layui-input-block">
+                <input type="text" name="receive_content" id="receive_content" placeholder="测试接收邮件地址" value="{$info.receive_content}" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">身份验证码</label>
+            <div class="layui-input-block">
+                <input type="text" name="id_card" lay-verify="required" placeholder="SMTP身份验证码" value="{$info.id_card}" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">{:lang('submit')}</button>
+                <button type="reset" class="layui-btn layui-btn-primary">{:lang('reset')}</button>
+                <button type="button" class="layui-btn layui-btn-normal" id="trySend">测试发送</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+</div>
+{include file="common/foot"/}
+<script>
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form,layer = layui.layer,$= layui.jquery;
+        //发送测试邮件
+        $('#trySend').click(function(){
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            var email = $('#receive_content').val();
+            $.post("{:url('trySend')}",{email:email},function(res){
+                layer.close(loading);
+                if(res.code > 0){
+                    layer.msg(res.msg,{time:1800});
+                }else{
+                    layer.msg(res.msg,{time:1800});
+                }
+            });
+        });
+
+        //提交监听
+        form.on('submit(submit)', function (data) {
+            loading =layer.load(1, {shade: [0.1,'#fff']});
+            $.post("{:url('system/email')}",data.field,function(res){
+                layer.close(loading);
+                if(res.code > 0){
+                    layer.msg(res.msg,{icon: 1, time: 1000},function(){
+                        location.href = res.url;
+                    });
+                }else{
+                    layer.msg(res.msg,{icon: 2, time: 1000});
+                }
+            });
+        })
+    })
+</script>
+</body>
+</html>

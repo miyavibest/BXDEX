@@ -1,0 +1,202 @@
+	{include file="public/header"}
+	<body class="wallet">
+
+		<div id="app">
+			<div>
+				<div class="earnings">
+					<div class="header-f">
+					<!--  {:url('index/index/index')}  -->
+						<a href="javascript:history.go(-1);" class="icon-left">
+							<img src="__INDEX__/images/left1.png" alt="">
+						</a>
+						<h1>{$Think.lang.Language_number_1410}</h1>
+					</div>
+				</div>
+				<div class="view view1">
+					<div class="userinfo">
+						<div class="userearnings">
+							<p>{$Think.lang.Language_number_1411}({$Think.lang.Language_number_1412}${$price_now|sprintf4})</p>
+							<h2>{$total_price|sprintf4}</h2>
+						</div>
+						<div class="userearnings">
+							<p>{$Think.lang.Language_number_1413}</p>
+							<p>{$personComain|sprintf4}</p>
+						</div>
+						<div class="userearnings">
+							<p>{$Think.lang.Language_number_1414}</p>
+							<p>{$total_num|sprintf4}</p>
+						</div>
+						<div><img src="" alt=""></div>
+						<div class="vip">
+							<!--
+								<span class="viptype vipbg_2" style="background: url(__INDEX__/images/indexv{$level2}.png);	width: 3rem;height: 1rem;line-height: 1rem;color:#fff;     padding-left:0.5rem;    background-size: 100% 100%;">
+								
+									{if condition="$level==1"}
+										{$Think.lang.Language_number_1164}
+									{elseif condition="$level==2"}
+										VIP1
+									{elseif condition="$level==3"}
+										VIP2
+                                  	{else}
+										{$Think.lang.Language_number_1165}
+									{/if}
+								
+									
+								</span> 
+								-->
+								
+								{if condition="$level2==2"}
+									<span class="viptype vipbg_2" style="background: url(__INDEX__/images/indexv{$level2}.png);	    width: 3rem;height: 2.5rem;margin-top: -0.75rem;    background-size: 100% 100%;">
+									</span> 
+								{elseif condition="$level2==3"}
+									<span class="viptype vipbg_2" style="background: url(__INDEX__/images/indexv{$level2}.png);	    width: 3rem;height: 2.5rem;margin-top: -0.75rem;    background-size: 100% 100%;">
+									</span> 
+								{elseif condition="$level2==4"}
+									<span class="viptype vipbg_2" style="background: url(__INDEX__/images/indexv{$level2}.png);	    width: 3rem;height: 2.5rem;margin-top: -0.75rem;    background-size: 100% 100%;">
+									</span> 
+								{else}
+									<span class="viptype vipbg_2" style="background: url(__INDEX__/images/{$Think.lang.Language_number_1431}.png);	width: 3rem;height: 2.5rem;margin-top: -0.75rem;    background-size: 100% 100%;">
+									</span> 
+								{/if}
+							<span class="vipicon">
+								<img src="__INDEX__/images/viptype{$level2}.png" alt="">
+							</span>
+						</div>
+					</div>
+					<div class="ctitle">
+						<div>{$Think.lang.Language_number_1417}</div>
+					</div>
+					<div>
+						<ul>
+							{volist name="$list" id="vo"}
+							{eq name="$vo.inout" value="out"}
+							<li class="flex-box earningsinfo_list">
+								<div class="flex-list left">
+									<h4>
+									{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+										{$vo.type}
+									{else}
+										{if condition=" ($vo.type eq '签到福利') "}
+											Sign-in Welfare
+										{elseif condition=" ($vo.type eq '转出') "}
+										
+										Transfer
+										{elseif condition=" ($vo.type eq '转入') "}
+										
+										into
+										{elseif condition=" ($vo.type eq '开启量化') "}
+										
+										Open Quantity
+										{elseif condition=" ($vo.type eq '关闭量化-') "}
+										
+										Close Quantity -
+										{elseif condition=" ($vo.type eq '每日收益') "}
+										
+										
+										Daily Revenue 
+										{elseif condition=" ($vo.type eq '系统充值') "}
+										System Refill
+										
+										{elseif condition=" ($vo.type eq '兑换') "}
+										Exchange 
+										
+										{elseif condition=" ($vo.type eq '提币') "}
+										
+										Tenancy
+										{elseif condition=" ($vo.type eq '充币通过') "}
+										
+										Refund through 
+										{else}
+											{$vo.type}
+										{/if}
+									{/if}
+									
+									
+									
+									
+									
+									
+									
+									</h4>
+									<p>{$vo.add_time|date='Y-m-d H:i:s', ###}</p>
+								</div>
+								<div class="flex-list right"><b class="subtract">-{$vo.num|sprintf4}</b></div>
+							</li>
+							{else}
+							<li class="flex-box earningsinfo_list">
+								<div class="flex-list left">
+									<h4>
+									
+									
+									
+									
+									{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+										{$vo.type}
+									{else}
+										{if condition=" ($vo.type eq '签到福利') "}
+											Sign-in Welfare
+										{elseif condition=" ($vo.type eq '转出') "}
+										
+										Transfer
+										{elseif condition=" ($vo.type eq '转入') "}
+										
+										into
+										{elseif condition=" ($vo.type eq '开启量化') "}
+										
+										Open Quantity
+										{elseif condition=" ($vo.type eq '关闭量化-') "}
+										
+										Close Quantity -
+										{elseif condition=" ($vo.type eq '每日收益') "}
+										
+										
+										Daily Revenue 
+										{elseif condition=" ($vo.type eq '系统充值') "}
+										System Refill
+										
+										{elseif condition=" ($vo.type eq '兑换') "}
+										Exchange 
+										
+										{elseif condition=" ($vo.type eq '提币') "}
+										
+										Tenancy
+										{elseif condition=" ($vo.type eq '充币通过') "}
+										
+										Refund through 
+										{else}
+											{$vo.type}
+										{/if}
+									{/if}
+									
+									
+									
+									
+									
+									
+									</h4>
+									<p>{$vo.add_time|date='Y-m-d H:i:s', ###}</p>
+								</div>
+								<div class="flex-list right"><b class="up">+{$vo.num|sprintf4}</b></div>
+							</li>
+							{/eq}
+							{/volist}
+						</ul>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="subbtn">
+						<a href="{:url('wallet/exchange')}" class="">
+							<button type="button">{$Think.lang.Language_number_1418}</button>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+
+
+	</body>
+</html>

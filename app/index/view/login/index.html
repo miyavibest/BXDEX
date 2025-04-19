@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	{:lang('index_login')}
+	{$Think.lang.index_login}
+	<br>
+	<br>
+	<br>
+	
+	<ul>
+		<li><a href="" lang="cn" class="but">Chinese (Simplified)</a></li>
+		<li><a href="" lang="en" class="but">English</a></li>
+		<li><a href="" lang="jp" class="but">Japanese</a></li>
+	</ul>
+
+	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+	    $('.but').click(function(){
+	        var data = {lang: $(this).attr('lang')};
+	        $.get("{:url('index/index/lang')}", data, function () {
+	            location.reload();
+	        })
+	    });
+	</script>
+
+
+</body>
+</html>

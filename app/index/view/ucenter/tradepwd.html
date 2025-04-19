@@ -1,0 +1,121 @@
+	<!DOCTYPE html>
+	<html class="size">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>FRCW Wallet</title>
+		<link href="__INDEX__/css/tradepwd.css" rel="stylesheet">
+		<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+		<script src="__INDEX__/js/jquery-1.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div data-v-df1652a8="">
+				<div data-v-df1652a8="" class="header">
+					<h1 data-v-df1652a8="">{$Think.lang.Language_number_1288}</h1>
+				</div> 
+				<form>
+				<div data-v-df1652a8="" class="div1">
+					<h4 data-v-df1652a8="" class="title">{$Think.lang.Language_number_1289}</h4> 
+					<div data-v-df1652a8="" class="passbox">
+						<!-- <input data-v-df1652a8="" type="password" id="hide" maxlength="6">  -->
+						<div data-v-df1652a8="" class="showipt">
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd1"> 
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd2"> 
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd3"> 
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd4"> 
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd5"> 
+							<input data-v-df1652a8="" class="inp" type="password" maxlength="1" name="pwd6">
+						</div>
+					</div> 
+					<p data-v-df1652a8="" class="por">{$Think.lang.Language_number_1290}</p>
+				</div> 
+				<div data-v-df1652a8="" class="div2" style="display: none;">
+					<h4 data-v-df1652a8="" class="title">{$Think.lang.Language_number_1291}</h4> 
+					<div data-v-df1652a8="" class="passbox">
+						<!-- <input data-v-df1652a8="" type="password" id="hide_2" maxlength="6"> -->
+						<div data-v-df1652a8="" class="showipt">
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd7"> 
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd8"> 
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd9"> 
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd10"> 
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd11"> 
+							<input data-v-df1652a8="" class="inp1" type="password" maxlength="1" name="pwd12">
+						</div>
+					</div> 
+					<p data-v-df1652a8="" class="por">{$Think.lang.Language_number_1292}</p>
+				</div>
+				</form>
+				<div data-v-7ad7c85d="" data-v-df1652a8="" id="toast" style="display: none;">
+					<p data-v-7ad7c85d=""><img data-v-7ad7c85d="" src="" alt=""></p> 
+					<p data-v-7ad7c85d=""></p>
+				</div>
+			</div>
+		</div>
+
+	<script src="__STATIC__/src/lib/zepto.min.js"></script>
+    <script src="__STATIC__/src/js/dialog.js"></script>
+	<script>
+		function checkMsg(msg) {
+	      	$(document).dialog({
+		        type : 'toast',
+		        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+		        infoText: msg,
+		        autoClose: 1500
+		    });
+	    }
+
+
+		$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+		$('.inp:eq(0)').focus();
+		str1 = '';
+		$('.inp').keyup(function(){
+			str1 += $(this).val();
+
+			var index = $(this).index() + 1;
+			$('.inp:eq('+index+')').focus();
+			if (index >= 6) {
+				$('.div1').hide();
+				$('.div2').show();
+				$('.inp1:eq(0)').focus();
+			}
+		});
+
+		str2 = '';
+		$('.inp1').keyup(function(){
+			str2 += $(this).val();
+
+			var index = $(this).index() + 1;
+			$('.inp1:eq('+index+')').focus();
+			if (index == 6) {
+				var str = $('form').serialize();
+				$.post('{:url("checkPwd")}', {str1:str1,str2:str2}, function(res){
+					if (res.code == 1) {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+					} else {
+						$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+					}
+				})
+			}
+		});
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,1199 @@
+<?php
+return [
+    'index_login' => '登录测试前台',
+	
+	//	index/index
+	'total_assets' => '总资产',
+	'ordinary' => '普通会员',
+	'user' => '用戶',
+	'Click_Add_Other_Currencies' => '点击添加其他币种',
+	
+	//	index/403
+	'index403' => '403. Documents or directories on the server are denied access!',
+	
+	//	index/fuli28
+	'Attendance_benefits' => '签到福利',
+	'Attendance_benefits_msg' => '注册送平台币，签到领取福利，可领28天',
+	'Sign_in' => '签到',
+	'Capital_record' => '资金记录',
+	'Success' => '成功',
+	'Signed_in_today' => '今日已签到！',
+	'Check_in_successfully' => '签到成功！',
+	'Only_28_days' => '仅可领28天！',
+	'Real_name_certification_e' => '实名认证后才可签到领取！',
+	
+	//	index/pinfosign
+	'identity_authentication' => '身份认证',
+	'Language_number_1111' => '认证状态',
+	'Language_number_1112' => '真实姓名',
+	'Language_number_1113' => '请输入真实姓名',
+	'Language_number_1114' => '身份证号',
+	'Language_number_1115' => '请输入真实身份证号',
+	'Language_number_1116' => '身份证正面照片',
+	'Language_number_1117' => '身份证背面照片',
+	'Language_number_1118' => '手持身份证照片',
+	'Language_number_1119' => '提交',
+	'Network_anomaly' => '网络异常！',
+	'Language_number_1121' => '提交成功！',
+	'Language_number_1122' => '提交失败！',
+	'Language_number_1123' => '请输入姓名！',
+	'Language_number_1124' => '请输入身份证号！',
+	'Language_number_1125' => '请上传身份证正面照片！',
+	'Language_number_1126' => '请上传身份证背面照片！',
+	'Language_number_1127' => '请上传手持身份证照片！',
+	
+	
+	
+	//	change/addwetall
+	'Language_number_1128' => '地址编辑',
+	'Language_number_1129' => '输入地址',
+	'Language_number_1130' => '提交',
+	'Language_number_1131' => '请输入钱包地址',
+	
+	'Language_number_1132' => '充币',
+	'Language_number_1133' => '收款人钱包地址',
+	'Language_number_1134' => '充币数量',
+	'Language_number_1135' => '可用余额：',
+	'Language_number_1136' => '输入交易密码',
+	'Language_number_1137' => '提交',
+	'Language_number_1138' => '请输入转出数量',
+	'Language_number_1139' => '请输入交易密码',
+	'Language_number_1140' => '钱包地址',
+	'Language_number_1141' => '地址：',
+	'Language_number_1142' => '暂无',
+	'Language_number_1143' => '提币地址',
+	'Language_number_1144' => '充币',
+	'Language_number_1145' => '提币',
+	
+	
+	'Language_number_1146' => '提币',
+	'Language_number_1147' => '收款人钱包地址',
+	'Language_number_1148' => '提币数量',
+	'Language_number_1149' => '可用余额：',
+	'Language_number_1150' => '输入交易密码',
+	'Language_number_1151' => '提交',
+	'Language_number_1152' => '请输入转出数量',
+	'Language_number_1153' => '请输入交易密码',
+	
+	
+	
+	'Language_number_1154' => '资讯',
+	'Language_number_1155' => '资讯',
+	
+	
+	'Language_number_1156' => '市场',
+	'Language_number_1157' => '名称',
+	'Language_number_1158' => '当前价格',
+	'Language_number_1159' => '涨跌幅(24h)',
+	
+	
+	
+	'Language_number_1160' => '总收益',
+	'Language_number_1161' => 'FRCW实时价格',
+	'Language_number_1162' => '今日收益',
+	'Language_number_1163' => '伙伴总值',
+	'Language_number_1164' => '普通会员',
+	'Language_number_1165' => '用戶',
+	'Language_number_1166' => '商业伙伴',
+	'Language_number_1167' => '开放量化',
+	'Language_number_1168' => '邀请好友',
+	'Language_number_1169' => '福利',
+	'Language_number_1170' => '钱包地址',
+	'Language_number_1171' => '娱乐',
+	'Language_number_1172' => '商城',
+	'Language_number_1173' => '交易',
+	'Language_number_1174' => '安全中心',
+	'Language_number_1175' => '系统设置',
+	'Language_number_1176' => '用戶反馈',
+	'Language_number_1177' => '系统消息',
+	'Language_number_1178' => '关于我们',
+	
+	
+	'Language_number_1179' => '商业伙伴',
+	
+	
+	'Language_number_1180' => '量化交易',
+	'Language_number_1181' => '已开放',
+	'Language_number_1182' => '未开放',
+	'Language_number_1183' => '开放',
+	'Language_number_1184' => '转出',
+	'Language_number_1185' => '开启量化钱包',
+	'Language_number_1186' => '已开放DOGE 0',
+	'Language_number_1187' => '余额DOGE 0',
+	'Language_number_1188' => '输入开放数量',
+	'Language_number_1189' => '输入交易密码',
+	'Language_number_1190' => '确定',
+	'Language_number_1191' => '输入转出数量',
+	'Language_number_1192' => '可转DOGE 0',
+	'Language_number_1193' => '输入转出数量',
+	'Language_number_1194' => '输入交易密码',
+	'Language_number_1195' => '确定',
+	'Language_number_1196' => '提示',
+	'Language_number_1197' => '启动量化交易不满30天解,锁手续费5%',
+	'Language_number_1198' => '解锁',
+	'Language_number_1199' => '取消',
+	'Language_number_1200' => '请输入开启数量',
+	'Language_number_1201' => '请输入交易密码',
+	
+	
+	
+	
+	
+	'Language_number_1202' => '福利糖果',
+	
+	'Language_number_1203' => '启动记录',
+	'Language_number_1204' => '已转出',
+	'Language_number_1205' => '已开放',
+	'Language_number_1206' => '已开放',
+	'Language_number_1207' => '已开放',
+	
+	
+	'Language_number_1208' => '量化交易',
+	'Language_number_1209' => '已开启',
+	'Language_number_1210' => '未开启',
+	'Language_number_1211' => '开启',
+	'Language_number_1212' => '转出',
+	'Language_number_1213' => '开启量化钱包',
+	'Language_number_1214' => '已开启DOGE 0',
+	'Language_number_1215' => '余额DOGE 0',
+	'Language_number_1216' => '输入开启数量',
+	'Language_number_1217' => '输入交易密码',
+	'Language_number_1218' => '确定',
+	'Language_number_1219' => '输入转出数量',
+	'Language_number_1220' => '可转DOGE 0',
+	'Language_number_1221' => '输入转出数量',
+	'Language_number_1222' => '输入交易密码',
+	'Language_number_1223' => '确定',
+	'Language_number_1224' => '已开启',
+	'Language_number_1225' => '余额',
+	'Language_number_1226' => '可转',
+	
+	
+	
+	'Language_number_1227' => '启动记录',
+	'Language_number_1228' => '已转出',
+	'Language_number_1229' => '已转入',
+	
+	
+	'Language_number_1230' => '钱包',
+	'Language_number_1231' => '市场',
+	'Language_number_1232' => '资讯',
+	'Language_number_1233' => '个人',
+	
+	
+	'Language_number_1234' => '关于我们',
+	'Language_number_1235' => '使用协议',
+	'Language_number_1236' => '服务协议',
+	'Language_number_1237' => '版本',
+	
+	
+	
+	
+	
+	
+	
+	'Language_number_1238' => '使用协议',
+	'Language_number_1239' => 'Jade Token使用',
+	'Language_number_1240' => '<li>1.<strong>您應自行承擔妥善保管移動設備、錢包密碼、私鑰、助記詞和Keystore等信息的責任。</strong>
+						本公司不負責為用戶保管以上信息。因您遺失移動設備、主動或被動泄露、遺忘錢包密碼、私鑰、助記詞、Keystore或遭受他人攻擊、詐騙等所引起的壹切風險、責任、損失、費用應由您自行承擔
+					</li>
+					<li>2.<strong>Jade Token信息提示。</strong> 您了解並同意遵循本公司在Jade Token上發布的信息提示，按照信息提示的內容進行操作，否則，由此引起的壹切風險、責任、損失、費用等應由您自行承擔。</li>
+					<li>3.<strong>您知悉並理解Jade Token沒有義務對鏈接的第三方DApp服務、第三方智能合約服務或交易履行盡職調查義務，您應當謹慎評估並承擔所有與使用Jade Token有關的風險。</strong></li>
+					<li>4.<strong>提供信息和文件。</strong>
+						如果本公司自行認為有必要獲取用戶的相關信息以遵循任何與使用或操作Jade Token相關的適用法律或法規的規定，用戶應按照本公司的要求及時向本公司提供該等信息，且用戶了解並接受，本公司可以限制、暫停或終止您使用Jade Token直到您提供滿足公司要求的信息。用戶承諾及時向本公司告知任何有關其依據本協議向本公司提供的文件和信息中的任何變化，且在沒有通知任何變化的書面通知的情形下，本公司有權認為由用戶提供的文件和信息的內容是真實、正確、沒有誤導信息且沒有發生改變的。
+					</li>
+					<li>5.<strong>完成身份驗證。</strong>
+						當本公司合理認為您的交易行為或交易情況出現異常的，或認為您的身份信息存在疑點的，或本公司認為應核對您身份證件或其他必要文件的情形時，請您積極配合本公司核對您的有效身份證件或其他必要文件，及時完成相關的身份驗證。
+					</li>
+					<li>6.<strong>轉賬。</strong>
+						<ul>
+							<li class="deepest-list">（1）<strong>您知悉對於Jade Token
+									服務中您可使用的日計轉賬限額和筆數，可能因為您使用該轉賬服務時所處的國家/地區、監管要求、轉賬目的、Jade Token風險控制、身份驗證等事由而不同。</strong></li>
+							<li class="deepest-list">（2）<strong>您理解基於區塊鏈操作的“不可撤銷”屬性，當您使用Jade Token轉賬功能時，您應當自行承擔因您操作失誤而導致的後果（包括但不限於因您輸錯轉賬地址、您自身選擇轉賬節點服務器的問題）。</strong></li>
+							<li class="deepest-list">（3）<strong>您知悉在使用FRCW
+									Wallet服務時，以下情況的出現可能導致轉賬功能不可用、轉賬“交易失敗”或“打包超時”：</strong>
+								<ul>
+									<li class="deepest-list">a) <strong>錢包余額不足；</strong></li>
+									<li class="deepest-list">b) <strong>交易礦工費不足；</strong></li>
+									<li class="deepest-list">c) <strong>區塊鏈執行智能合約代碼失敗；</strong></li>
+									<li class="deepest-list">d) <strong>超出監管部門、Jade Token或法律法規規定的付款額度；</strong></li>
+									<li class="deepest-list">e) <strong>網絡、設備等技術故障；；</strong></li>
+									<li class="deepest-list">f) <strong>區塊鏈網絡擁堵、故障等原因引起交易被拋棄；</strong></li>
+									<li class="deepest-list">g) <strong>您的地址或交易對方地址被識別為特殊地址，如高風險地址。</strong></li>
+								</ul>
+							</li>
+							<li class="deepest-list">（4）<strong>您知悉Jade Token僅向您提供轉賬工具，在您使用Jade Token完成轉賬後，本公司即完成了當次服務的所有義務，本公司對其他相關糾紛爭議，不承擔任何責任。</strong></li>
+						</ul>
+					</li>
+					<li>7.<strong>閃兌和幣幣兌換。</strong>
+						您知悉，閃兌和幣幣兌換的每日限額目前由第三方智能合約限定。本公司亦可能對用戶每日可閃兌或幣幣兌換的額度進行限制並不時調整。</li>
+					<li>8.<strong>合法合規。</strong> 您知悉在Jade Token進行操作時或利用Jade Token
+						Wallet上的DApp、智能合約進行交易時，您應當遵循有關法律法規、國家政策的要求。</li>
+					<li>9.<strong>公告通知。</strong>
+						Jade Token會以網站公告、電子郵件、發送短信、電話、消息中心信息、彈窗提示或客戶端通知等方式向您發送通知，例如通知您交易進展情況，或者提示您進行相關操作，請您及時予以關註。
+					</li>
+					<li>10.<strong>服務費用與納稅義務：</strong>
+						<ul>
+							<li class="deepest-list">（1）<strong>您使用Jade Token
+									Wallet的閃兌和幣幣兌換服務時，第三方智能合約會向您收取手續費和/或服務費，具體費用以第三方智能合約收取數額為準，Jade Token信息提示僅供參考；</strong></li>
+							<li class="deepest-list">（2）本公司暫時不向您收取任何形式的服務費或手續費，將來需對某些服務進行收費時本公司將另行約定或公布規則；</li>
+							<li class="deepest-list">（3）<strong>您使用Jade Token
+									Wallet進行轉賬時應支付“礦工費”或網絡費，金額由您自行決定，並由相關區塊鏈網絡收取；</strong></li>
+							<li class="deepest-list">（4）<strong>您知悉，在特定情況（包括但不限於您在轉賬期間為轉賬支付的“礦工費”或網絡費不足，或相關區塊鏈網絡不穩定）下，您的轉賬操作可能失敗；在該等情況下，即便您的轉賬操作未完成，您亦會被相關區塊鏈網絡收取礦工費；</strong></li>
+							<li class="deepest-list">（5）您因在Jade Token進行交易而發生的所有應納稅負及其它方面的費用均由您負責支付。</li>
+						</ul>
+					</li>',
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	'Language_number_1241' => '系统消息',
+	
+	
+	
+	
+	'Language_number_1242' => '系统消息',
+	
+	
+	
+	'Language_number_1243' => '意见反馈',
+	'Language_number_1244' => '历史反馈',
+	'Language_number_1245' => '请输入遇到的问题或者建议...',
+	'Language_number_1246' => '提交',
+	'Language_number_1247' => '上传失败',
+	'Language_number_1248' => '上传成功',
+	'Language_number_1249' => '请填写意见反馈',
+	
+	
+	'Language_number_1250' => '问题回复',
+	'Language_number_1251' => '我的反馈：',
+	'Language_number_1252' => '系统回复：',
+	
+	
+	
+	
+	'Language_number_1253' => '历史反馈',
+	'Language_number_1254' => '正在处理',
+	'Language_number_1255' => '已处理',
+	
+	
+	
+	'Language_number_1256' => '语言',
+	
+	
+	
+	
+	'Language_number_1257' => '系统设置',
+	'Language_number_1258' => '账号安全',
+	'Language_number_1259' => '身份认证',
+	'Language_number_1260' => '修改登录密码',
+	'Language_number_1261' => '修改交易密码',
+	'Language_number_1262' => '导出私钥',
+	'Language_number_1263' => '输入交易密码',
+	'Language_number_1264' => '输入交易密码',
+	'Language_number_1265' => '确定',
+	'Language_number_1266' => '导入私钥',
+	'Language_number_1267' => '输入私钥',
+	'Language_number_1268' => '取消',
+	'Language_number_1269' => '确定',
+	'Language_number_1270' => '密码',
+	'Language_number_1271' => '复制私钥',
+	
+	
+	
+	
+	
+	'Language_number_1272' => '服务协议',
+	'Language_number_1273' => 'Jade Token服務（統稱“服務”）',
+	'Language_number_1274' => '<li>1.<strong>創建和恢復身份</strong>您可以使用FRCW
+						Wallet提供的“創建身份”、“恢復身份”按鍵進行身份的創建和恢復，並能在壹個身份下，同時管理多鏈錢包。</li>
+					<li>2.<strong>導入錢包</strong>對Jade Token支持的數字代幣，您可以使用FRCW
+						Wallet生成新錢包或導入相關區塊鏈系統的其它錢包工具生成的兼容錢包。</li>
+					<li>3.<strong>轉賬、收款</strong>您可以使用FRCW
+						Wallet的轉賬、收款功能進行數字代幣的管理，即運用私鑰進行電子簽名，對相關區塊鏈的賬本進行修改。轉賬是指付款方利用收款方的ENS域名或區塊鏈地址進行轉賬操作，該“轉賬”行為涉及在相關區塊鏈系統的分布式賬本中對該交易的有效記錄（而非在FRCW
+						Wallet上實際交付或轉讓數字代幣）。</li>
+					<li>4.<strong>行情查看</strong>您可以使用Jade Token查看第三方提供的數字代幣匯率價格。FRCW
+						Wallet通過抓取相應的數字代幣匯率信息並展示在Jade Token中的“市場”版塊。</li>
+					<li>5.<strong>您可以使用Jade Token查看第三方提供的數字代幣匯率價格。FRCW
+							Wallet通過抓取相應的數字代幣匯率信息並展示在Jade Token中的“市場”版塊。</strong>管理數字代幣</li>
+					<li>6.<strong>您可以從Jade Token操作界面添加、保管或移除Jade Token所支持的數字代幣（ETH、BTC除外）。</strong>閃兌（IEX）</li>
+					<li>7.<strong>用戶之間可以在第三方智能合約Kyber上發生並完成的數字代幣兌換，由Jade Token
+							作為界面工具幫助用戶和第三方智能合約交互並顯示該用戶之間兌換的相應結果。</strong>幣幣兌換（DEX）</li>
+					<li>8.<strong>用戶可以與使用第三方智能合約0x的第三方進行數字代幣兌換，由Jade Token
+							作為界面工具幫助用戶和第三方智能合約交互並顯示該數字代幣兌換的相應結果。</strong>瀏覽DApp</li>
+					<li>9.<strong>用戶通過Jade Token訪問並使用該DApp（包括本公司自己的DApp和第三方DApp）提供的服務。</strong>搜索DApp</li>
+					<li>10.<strong>用戶通過Jade Token上的搜索框，可以對已在Jade Token 羅列的DApp進行搜索。</strong>開發者模式</li>
+					<li>11.<strong>為方便開發者，在開發者模式下用戶可以通過搜索框鍵入URL而訪問任何其他網站和未在FRCW
+							Wallet集成的第三方DApp。</strong>交易記錄</li>
+					<li>12.<strong>我們將通過區塊鏈系統拷貝您全部或部分的交易記錄。但用戶應以區塊鏈系統的最新交易記錄為準。</strong>暫停服務</li>
+					<li>13.您知悉，基於區塊鏈系統交易“不可撤銷”的屬性，我們不能為您撤回或撤銷交易操作，但在壹定情況下，我們可以暫停或者限制某位用戶對Jade Token軟件的操作。</li>',
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	'Language_number_1275' => '登录密码',
+	'Language_number_1276' => '原密码',
+	'Language_number_1277' => '输入原密码',
+	'Language_number_1278' => '新密码',
+	'Language_number_1279' => '新密码',
+	'Language_number_1280' => '确认密码',
+	'Language_number_1281' => '输入确认密码',
+	'Language_number_1282' => '登录密码8~20位，可以是数字、字母及其他符号的組合',
+	'Language_number_1283' => '保存',
+	
+	
+	
+	
+	'Language_number_1284' => '系统设置',
+	'Language_number_1285' => '用戶账户',
+	'Language_number_1286' => '语言',
+	'Language_number_1287' => '退出',
+	
+	
+	
+	'Language_number_1288' => '交易密码',
+	'Language_number_1289' => '请输入交易密码',
+	'Language_number_1290' => '交易密码是保障您资产安全的重要凭证，请妥善保管',
+	'Language_number_1291' => '请确认交易密码',
+	'Language_number_1292' => '交易密码是保障您资产安全的重要凭证，请妥善保管',
+	
+	
+	
+	
+	
+	'Language_number_1293' => '请输入手机号码',
+	'Language_number_1294' => '请输入验证码',
+	'Language_number_1295' => '请输入验证码',
+	'Language_number_1296' => '发送验证码',
+	'Language_number_1297' => '登录',
+	'Language_number_1298' => '语言',
+	'Language_number_1299' => '选择地区',
+	'Language_number_1300' => '取消',
+	'Language_number_1301' => '参数格式错误',
+	'Language_number_1302' => '请填写手机号',
+	'Language_number_1303' => '手机格式不正确',
+	'Language_number_1304' => '请填写验证码',
+	'Language_number_1305' => '请填写手机号',
+	'Language_number_1306' => '手机格式不正确',
+	'Language_number_1307' => '请填写验证码',
+	'Language_number_1308' => '再次获取',
+	'Language_number_1309' => '天',
+	'Language_number_1310' => '小时',
+	'Language_number_1311' => '分',
+	'Language_number_1312' => '秒',
+	'Language_number_1313' => '天',
+	'Language_number_1314' => '小时',
+	'Language_number_1315' => '分',
+	'Language_number_1316' => '秒',
+	'Language_number_1317' => '小时',
+	'Language_number_1318' => '分',
+	'Language_number_1319' => '秒',
+	'Language_number_1320' => '分',
+	'Language_number_1321' => '秒',
+	
+	
+	
+	'Language_number_1322' => '会员协议',
+	'Language_number_1323' => '《Jade Token用戶协议》',
+	'Language_number_1324' => '<p><strong>尊敬的用戶：</strong></p>
+						<p class="mb">
+							<strong>感謝您選擇Jade Token服務。《Jade Token服務協議》（以下簡稱“本協議”）由Jade Token（以下簡稱“本公司”）和您（以下簡稱“用戶”）簽訂，本協議在您與本公司之間具有合同上的法律效力。在本協議中：（1）“我們”和“我們”指代本公司，“我們的”應據此解釋；及（2）“您”指代用戶，“您的”應據此解釋。您和本公司單獨稱為“壹方”，合稱為“雙方”。</strong>
+						</p>
+						<p><strong>本公司在此特別提醒您在使用我們的Jade Token移動應用（以下簡稱“Jade Token” 或“本軟件”，Jade Token可在各移動應用平臺上下載，包括但不限於Google
+								Play和Apple App
+								Store）之前，請認真閱讀本協議及後文提及的相關協議，尤其是本協議中“免責及責任限制”等以加粗形式體現的條款，確保您充分理解本協議中各條款，並自主考慮風險。</strong></p>
+						<section class="terms-area strong">
+							<h2>壹、 關於本協議的確認與接納</h2>
+							<ul>
+								<li>1.您理解本協議及有關協議適用於Jade Token及Jade Token上本公司所自主開發和擁有的去中心化應用（簡稱“DApp”）（排除第三方開發的DApp）。</li>
+								<li>2.您下載Jade Token軟件並創建身份、恢復身份（定義見下文）或導入錢包，即視為您已經充分閱讀並接受本協議全部條款，本協議立即生效，對雙方具有約束力。
+									<em><span class="decoration">如果您不同意本協議條款，您應立即停止使用Jade Token。如果您已經下載了Jade Token，請立即刪除。</span></em></li>
+								<li>3.在訪問或使用Jade Token時, 您同意：
+									<ul>
+										<li class="deepest-list">（1）接受本協議最新版本的約束（不變更亦不修改）；</li>
+										<li class="deepest-list">（2）在您所適用的司法管轄區域內，您已達到使用Jade Token的法定年齡，並可承擔因使用Jade Token而產生的有約束力法律或金錢義務；且</li>
+										<li class="deepest-list">（3）您不屬於被排除人士（如本協議所定義）。</li>
+									</ul>
+								</li>
+								<li>4.本協議可由本公司隨時更新，經修改的協議壹經在Jade Token上公布，立即自動生效，不再另行通知。在本公司公布修改協議條款後，如果您不接受修改後的條款，請立即停止使用FRCW
+									Wallet，您繼續使用Jade Tokent將被視為接受修改後的協議。</li>
+							</ul>
+						</section>
+						<section class="terms-area">
+							<h2>二、 定義</h2>
+							<ul>
+								<li>1.<strong>Jade Token：</strong> 指由本公司基於區塊鏈開發的數字錢包，包括其他為方便用戶使用區塊鏈系統而開發的輔助工具。</li>
+								<li>2.<strong>被排除人士：</strong>
+									<ul>
+										<li class="deepest-list"><strong>（1）除了自然人以外的、具備訂立本協議的法律和意識能力的人士；或</strong></li>
+										<li class="deepest-list">
+											<strong>（2）因本協議、法律、監管要求或適用於該用戶的司法管轄區的規定而被以任何形式或方式（全部或部分）禁止、限制、無授權或無資格使用服務（如本協議所定義）的用戶。</strong></li>
+									</ul>
+								</li>
+								<li>3.<strong>身份：</strong> 指基於您的公私鑰對生成的數字識別身份。</li>
+								<li>4.<strong>新手指南：</strong> 指在您使用Jade Token之前（及在將來的使用過程中），本公司為您提供的Jade Token操作指南，以幫助您了解區塊鏈的基礎知識。</li>
+								<li>5.<strong>創建或導入錢包：</strong> 指在您接受本協議後，使用Jade Token創建或導入錢包的過程。</li>
+								<li>6.<strong>錢包密碼：</strong>
+									指您在創建Jade Token錢包過程中，由您決定的密碼，該密碼將被用於加密和保護您的私鑰。FRCW
+									Wallet作為去中心化的應用，錢包密碼不存儲在您的這臺移動設備或本公司的服務器，壹旦您丟失或忘記錢包密碼，您需要借助私鑰或助記詞重置錢包密碼。
+								</li>
+								<li>7.<strong>信息提示：</strong> Jade Token軟件操作界面涉及的信息提示內容，建議用戶按照相關步驟進行操作。</li>
+								<li>8.<strong>特定用戶：</strong> 指按照新加坡和其他國家的法律法規及政策規定必須要配合本公司履行個人信息披露義務的用戶。</li>
+								<li>9.<strong>私鑰：</strong> 由256位隨機字符構成，是用戶擁有並使用數字代幣的核心。</li>
+								<li>10.<strong>公鑰：</strong> 由私鑰借助密碼學原理單向推導生成，並用以生成區塊鏈數字錢包地址，數字錢包地址即為公開收款地址。</li>
+								<li>11.<strong>助記詞：</strong> 符合區塊鏈BIP39 行業標準，由隨機算法生成的12（或15/18/21/24）個有序單詞組成。是私鑰的易記錄表現形式，方便用戶備份保管。</li>
+								<li>12.<strong>Keystore:</strong> 是私鑰或助記詞經過用戶設置的錢包密碼加密保存的文件形式，它只存儲在您的這臺移動設備中，不會同步至本公司服務器。</li>
+								<li>13.<strong>數字代幣：</strong> 指Jade Token目前支持的數字代幣種類，包括但不限於BTC、ETH、DGD等。</li>
+								<li>14.<strong>資料：</strong> 指Jade Token上“瀏覽”、“市場”等版塊的文章等資料，這些資料均為第三方所有，未經授權不得轉載。這些資料僅供您參考，並不構成本公司對您交易的指導或建議。</li>
+								<li>15.<strong>消息中心：</strong> 指用戶可以接收本公司發出的信息或通知的收件箱。</li>
+								<li>16.<strong>個人信息：</strong>
+									指以電子或者其他方式記錄的能夠單獨或者與其他信息結合識別用戶個人身份的各種信息，包括但不限於自然人的姓名、出生日期、身份證件號碼、個人生物識別信息、住址、電話號碼、銀行卡號、郵件地址、錢包地址、移動設備信息、操作記錄、交易記錄等，但不包括用戶的錢包密碼、私鑰、助記詞、Keystore。
+								</li>
+								<li>17.<strong>智能合約：</strong>
+									指壹種旨在以信息化方式傳播、驗證或執行合同的、基於以太坊的智能化合約，包括但不限於後文提及的智能合約Kyber和/或智能合約0x。Jade Token集成的智能合約目前尚不提供跨鏈服務。
+								</li>
+								<li>18.<strong>WETH：</strong> 指以太幣代幣化，因為以太幣不符合自己的ERC20標準，包裝以太幣代幣化，方便以太幣直接與其他代幣交易。FRCW
+									Wallet所支持代幣與WETH的兌換比率由第三方智能合約決定。
+								</li>
+								<li>19.<strong>ETH：</strong> 指以太幣，是與以太坊區塊鏈相關的加密數字代幣，為避免疑問，其不包括“以太坊經典”。</li>
+							</ul>
+						</section>
+						<section class="terms-area">
+							<h2>三、 Jade Token服務（統稱“服務”）</h2>
+							<ul>
+								<li>1.<strong>創建和恢復身份</strong>。您可以使用Jade Token提供的“創建身份”、“恢復身份”按鍵進行身份的創建和恢復，並能在壹個身份下，同時管理多鏈錢包。</li>
+								<li>2.<strong>導入錢包</strong>。對Jade Token支持的數字代幣，您可以使用Jade Token生成新錢包或導入相關區塊鏈系統的其它錢包工具生成的兼容錢包。</li>
+								<li>3.<strong>轉賬、收款</strong>。您可以使用FRCW
+									Wallet的轉賬、收款功能進行數字代幣的管理，即運用私鑰進行電子簽名，對相關區塊鏈的賬本進行修改。轉賬是指付款方利用收款方的ENS域名或區塊鏈地址進行轉賬操作，該“轉賬”行為涉及在相關區塊鏈系統的分布式賬本中對該交易的有效記錄（而非在FRCW
+									Wallet上實際交付或轉讓數字代幣）。
+								</li>
+								<li>4.<strong>行情查看</strong>。您可以使用Jade Token查看第三方提供的數字代幣匯率價格。Jade Token通過抓取相應的數字代幣匯率信息並展示在Jade Token中的“市場”版塊。</li>
+								<li>5.<strong>管理數字代幣</strong>。您可以從Jade Token操作界面添加、保管或移除Jade Token所支持的數字代幣（ETH、BTC除外）。</li>
+								<li>6.<strong>閃兌（IEX）</strong>。用戶之間可以在第三方智能合約Kyber上發生並完成的數字代幣兌換，由Jade Token
+									作為界面工具幫助用戶和第三方智能合約交互並顯示該用戶之間兌換的相應結果。</li>
+								<li>7.<strong>幣幣兌換（DEX）</strong>。用戶可以與使用第三方智能合約0x的第三方進行數字代幣兌換，由Jade Token 作為界面工具幫助用戶和第三方智能合約交互並顯示該數字代幣兌換的相應結果。</li>
+								<li>8.<strong>瀏覽DApp</strong>。用戶通過Jade Token訪問並使用該DApp（包括本公司自己的DApp和第三方DApp）提供的服務。</li>
+								<li>9.<strong>搜索DApp</strong>。用戶通過Jade Token上的搜索框，可以對已在Jade Token 羅列的DApp進行搜索。</li>
+								<li>10.<strong>開發者模式</strong>。為方便開發者，在開發者模式下用戶可以通過搜索框鍵入URL而訪問任何其他網站和未在Jade Token集成的第三方DApp。</li>
+								<li>11.<strong>交易記錄</strong>。我們將通過區塊鏈系統拷貝您全部或部分的交易記錄。但用戶應以區塊鏈系統的最新交易記錄為準。</li>
+								<li>12.<strong>暫停服務</strong>。您知悉，基於區塊鏈系統交易“不可撤銷”的屬性，我們不能為您撤回或撤銷交易操作，但在壹定情況下，我們可以暫停或者限制某位用戶對Jade Token軟件的操作。</li>
+								<li>13.其他本公司認為有必要提供的服務。</li>
+							</ul>
+							<p><strong><span class="decoration">用戶接受本公司提供的上述服務時了解並接受</span></strong>：</p>
+							<ul>
+								<li>
+									<p>1.<strong>秉承著區塊鏈的去中心化特點，並為了保護您數字代幣安全，本公司提供的是去中心化服務，大大區別於銀行業金融機構。用戶了解並接受，本公司 <em>不承擔</em> 以下責任：</strong></p>
+									<ul>
+										<li class="deepest-list">（1）<strong>存儲用戶的錢包密碼（即用戶創建/導入錢包時設置的密碼）、私鑰、助記詞或Keystore；</strong></li>
+										<li class="deepest-list">（2）<strong>找回用戶的錢包密碼、私鑰、助記詞或Keystore；</strong></li>
+										<li class="deepest-list">（3）<strong>凍結錢包；</strong></li>
+										<li class="deepest-list">（4）<strong>掛失錢包；</strong></li>
+										<li class="deepest-list">（5）<strong>恢復錢包；或</strong></li>
+										<li class="deepest-list">（6）<strong>交易回滾。</strong></li>
+									</ul>
+								</li>
+								<li>
+									<p>2.<strong>您應當自行承擔保管含有Jade Token的移動設備、備份Jade Token、備份錢包密碼、助記詞、私鑰及Keystore的責任。如您遺失移動設備、刪除且未備份FRCW
+											Wallet、刪除且未備份錢包、錢包被盜或遺忘錢包密碼、私鑰、助記詞或Keystore，本公司均無法還原錢包或找回錢包密碼、私鑰、助記詞或Keystore；如用戶進行交易時誤操作（例如輸錯轉賬地址、輸錯兌換數額），本公司無法取消交易，且本公司亦不應對此承擔任何責任。</strong>
+									</p>
+								</li>
+								<li>
+									<p>3.<strong>本公司和Jade Token所能夠提供的數字代幣管理服務並未包括所有已存在的數字代幣，請勿通過Jade Token操作任何Jade Token不支持的數字代幣。</strong></p>
+								</li>
+								<li>
+									<p>4.<strong>Jade Token上集成的DApp包括本公司自主擁有的DApp和第三方平臺提供的DApp。對於第三方平臺提供的DApp，FRCW
+											Wallet僅為用戶進入DApp提供搜索和區塊鏈瀏覽器功能，不對第三方DApp的功能或服務質量提供任何擔保。用戶在第三方DApp上接受服務或進行交易前應自行判斷和評估該第三方DApp提供的服務或交易是否存在風險。</strong>
+									</p>
+								</li>
+								<li>
+									<p>5.<strong>Jade Token上提供的閃兌和幣幣兌換功能的實質是用戶使用第三方智能合約在區塊鏈系統上進行的數字代幣兌換。對於第三方智能合約提供的服務，FRCW
+											Wallet僅為用戶提供第三方智能合約的使用工具，不對第三方智能合約的功能或服務質量提供任何擔保。用戶在該第三方智能合約上接受服務或進行交易前應自行判斷和評估該第三方智能合約提供的服務或交易是否存在風險。用戶應仔細閱讀並同意相關智能合約的不斷更新的用戶協議</strong></p>
+								</li>
+								<li>
+									<p>6.<strong>用戶在Jade Token上使用開發者模式通過輸入URL訪問其他網站或未在FRCW
+											Wallet集成的第三方DApps的，應自行了解URL鏈接的網站和第三方DApps可能存在的安全隱患，並獨立承擔所有的風險和後果。</strong>
+									</p>
+								</li>
+							</ul>
+							<h2>四、 您的權利義務</h2>
+							<h3>（壹）創建或導入錢包</h3>
+							<ul>
+								<li>1.<strong>創建或導入錢包：</strong>
+									您有權在您的移動設備上通過Jade Token創建和/或導入錢包，有權設定錢包的錢包密碼等信息，並有權通過Jade Token應用程序，使用自己的錢包在區塊鏈上進行轉賬和收款等交易。
+								</li>
+								<li>2.<strong>身份驗證：</strong>
+									按照有關法律法規的要求，特定用戶在使用Jade Token提供的有關服務時，應當按照FRCW
+									Wallet的提示及時完成相關身份驗證，要求您提交包括但不限於您的姓名、身份證號碼、手機號碼、銀行卡號信息等個人信息。否則該特定用戶將無法使用有關服務，因特定用戶拖延造成的損失由您自行承擔。
+								</li>
+								<li>3.本公司可能為不同的終端設備開發不同的軟件版本，您應當根據實際需要選擇下載合適的版本進行安裝。<strong>如果您從未經合法授權的第三方獲取本軟件或與本軟件名稱相同的安裝程序，本公司將無法保證該軟件能否正常使用，也無法保證其安全性，因此造成的損失由您自行承擔。</strong>
+								</li>
+								<li>4.<strong>本軟件新版本發布後，舊版軟件可能無法使用。本公司不保證舊版軟件的安全性、繼續可用性及提供相應的客戶服務。請用戶隨時核對並下載最新版本。</strong></li>
+							</ul>
+							<h3>（二）使用</h3>
+							<ul>
+								<li>1.<strong>您應自行承擔妥善保管移動設備、錢包密碼、私鑰、助記詞和Keystore等信息的責任。</strong>
+									本公司不負責為用戶保管以上信息。<strong>因您遺失移動設備、主動或被動泄露、遺忘錢包密碼、私鑰、助記詞、Keystore或遭受他人攻擊、詐騙等所引起的壹切風險、責任、損失、費用應由您自行承擔</strong>。
+								</li>
+								<li>2.<strong>Jade Token信息提示。</strong> 您了解並同意遵循本公司在FRCW
+									Wallet上發布的信息提示，按照信息提示的內容進行操作，否則，由此引起的壹切風險、責任、損失、費用等應由您自行承擔。</li>
+								<li>3.<strong>您知悉並理解Jade Token沒有義務對鏈接的第三方DApp服務、第三方智能合約服務或交易履行盡職調查義務，您應當謹慎評估並承擔所有與使用Jade Token有關的風險。</strong></li>
+								<li>4.<strong>提供信息和文件。</strong>
+									如果本公司自行認為有必要獲取用戶的相關信息以遵循任何與使用或操作Jade Token相關的適用法律或法規的規定，用戶應按照本公司的要求及時向本公司提供該等信息，且用戶了解並接受，本公司可以限制、暫停或終止您使用FRCW
+									Wallet直到您提供滿足公司要求的信息。用戶承諾及時向本公司告知任何有關其依據本協議向本公司提供的文件和信息中的任何變化，且在沒有通知任何變化的書面通知的情形下，本公司有權認為由用戶提供的文件和信息的內容是真實、正確、沒有誤導信息且沒有發生改變的。
+								</li>
+								<li>5.<strong>完成身份驗證。</strong>
+									當本公司合理認為您的交易行為或交易情況出現異常的，或認為您的身份信息存在疑點的，或本公司認為應核對您身份證件或其他必要文件的情形時，請您積極配合本公司核對您的有效身份證件或其他必要文件，及時完成相關的身份驗證。
+								</li>
+								<li>6.<strong>轉賬。</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>您知悉對於Jade Token服務中您可使用的日計轉賬限額和筆數，可能因為您使用該轉賬服務時所處的國家/地區、監管要求、轉賬目的、FRCW
+												Wallet風險控制、身份驗證等事由而不同。</strong>
+										</li>
+										<li class="deepest-list">（2）<strong>您理解基於區塊鏈操作的“不可撤銷”屬性，當您使用FRCW
+												Wallet轉賬功能時，您應當自行承擔因您操作失誤而導致的後果（包括但不限於因您輸錯轉賬地址、您自身選擇轉賬節點服務器的問題）。</strong>
+										</li>
+										<li class="deepest-list">（3）<strong>您知悉在使用Jade Token服務時，以下情況的出現可能導致轉賬功能不可用、轉賬“交易失敗”或“打包超時”：</strong>
+											<ul>
+												<li class="deepest-list">a) <strong>錢包余額不足；</strong></li>
+												<li class="deepest-list">b) <strong>交易礦工費不足；</strong></li>
+												<li class="deepest-list">c) <strong>區塊鏈執行智能合約代碼失敗；</strong></li>
+												<li class="deepest-list">d) <strong>超出監管部門、Jade Token或法律法規規定的付款額度；</strong></li>
+												<li class="deepest-list">e) <strong>網絡、設備等技術故障；</strong></li>
+												<li class="deepest-list">f) <strong>區塊鏈網絡擁堵、故障等原因引起交易被拋棄；</strong></li>
+												<li class="deepest-list">g) <strong>您的地址或交易對方地址被識別為特殊地址，如高風險地址。</strong></li>
+											</ul>
+										</li>
+										<li class="deepest-list">（4）<strong>您知悉Jade Token僅向您提供轉賬工具，在您使用FRCW
+												Wallet完成轉賬後，本公司即完成了當次服務的所有義務，本公司對其他相關糾紛爭議，不承擔任何責任。</strong>
+										</li>
+									</ul>
+								</li>
+								<li>7.<strong>閃兌和幣幣兌換。</strong> 您知悉，閃兌和幣幣兌換的每日限額目前由第三方智能合約限定。本公司亦可能對用戶每日可閃兌或幣幣兌換的額度進行限制並不時調整。</li>
+								<li>8.<strong>合法合規。</strong> 您知悉在Jade Token進行操作時或利用Jade Token上的DApp、智能合約進行交易時，您應當遵循有關法律法規、國家政策的要求。</li>
+								<li>9.<strong>公告通知。</strong>
+									Jade Token會以網站公告、電子郵件、發送短信、電話、消息中心信息、彈窗提示或客戶端通知等方式向您發送通知，例如通知您交易進展情況，或者提示您進行相關操作，請您及時予以關註。
+								</li>
+								<li>10.<strong>服務費用與納稅義務：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>您使用Jade Token的閃兌和幣幣兌換服務時，第三方智能合約會向您收取手續費和/或服務費，具體費用以第三方智能合約收取數額為準，FRCW
+												Wallet信息提示僅供參考；</strong>
+										</li>
+										<li class="deepest-list">（2）本公司暫時不向您收取任何形式的服務費或手續費，將來需對某些服務進行收費時本公司將另行約定或公布規則；</li>
+										<li class="deepest-list">（3）<strong>您使用Jade Token進行轉賬時應支付“礦工費”或網絡費，金額由您自行決定，並由相關區塊鏈網絡收取；</strong></li>
+										<li class="deepest-list">（4）<strong>您知悉，在特定情況（包括但不限於您在轉賬期間為轉賬支付的“礦工費”或網絡費不足，或相關區塊鏈網絡不穩定）下，您的轉賬操作可能失敗；在該等情況下，即便您的轉賬操作未完成，您亦會被相關區塊鏈網絡收取礦工費；</strong>
+										</li>
+										<li class="deepest-list">（5）您因在Jade Token進行交易而發生的所有應納稅負及其它方面的費用均由您負責支付。</li>
+									</ul>
+								</li>
+							</ul>
+							<h2>五、 風險提示</h2>
+							<ul>
+								<li>1.<strong>您了解並知悉，由於數字代幣領域的法律法規政策尚未健全，該領域的數字代幣可能會產生無法兌現、技術不穩定等重大風險。您也了解數字代幣的價格波動幅度遠高於其他金融資產。我們謹慎提醒您應當根據自身財務狀況和風險偏好，以合理的方式選擇持有或處置任何壹種數字代幣。您也了解FRCW
+										Wallet提供的行情查看功能僅系抓取部分交易所的數字代幣匯率信息的搜索結果，並不表示為最新行情或最佳報價。</strong>
+								</li>
+								<li>2.<strong>在使用FRCW
+										Wallet服務時，若您或您的相對方未遵從本協議或相關網站說明、交易、支付頁面中之操作提示、規則，本公司並不保證交易會順利完成，且本公司不承擔損害賠償責任。若發生前述情形，而款項已先行入賬您的或您的交易方的FRCW
+										Wallet錢包或第三方錢包，您理解區塊鏈操作具有的“不可逆”屬性，以及相關交易具有“不可撤銷”的特征，由您及您的相對方自行承擔相應的風險後果。</strong>
+								</li>
+								<li>3.<strong>您理解並知悉，閃兌和幣幣兌換交易均在第三方智能合約上發生、進行並完成。Jade Token 僅作為界面工具幫助用戶和第三方智能合約交互並顯示該已完成交易的相應結果。</strong></li>
+								<li>4.<strong>在您使用FRCW
+										Wallet集成的第三方DApp、第三方智能合約服務時，本公司強烈建議您仔細閱讀該第三方DApp、第三方智能合約的用戶協議、隱私政策和其他相關的文件和信息等，了解交易對象及產品信息，謹慎評估風險後再在該第三方DApp、第三方智能合約上進行交易。您理解該交易和有約束力的合同關系在您和您的相對方之間建立，與本公司無關。本公司對因您的交易行為所引起的壹切風險、責任、損失、費用不承擔任何責任。</strong>
+								</li>
+								<li>5.<strong>當您將數字代幣轉給其他錢包地址時，您在交易過程中應當自行判斷對方是否為完全民事行為能力人並自行決定是否與對方進行交易或轉賬給對方等。</strong></li>
+								<li>6.<strong>在轉賬過程中，如果出現“交易失敗”、“打包超時”等類似的異常信息提示時，您應通過相關區塊鏈系統的官方途徑或其他的區塊鏈查詢工具進行再次確認，以避免重復轉賬；否則，由此所引起的壹切損失和費用應由您自行承擔。</strong>
+								</li>
+								<li>7.<strong>您理解當您在Jade Token上創建或導入錢包之後，您的Keystore、私鑰、助記詞等信息僅存儲在當前的這臺移動設備中，不存儲在Jade Token或本公司的服務器上。您可以按照FRCW
+										Wallet提供的操作指南采取同步錢包等方式更換移動設備。但若您未保存或備份錢包密碼、私鑰、助記詞、Keystore等信息且在您移動設備丟失的情況下，您的數字代幣將因此丟失，本公司無法為您找回。若您在導出、保存或備份錢包密碼、私鑰、助記詞、Keystore等信息的時候泄密，或保存或備份上述信息的設備或服務器被黑客攻擊或控制等情況下，您的數字代幣將因此丟失，本公司無法為您找回。因前述情形產生的任何及所有損失應由您自行承擔。</strong>
+								</li>
+								<li>8.<strong>我們建議您在創建或導入錢包時對您錢包的錢包密碼、私鑰、助記詞及Keystore等信息做好安全備份。我們提請您註意，請不要采用以下電子備份方式：截圖、郵件、手機中的記事本應用、短信、微信、QQ等電子備份方式。我們建議您在紙質記事本上抄寫助記詞和Keystore等信息，同時您亦可將電子數據保管至密碼管理器。</strong>
+								</li>
+								<li>9.<strong>我們建議您在安全的網絡環境中使用Jade Token，確保您的移動設備沒有越獄或root， 以避免可能存在的安全隱患。</strong></li>
+								<li>10.<strong>請您在使用Jade Token過程中，警惕詐騙行為。壹旦發現任何可疑行為，我們鼓勵您第壹時間告知我們。</strong></li>
+							</ul>
+						</section>
+						<section class="terms-area">
+							<h2>六、 服務的變更、中斷、終止</h2>
+							<ul>
+								<li>1.<strong>您了解並同意本公司可以自行決定暫時提供部分服務功能，或於將來暫停部分服務功能或開通新的服務功能。當我們改變服務時，只要您仍然使用FRCW
+										Wallet，表示您仍然同意本協議或者本協議修正後的條款。</strong>
+								</li>
+								<li>2.<strong>為了盡可能避免任何對Jade Token的誤操作或數字代幣的任何安全風險，您應避免在不具備區塊鏈基礎知識的前提下使用FRCW
+										Wallet。對不具備區塊鏈基礎知識的用戶，本公司有權拒絕提供部分或全部的服務功能。</strong>
+								</li>
+								<li>3.<strong>您理解存在如下情形時，本公司將暫停提供服務（或在發生如下情形時徹底終止服務）：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>因設備、區塊鏈系統維修、升級、故障和通信中斷等技術原因而中斷Jade Token的運營；</strong></li>
+										<li class="deepest-list">（2）<strong>因臺風、地震、海嘯、洪水、停電、戰爭或恐怖襲擊等不可抗力因素，電腦病毒、木馬、黑客攻擊、系統不穩定或政府行為等原因，造成本公司不能提供服務或本公司合理認為繼續提供服務會有較大風險的；</strong>
+										</li>
+										<li class="deepest-list">（3）<strong>適用法律或政策發生重大不利變化的；或</strong></li>
+										<li class="deepest-list">（4）<strong>發生本公司無法控制或合理預見的其他情形。</strong></li>
+									</ul>
+								</li>
+								<li>4.<strong>當用戶出現如下情況時，本公司可單方面中止或終止用戶使用Jade Token的部分或全部功能:</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>用戶死亡；</strong></li>
+										<li class="deepest-list">（2）<strong>盜用他人的錢包信息或移動設備；</strong></li>
+										<li class="deepest-list">（3）<strong>在Jade Token填寫虛假個人信息；</strong></li>
+										<li class="deepest-list">（4）<strong>拒絕Jade Token的強制更新操作；</strong></li>
+										<li class="deepest-list">（5）<strong>將Jade Token用於違法或犯罪活動；</strong></li>
+										<li class="deepest-list">（6）<strong>妨礙其他用戶正常使用Jade Token；</strong></li>
+										<li class="deepest-list">（7）<strong>偽稱本公司的工作人員或管理人員；</strong></li>
+										<li class="deepest-list">（8）<strong>攻擊、侵入、更改或以任何其他方式威脅本公司計算機系統的正常運作；</strong></li>
+										<li class="deepest-list">（9）<strong>利用Jade Token宣傳垃圾廣告；</strong></li>
+										<li class="deepest-list">（10） <strong>散布謠言，損害本公司和Jade Token商譽；或</strong></li>
+										<li class="deepest-list">（11） <strong>違法行為，其他違反本協議的行為，及本公司合理認為應當暫停功能的情形。</strong></li>
+									</ul>
+								</li>
+								<li>5.<strong>如果本公司變更、中斷、終止服務時，您有權在合理時間內導出您錢包等信息。</strong></li>
+							</ul>
+							<h2>七、 您的陳述與保證</h2>
+							<ul>
+								<li>1.<strong>您應遵守您所居住的國家或地區的法律法規，不得將Jade Token用於任何非法目的，也不得以任何非法方式使用Jade Token。</strong></li>
+								<li>2.<strong>您不得利用Jade Token從事任何違法或犯罪的行為，包括但不限於：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>危害您所居住的國家或地區的國家安全、泄漏國家秘密、顛覆國家政權、破壞國家統壹；</strong></li>
+										<li class="deepest-list">（2）<strong>從事任何違法犯罪行為，包括但不限於洗錢、非法集資等；</strong></li>
+										<li class="deepest-list">（3）<strong>通過使用任何自動化程序、軟件、引擎、網絡爬蟲、網頁分析工具、數據挖掘工具或類似工具等，接入本公司服務、收集或處理本公司所提供的內容，幹預或試圖幹預任何用戶；</strong>
+										</li>
+										<li class="deepest-list">（4）<strong>提供賭博資訊或以任何方式引誘他人參與賭博；</strong></li>
+										<li class="deepest-list">（5）<strong>侵入他人Jade Token錢包盜取數字代幣；</strong></li>
+										<li class="deepest-list">（6）<strong>進行與交易對方宣稱的交易內容不符的交易，或不真實的交易；</strong></li>
+										<li class="deepest-list">（7）<strong>從事任何侵害或可能侵害Jade Token服務系統、數據的行為；</strong></li>
+										<li class="deepest-list">（8）<strong>其他本公司有正當理由認為不適當的行為。</strong></li>
+									</ul>
+								</li>
+								<li>3.<strong>您理解並同意，如因您違反有關法律（包括但不限於海關及/或稅務方面的監管規定）或者本協議之規定，使本公司遭受任何損失、受到任何第三方的索賠或任何行政管理部門的處罰，您應對本公司進行賠償，包括合理的律師費用。</strong>
+								</li>
+								<li>4.<strong>您承諾按時繳納本公司的服務費用（如有），否則本公司有權暫停對您提供的服務。</strong></li>
+							</ul>
+							<h2>八、 隱私政策</h2>
+							<ul>
+								<li>1.您提供給我們的任何數據或信息亦受我們隱私政策（“<strong>《Jade Token隱私政策》</strong>”的約束，該隱私政策亦是本協議的壹部分。</li>
+							</ul>
+							<h2>九、 免責及責任限制</h2>
+							<ul>
+								<li>1.<strong>本公司僅對本協議中所列明的義務承擔責任。</strong></li>
+								<li>2.<em><span class="decoration">您理解和同意，在法律所允許的最大範圍內，本公司只能按照現有的技術水平和條件提供Jade Token服務_</span></em>。<strong>因下列任何原因導致FRCW
+										Wallet無法正常提供服務，本公司不承擔責任：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>Jade Token系統停機維護或升級；</strong></li>
+										<li class="deepest-list">（2）<strong>因臺風、地震、洪水、雷電或恐怖襲擊等不可抗力原因；</strong></li>
+										<li class="deepest-list">（3）<strong>您的移動設備軟硬件和通信線路、供電線路出現故障的；</strong></li>
+										<li class="deepest-list">（4）<strong>您操作不當或未通過本公司授權或認可的方式使用本公司服務的；</strong></li>
+										<li class="deepest-list">（5）<strong>因電腦病毒、木馬、惡意程序攻擊、網絡擁堵、系統不穩定、系統或設備故障、通訊故障、電力故障、銀行或政府行為等原因；</strong></li>
+										<li class="deepest-list">（6）<strong>非因本公司的原因而引起的任何其它原因。</strong></li>
+									</ul>
+								</li>
+								<li>3.<strong>本公司對以下任何情形均不承擔責任：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>因您遺失移動設備、刪除且未備份FRCW
+												Wallet、刪除且未備份錢包、遺忘且未備份錢包密碼、私鑰、助記詞、Keystore而導致該用戶的數字代幣丟失；</strong>
+										</li>
+										<li class="deepest-list">（2）<strong>因您自行泄露錢包密碼、私鑰、助記詞、Keystore，或借用、轉讓或授權他人使用自己的移動設備或FRCW
+												Wallet錢包，或未通過本公司官方渠道下載Jade Token應用程序或以其他不安全的方式使用Jade Token應用程序導致的您的數字代幣丟失；</strong>
+										</li>
+										<li class="deepest-list">（3）<strong>因您誤操作（包括但不限於您輸錯轉賬地址、您自身選擇轉賬節點服務器的問題）Jade Token導致的數字代幣丟失；</strong></li>
+										<li class="deepest-list">（4）<strong>因您不理解區塊鏈技術的知識而進行誤操作導致的您的數字代幣丟失；</strong></li>
+										<li class="deepest-list">（5）<strong>因系統滯後、區塊鏈系統不穩定等原因導致本公司拷貝用戶在區塊鏈上的交易記錄發生偏差；</strong></li>
+									</ul>
+								</li>
+								<li>4.<strong>每位用戶應承擔由下列情形產生或與之相關的風險和後果：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>該用戶在第三方DApp、第三方智能合約上操作的交易；</strong></li>
+										<li class="deepest-list">（2）<strong>用戶使用開發者模式；及</strong></li>
+										<li class="deepest-list">（3）<strong>用戶使用閃兌和幣幣兌換服務，該等風險和後果應由您和相關智能合約發行方承擔。</strong></li>
+									</ul>
+								</li>
+								<li>5.<strong>您理解FRCW
+										Wallet僅作為您數字代幣管理的工具。本公司不能控制第三方DApp、第三方智能合約提供的產品及服務的質量、安全或合法性，信息的真實性或準確性，以及相對方履行其在與您簽訂的協議項下的各項義務的能力。您自行決定是否在第三方DApp、第三方智能合約進行交易。您理解該交易和有約束力的合同關系在您和您的相對方之間建立，與本公司無關。本公司提醒您在使用DApp、智能合約前，應謹慎判斷第三方DApp、第三方智能合約所提供相關信息的真實性、合法性和有效性。此外，您與任何第三方交易所產生的全部風險亦應由您自行承擔。</strong>
+								</li>
+								<li>6.<strong>您知悉本公司可能同時為您及您的交易對手方提供服務或與之有關聯關系或其他利益相關的關系，您同意對本公司可能存在的該等行為予以明確豁免任何實際或潛在的利益沖突，並不得以此來主張本公司在提供服務時存在法律上的瑕疵，也不因此而加重本公司的責任或註意義務。</strong>
+								</li>
+								<li>7.<strong>本公司不提供以下形式的保證：</strong>
+									<ul>
+										<li class="deepest-list">（1）<strong>本公司提供的服務將符合您的全部需求；</strong></li>
+										<li class="deepest-list">（2）<strong>您經由本公司服務取得的任何技術、產品、服務、資訊或其他材料將符合您的期望；</strong></li>
+										<li class="deepest-list">（3）<strong>本公司從第三方交易所抓取的數字代幣市場交易行情等信息的及時性、準確性、完整性、可靠性；</strong></li>
+										<li class="deepest-list">（4）<strong>您在Jade Token上的交易對方會及時履行其在與您達成的交易協議中的各項義務。</strong></li>
+									</ul>
+								</li>
+								<li>8.<strong>在任何情況下，本公司對本協議所承擔的違約賠償責任總額不超過1）0.1個以太幣的市場價值；或2）新加坡元100元，以較高的為準。</strong></li>
+								<li>9.<strong>您理解FRCW
+										Wallet僅作為用戶管理數字代幣、顯示交易信息的工具，本公司不提供法律、稅務或投資建議等服務。您應當自行向法律、稅務、投資方面的專業人士尋求建議，且您在使用我們服務過程中所遭受的投資損失、數據損失等，本公司概不負責。</strong>
+								</li>
+								<li>10.<strong>您理解根據適用法律法規的要求，我們可能不時更改我們的用戶準入標準，限定向特定用戶等提供服務的範圍和方式等。</strong></li>
+							</ul>
+							<h2>十、 其他條款</h2>
+							<ul>
+								<li>1.<strong>不得轉讓。</strong>
+									在符合本協議條款的情況下，只有您（而非其他人）有權向我們主張與使用服務相關的索賠。您不得轉讓、交易，或試圖轉讓、交易您對該索賠的權利。任何該等轉讓行為均為無效，且我們對受讓方不承擔任何義務或責任。
+								</li>
+								<li>2.<strong>知識產權。</strong> Jade Token系本公司開發並擁有知識產權的應用程序。
+									Jade Token中顯示的任何內容（包括本協議、公告、文章、視頻、音頻、圖片、檔案、資訊、資料、商標或標識）的知識產權歸本公司或第三方權利人所有。用戶僅可為持有和管理數字代幣之目的使用FRCW
+									Wallet應用程序及其中的內容。未經本公司或第三方權利人的事先書面同意，任何人不得擅自使用、修改、反向編譯、復制、公開傳播、改變、散布、發行或公開發表上述應用程序及內容。本協議不應被視為授予您任何知識產權，包括出於任何目的使用與我們或服務相關的任何信息、圖片、用戶界面、標識、商標、商業名稱、網絡域名或版權的權利。
+								</li>
+								<li>3.<strong>非棄權。</strong> 任何我們未執行本協議或未向您主張我們在本協議項下的權利、索賠或訴因的行為均不被視為放棄我們向您主張任何權利、索賠或訴因的權利。</li>
+								<li>4.<strong>完整協議：</strong>
+									<ul>
+										<li class="deepest-list">（1）本協議由
+											<em><strong>《Jade Token服務協議》</strong></em>、<em><strong>《Jade Token隱私政策》</strong></em>
+											及本公司不時公布的各項規則（包括“幫助中心”的內容）組成。
+										</li>
+										<li class="deepest-list">（2）除了本協議中的 <em><strong>《Jade Token服務協議》</strong></em>
+											、<em><strong>《Jade Token隱私政策》</strong></em> 外，本協議包含我們之間關於使用FRCW
+											Wallet和相關服務的全部協議和諒解，並取代所有先前的（口頭的和書面的）協議、諒解或安排。
+										</li>
+									</ul>
+								</li>
+								<li>5.<strong>稅款：</strong>
+									<ul>
+										<li class="deepest-list">（1）使用本協議下的服務不含您在任何法域就您使用本服務所適用、產生、有關的稅款（<strong>“應納稅款”</strong>）。</li>
+										<li class="deepest-list">（2）您應負責確定任何應納稅款，並向合適的稅務機關申報、代扣、收集、報告和代繳正確的應納稅款。您應自行承擔因未完成或未履行您的任何與應納稅款相關的義務而產生的所有處罰、索賠、罰款、懲罰和其他責任。</li>
+										<li class="deepest-list">（3）我們不負責確定任何應納稅款，亦不負責向合適的稅務機關申報、代扣、收集、報告和代繳正確的應納稅款。</li>
+									</ul>
+								</li>
+								<li>6.<strong>法律適用和爭議解決：</strong>
+									<ul>
+										<li class="deepest-list">（1）本協議適用新加坡共和國法律，並應據此解釋。</li>
+										<li class="deepest-list">（2）因本協議引起的或與之相關的任何爭議（包括任何有關其存在、有效性、終止的問題），雙方應首先尋求和解。如果該爭議在該和解程序開始後的30天內仍未解決，雙方應將該爭議提交至新加坡國際仲裁中心（簡稱
+											<strong>“SIAC”</strong>
+											），並通過遵循新加坡國際仲裁中心屆時有效的仲裁規則（該規則被視為通過引用並入本條款），最終以仲裁的方式在新加坡予以解決。仲裁庭由壹名仲裁員組成，由SIAC主席任命。仲裁語言為英語。每壹方不可撤銷地接受新加坡法院之非專屬管轄權，以支持和協助根據本段前述內容進行的仲裁程序，包括在該程序的結果作出之前給予臨時救濟（如必要）。
+										</li>
+									</ul>
+								</li>
+								<li>7.<strong>《合同（第三方權利）法》</strong>
+									。新加坡共和國的《合同（第三方權利）法》（第53B章）（可能不時被修改、修訂或補充）應適用於本協議。非本協議壹方的人士不得擁有本協議項下的任何權利，也無權執行本協議。
+								</li>
+								<li>8.<strong>獨立性和部分無效：</strong>
+									<ul>
+										<li class="deepest-list">（1）本協議的任何部分被任何約束本協議的立法認為無效、非法或不可執行時，其僅在該範圍（且不得進壹步擴展）內被視為無效、非法或不可執行。為避免疑問，本協議的剩余部分將繼續有效並保持充分的效力。</li>
+										<li class="deepest-list">（2）根據任何司法管轄區的法律，本協議任何條款被認定為非法、無效或不可執行的情形不得影響該條款依據其他司法管轄區的法律被認定為合法、有效或可執行，亦不得影響本協議其他條款的合法性、有效性或可執行性。</li>
+									</ul>
+								</li>
+								<li>9.<strong>本協議譯本</strong>。本協議的任何譯本（如有）僅為方便用戶而提供，無意對本協議的英文版本進行修改。如果本協議的英文版本與非英文版本之間存在沖突，應以英文版本為準。</li>
+							</ul>
+							<h2>十壹、 其它</h2>
+							<ul>
+								<li>1.您應當全面了解並遵守您所在司法轄區與使用服務所有相關法律、法規及規則。</li>
+								<li>2.您在使用服務過程中，如遇到任何問題，您可以通過在Jade Token提交反饋等方式聯系我們。</li>
+								<li>3.所有的用戶可以在Jade Token中查看本協議。 本公司鼓勵您在每次訪問Jade Token時都查閱本協議。</li>
+								<li>4.<strong>本協議自2018年5月22日起生效。</strong></li>
+							</ul>
+						</section>
+						<p class="center last"><strong>本協議未盡事宜，您需遵守本公司不時更新的公告及相關規則。</strong></p>
+						<p class="right"><strong>Jade Token PTE. LTD.</strong></p>
+						<p class="right"><strong></strong></p>
+
+
+
+						<section class="wrapper">
+							<h1 id="privacy-policy">Jade Token隱私政策</h1>
+							<p class="mb"><strong>最近更新於：2018年5月22日</strong></p>
+							<p class="mb"><strong>尊敬的用戶：</strong></p>
+							<p><strong>Jade Token PTE,
+									LTD.（以下簡稱“本公司”或“我們”）尊重並保護用戶（以下簡稱“您”或“用戶”）的隱私，當您進行以下行為時，本公司按照本隱私政策（以下簡稱“本政策”）收集、披露和處理您的個人信息：</strong></p>
+							<ul>
+								<li class="mb"><strong>(a)進入或使用我們的網站或移動應用（“應用”）及服務；和/或</strong></li>
+								<li class="mb"><strong>(b)向我們提供您的個人信息，無論通過何種媒介提供。</strong></li>
+							</ul>
+							<p class="mb"><strong>本公司建議您在使用應用之前仔細閱讀並理解本政策全部內容,
+									針對免責聲明等條款在內的重要信息將以加粗的形式體現。本政策有關關鍵詞定義與本公司《Jade Token服務協議》保持壹致。如果本政策中使用的定義或術語與《Jade Token服務協議》中的不壹致，以本政策為準。</strong></p>
+							<p class="mb">
+								<strong>您向我們提供您的個人信息，即代表您同意我們根據本政策的規定收集、使用、披露（包括傳輸）和處理您的個人信息。如您不接受本政策，<em><span class="decoration">請勿</span></em>
+									向我們提供任何個人信息。</strong></p>
+							<p class="mb">
+								<strong>本政策可由本公司在線隨時更新，不另行通知。更新後的政策壹經公布在我們的應用上即為生效，並代替原來的政策。修改後的政策將立刻適用於您向我們提供的個人信息。如果您不接受修改後的條款，請立即停止使用應用，您繼續使用應用將被視為接受修改後的政策。</strong>
+							</p>
+							<section class="terms-area">
+								<h2>壹、我們收集您的哪些信息</h2>
+								<ul>
+									<li>1.我們將收集您的移動設備信息、操作記錄、交易記錄、錢包地址等個人信息。</li>
+									<li>2.為滿足您的特定服務需求，我們將收集您的個人信息，包括但不限於您的姓名、銀行卡號、手機號碼、郵件地址等信息。</li>
+									<li>3.<strong>您知悉：您在應用上的錢包密碼、私鑰、助記詞、Keystore並不存儲或同步至本公司服務器。本公司不提供找回您的錢包密碼、私鑰、助記詞、Keystore的服務。</strong></li>
+									<li>4.我們可能要求向您收集更多的個人信息，以使得您可以使用應用上的某些特定功能。如您不同意提供該等個人信息，則視為您放棄使用應用的特定功能。</li>
+									<li>5.<strong>在法律法規允許的範圍內，本公司可能會在以下情形中收集並使用您的個人信息，且無需征得您的授權同意：</strong>
+										<ul>
+											<li><strong class="deepest-list">（1）與國家安全、國防安全有關的；</strong></li>
+											<li><strong class="deepest-list">（2）與公共安全、公共衛生、重大公共利益有關的；</strong></li>
+											<li><strong class="deepest-list">（3）與犯罪偵查、起訴、審判和判決執行等有關的；</strong></li>
+											<li><strong class="deepest-list">（4）所收集的個人信息處於公共領域；</strong></li>
+											<li><strong class="deepest-list">（5）從合法公開披露的信息中收集您的個人信息，如合法的新聞報道，政府信息公開等渠道；</strong></li>
+											<li><strong class="deepest-list">（6）用於維護服務的安全和合規所必需的，例如發現、處理產品和服務的故障；</strong></li>
+											<li><strong class="deepest-list">（7）法律法規允許的其他情形。</strong></li>
+										</ul>
+									</li>
+									<li>6.我們收集信息的方式如下：
+										<ul>
+											<li class="deepest-list">（1）當您主動向我們提供信息，無論以何種理由；</li>
+											<li class="deepest-list">（2）當您授權我們向第三方獲取您的信息；</li>
+											<li class="deepest-list">（3）您使用我們的應用和服務；</li>
+											<li class="deepest-list">（4）當您通過各種交流渠道與我們的員工聯系或互動，例如通過社交平臺、通訊平臺、當面會議、電話、郵件、傳真和書信等；</li>
+											<li class="deepest-list">（5）當您與我們發生交易、與我們聯系或要求我們聯系您；</li>
+											<li class="deepest-list">（6）當您要求訂閱我們的郵件；和/或</li>
+											<li class="deepest-list">（7）我們通過區塊鏈系統，拷貝您全部或部分的交易記錄。但您的交易記錄應當以區塊鏈系統的記載為準。</li>
+										</ul>
+									</li>
+									<li>7.我們的應用可能包含壹些收集個人信息的技術，具體的收集方式將在本政策（見下文第五條）或適用的條款和條件中說明。</li>
+									<li>8.您向我們提供個人信息系您的主動行為，您可以隨時撤回同意。但是，如您選擇拒絕向我們提供我們要求的個人信息，您可能無法使用應用，我們可能無法與您聯系或向您提供您需要的產品或服務。</li>
+									<li>9.在某些情況下，您可能向我們提供非您本人的個人信息。如您提供他人信息，您應當保證您已獲得該等信息主體的同意，允許我們收集該信息主體的個人信息，並且信息主體同意您向我們披露其個人信息。您同意，如該等信息主體就我們根據本政策條款收集、使用和披露其個人信息向我們提出索賠，您將向我們進行賠償並使我們免責。</li>
+									<li>10.您應確保您向我們提供的個人信息真實、準確和完整。在您的個人信息發生變化時，您應當通知我們。</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>二、我們如何使用您的信息</h2>
+								<ul>
+									<li>1.我們將出於以下壹個或多個目的收集、使用或披露您的個人信息：
+										<ul>
+											<li class="deepest-list">（1）向您提供您要求的產品和/或服務；</li>
+											<li class="deepest-list">（2）處理您與我們的關系；</li>
+											<li class="deepest-list">（3）促進您的使用體驗；</li>
+											<li class="deepest-list">（4）通過您移動設備的唯壹序列號，確認您與您的錢包的對應關系；</li>
+											<li class="deepest-list">（5）向您及時發送重要通知，如軟件更新、服務協議及本政策條款的變更；</li>
+											<li class="deepest-list">（6）通過錢包地址和提供的移動設備信息，協助您處理您的提問、反饋、投訴和要求；</li>
+											<li class="deepest-list">（7）告知您我們的產品、服務、項目和活動；</li>
+											<li class="deepest-list">（8）解決爭議、調查任何投訴、索賠或爭議、或任何實際或可以的非法行為；</li>
+											<li class="deepest-list">（9）進行本公司內部審計、數據分析和研究；</li>
+											<li class="deepest-list">（10）通過跟蹤用戶對應用的使用情況進行用戶行為分析；</li>
+											<li class="deepest-list">（11）遵守法律法規規定及與監管機構的要求；</li>
+											<li class="deepest-list">（12）遵守國際法律法規對於安全以及反洗錢或反恐的要求；</li>
+											<li class="deepest-list">（13）履行我們的義務以及合同條款條件；和/或</li>
+											<li class="deepest-list">（14）任何與前述目的有關的合理目的。</li>
+										</ul>
+									</li>
+									<li>2.如您同意，我們將為其他目的不時使用您的個人信息，例如告知您我們的戰略合作夥伴或關聯方推出的最新的活動、優惠和推廣信息。</li>
+									<li>3.我們在Jade Token的“系統設置”中為您提供“指紋登錄”選項，讓您方便且更安全地管理您的數字代幣。</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>三、您如何控制自己的信息</h2>
+								<p>您在應用中擁有以下對您個人信息自主控制權：</p>
+								<ul>
+									<li>1.您可以通過同步錢包的方式，將您的其他錢包導入應用中，或者將您在應用的錢包導入到其他數字代幣管理錢包中。應用將向您顯示導入錢包的信息。</li>
+									<li>2.您知悉您可以通過“資產”版塊內容修改您的數字代幣種類、進行轉賬及收款等活動。</li>
+									<li>3.您知悉在應用“我”的版塊您可以自由選擇進行如下操作：
+										<ul>
+											<li class="deepest-list">（1）在“使用設置”中，您可以選擇不開啟“指紋登錄”選項，即您可以選擇不使用蘋果公司提供的Touch ID驗證服務；</li>
+											<li class="deepest-list">（2）在“提交反饋”中，您可以隨時向我們提出您對應用問題及改進建議，我們將非常樂意與您溝通並積極改進我們的服務。</li>
+										</ul>
+									</li>
+									<li>4.您知悉，您及我們對於您交易記錄是否公開並沒有控制權，因為基於區塊鏈交易系統的開源屬性，您的交易記錄在整個區塊鏈系統中公開透明。</li>
+									<li>5.我們的應用將包含鏈接，可鏈接至非由我們所有、運營、開發或維護的其他網站、應用或智能合約。這些鏈接系為您方便而提供。本政策僅適用於我們的應用。當您訪問該等第三方網站或使用第三方應用或智能合約時，您知悉，我們的《FRCW
+										Wallet服務協議》、《Jade Token隱私政策》將不再適用。我們建議您詳細閱讀並了解其隱私規則和有關用戶服務協議等內容。</li>
+									<li>6.您有權要求我們更新、更改、刪除您的個人信息和/或撤回您給予我們的同意。如果您希望撤回您曾給予我們的同意，或如您希望更新、更改、刪除或訪問我們持有的個人信息，或您不接受我們對於本政策的修改，您可以聯系：</li>
+								</ul>
+								<ul>
+									<li>7.為使您管理由我們持有的個人信息，或使您獲得有關我們在您提出該等請求前壹年內的時間使用（或可能使用）您的個人信息的方式，我們可能向您收取壹定的費用。如果我們向您收費，我們將提前告知您收費金額，並在您付費之後滿足您的請求。我們將盡力在您提出請求後的三十（30）日內答復您。如果我們無法在三十（30）日內答復，我們將告知您具體的答復時間。</li>
+									<li>8.在許多情況下，我們需要獲得您的個人信息，以使得我們可以向您提供您要求的產品或服務。如您選擇拒絕向我們提供我們要求的個人信息或撤回曾給予我們的同意，我們可能無法繼續向您提供您要求的產品和服務。</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>四、我們可能分享或傳輸您的信息</h2>
+								<ul>
+									<li>1.我們將為業務和法律的目的存儲您的個人信息。</li>
+									<li>2.未經過您的同意，我們不會向第三方出售、交易或轉讓您的個人信息。</li>
+									<li>3.如果您同意我們向戰略合作方或關聯方披露您的個人信息，我們可能將您的個人信息披露給該等實體。該等實體將僅為您已同意的目的使用您的個人信息。</li>
+									<li>4.您同意，我們可能向以下第三方披露或共享您的個人信息：
+										<ul>
+											<li class="deepest-list">（1）代表我們並向我們提供服務的服務提供商和數據處理方，例如為我們進行KYC檢查、會計、數據處理或管理服務、網站托管、維護及運營服務、郵件信息服務、分析服務、支付交易處理、市場營銷等；和</li>
+											<li class="deepest-list">（2）我們的咨詢師和專業顧問（例如會計師、律師、審計師）。</li>
+										</ul>
+									</li>
+									<li>5.如果為了上述的目的，我們需要將您的個人信息傳輸至任何其他國家，我們將獲得您的同意，並且確保個人信息的接收方具備和我們同等級的個人信息保護措施。如果該等國家或地區尚無可適用於我們與您之間關系的個人信息保護法律，我們將與個人信息接收方簽訂可合法執行的協議。</li>
+									<li>6.<strong>未經您事先同意，本公司不會將您的個人信息向任何第三方共享或轉讓，但以下情況除外：</strong>
+										<ul>
+											<li class="deepest-list"><strong>（1）所收集的個人信息是您自行向社會公眾公開的；</strong></li>
+											<li class="deepest-list"><strong>（2）所收集的個人信息系從合法公開披露的信息中收集，如合法的新聞報道，政府信息公開等渠道；</strong></li>
+											<li class="deepest-list"><strong>（3）根據適用的法律法規、法律程序的要求、行政機關或司法機關的要求進行提供或執行本政策以保護我們或其他方的權利、財產或安全；</strong></li>
+											<li class="deepest-list"><strong>（4）在涉及合並、收購時，如涉及到個人信息轉讓，本公司將要求個人信息接收方繼續接受本政策的約束。</strong></li>
+										</ul>
+									</li>
+								</ul>
+							</section>
+							<section class="terms-area" id="automatic-data-collection">
+								<h2>五、自動數據收集技術</h2>
+								<ul>
+									<li>1.我們在應用中使用自動數據收集技術。例如：
+										<ul>
+											<li class="deepest-list">（1）Cookies（或瀏覽器cookies）。Cookies是網站或應用運營方設置的小型文本文件，以識別您的瀏覽器或設備。我們可能在我們的應用上使用cookies技術存儲並跟蹤信息，例如用戶數量及使用頻率、用戶分布以及用戶的線上偏好。cookies不抓取能夠識別您身份的信息，但其收集的信息可協助我們對應用的使用情況進行分析，以提高您的使用體驗。您可以在瀏覽器設置中關閉cookies。但是，這可能影響應用的功能。</li>
+											<li class="deepest-list">（2）網絡分析。網絡分析是收集、評估網頁和移動應用訪問者行為的壹種方法。這包括對流量模式進行分析，例如確定網站或移動應用某部分功能的訪問頻率，或用以了解訪問者最感興趣的信息或服務。我們的應用使用的是第三方工具提供的網絡分析服務。</li>
+										</ul>
+									</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>六、我們如何保護您的信息</h2>
+								<ul>
+									<li>1.如本公司停止運營，本公司將停止繼續收集您個人信息的活動，並采取措施對所持有的您的個人信息在合理期限內進行刪除或匿名化處理。</li>
+									<li>2.為了保護您的個人信息，本公司將采取數據安全技術措施，提升內部合規水平，增加內部員工信息安全培訓，並對相關數據設置安全訪問權限等方式安全保護您的隱私信息。</li>
+									<li>3.我們將在Jade Token“消息中心”中向您發送有關信息安全的消息，並不時在Jade Token“幫助中心”版塊更新錢包使用及信息保護的資料，供您參考。</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>七、對未成年人的保護</h2>
+								<p>我們對保護未滿18周歲的未成年人做出如下特別約定：</p>
+								<ul>
+									<li>1.未成年人應當在父母或監護人指導下使用本公司相關服務。</li>
+									<li>2.我們建議未成年人的父母和監護人應當在閱讀本政策、《Jade Token服務協議》及我們的其他有關規則的前提下，指導未成年人使用應用。</li>
+									<li>3.本應用將根據適用的法律法規的規定保護未成年人的個人信息的保密性及安全性。</li>
+								</ul>
+							</section>
+							<section class="terms-area strong">
+								<h2>八、免責聲明</h2>
+								<ul>
+									<li>1.您確認，您接入第三方網頁、應用或智能合約之後，本政策將不再適用於該等第三方對您個人信息的收集、使用、披露和傳輸行為。本公司無法保證該等第三方網站、應用或智能合約會采取合理的安全保護措施。</li>
+									<li>2.您將自行對使用該等第三方網站、應用和/或智能合約的行為承擔責任，並且您同意，如第三方網站、應用或智能合約收集、使用、披露和傳輸您個人信息，導致您受到損失或損害的，您不得要求本公司承擔責任。</li>
+									<li>3.<em><span class="decoration">
+												您確認並接受，在適用的法律允許的最大限度下，本公司將在現有技術水平條件下，基於“根據現狀”、“根據可用”、“不保證無瑕疵”的原則，盡可能采取合理的安全措施保護您的個人信息，以避免信息的泄露、篡改或者毀損。本公司系利用無線方式傳輸數據，因此，本公司無法確保通過無線網絡傳輸數據的隱私性和安全性。</span></em>
+									</li>
+								</ul>
+							</section>
+							<section class="terms-area">
+								<h2>九、其他</h2>
+								<ul>
+									<li>1.您需全面了解並遵守您所在司法轄區與使用本公司服務所有相關法律、法規及規則。</li>
+									<li>2.本政策及其修訂版之效力、解釋、變更、執行與爭議解決均適用新加坡法律，如無相關法律規定，則應當適用國際商業慣例和（或）行業慣例。若您和本公司之間就本政策發生任何糾紛或爭議，首先應友好協商解決，協商不成的，任何壹方可提交新加坡有管轄權的法院管轄。</li>
+									<li>3.您可以在我們的應用中查看本政策及本公司其他服務規則。<strong>我們鼓勵您在每次訪問應用時都查閱本公司的服務協議及隱私政策。</strong></li>
+									<li>4.本政策的任何譯文版本僅為方便用戶而提供，無意對本政策的條款進行修改。如果本政策的英文版本與非英文版本之間存在沖突，應以英文版本為準。</li>
+									<li><strong>5.本政策自2019年12月18日起適用。</strong></li>
+								</ul>
+							</section>
+							<p class="list center"><strong>本政策未盡事宜，您需遵守本公司不時更新的公告及相關規則。</strong></p>
+						</section>',
+						
+						
+						
+	
+						
+	'Language_number_1325' => '已閱讀完Jade Token用戶協議並同意',
+	'Language_number_1326' => '下壹步',
+	'Language_number_1327' => '請閱讀並同意協議',
+	'Language_number_1328' => '取消',
+	'Language_number_1329' => '请阅读协议,并同意该协议',
+	
+	
+	
+	
+	
+	'Language_number_1330' => '注册账号',
+	'Language_number_1331' => '请输入手机号码',
+	'Language_number_1332' => '请输入验证码',
+	'Language_number_1333' => '请输入验证码',
+	'Language_number_1334' => '发送验证码',
+	'Language_number_1335' => '输入交易密码',
+	'Language_number_1336' => '密码格式为6位数字，不允许有字母、空格和符号',
+	'Language_number_1337' => '下一步',
+	'Language_number_1338' => '点击下载APP',
+	'Language_number_1339' => '密码格式为6位数，不允許有字母、空格和符号',
+	'Language_number_1340' => '请填写手机号码',
+	'Language_number_1341' => '手机格式不对',
+	'Language_number_1342' => '请填写验证码',
+	'Language_number_1343' => '请填写手机号',
+	'Language_number_1344' => '手机格式不正确',
+	'Language_number_1345' => '请填写验证码',
+	'Language_number_1346' => '请填写交易密码',
+	'Language_number_1347' => '请填写6位数交易密码',
+	'Language_number_1348' => '请填写6位数交易密码',
+	'Language_number_1349' => '再次获取',
+	
+	
+	
+	
+	
+	'Language_number_1350' => '天',
+	'Language_number_1351' => '小时',
+	'Language_number_1352' => '分',
+	'Language_number_1353' => '秒',
+	'Language_number_1354' => '天',
+	'Language_number_1355' => '小时',
+	'Language_number_1356' => '分',
+	'Language_number_1357' => '秒',
+	'Language_number_1358' => '小时',
+	'Language_number_1359' => '分',
+	'Language_number_1360' => '秒',
+	'Language_number_1361' => '分',
+	'Language_number_1362' => '秒',
+	
+	
+	
+	
+	
+	
+	
+	'Language_number_1363' => '兑换',
+	'Language_number_1364' => '余额',
+	'Language_number_1365' => 'FRCW余额',
+	'Language_number_1366' => '推广期免手续费',
+	'Language_number_1367' => '最小兑换',
+	'Language_number_1368' => '输入',
+	'Language_number_1369' => '数量',
+	
+	'Language_number_1370' => '兑换FRCW数量',
+	'Language_number_1371' => '输入交易密码',
+	'Language_number_1372' => '兑换',
+	'Language_number_1373' => '请输入',
+	'Language_number_1374' => '数量',
+	'Language_number_1375' => 'FRCW最少兑换100',
+	'Language_number_1376' => '请输入交易密码',
+	
+	
+	
+	
+	
+	'Language_number_1377' => '转入',
+	'Language_number_1378' => '地址',
+	'Language_number_1379' => '点击复制地址',
+	
+	'Language_number_1380' => '充币数量：',
+	'Language_number_1381' => '充币备注：',
+	'Language_number_1382' => '我的钱包地址',
+	'Language_number_1383' => '确定',
+	'Language_number_1384' => '温馨提示：',
+	'Language_number_1385' => '1、请确认以上地址种类，如充值其他币种，将无法找回。',
+	'Language_number_1386' => '2、请在充币提交后2个小时内将币转入指定的账号，恶意操作将会冻结账号。',
+	'Language_number_1387' => '3、正常情况两个小时内会冲入个人账号，若因区块链网络拥堵，则会延迟到账。',
+	'Language_number_1388' => '复制成功！',
+	
+	
+	
+	
+	'Language_number_1389' => '转出',
+	'Language_number_1390' => '收款人钱包地址',
+	'Language_number_1391' => '转出数量',
+	'Language_number_1392' => '可用余额：',
+	'Language_number_1393' => '矿工费',
+	'Language_number_1394' => '输入交易密码',
+	'Language_number_1395' => '提交',
+	'Language_number_1396' => '请输入钱包地址',
+	'Language_number_1397' => '请输入转出数量',
+	'Language_number_1398' => '请输入交易密码',
+	
+	
+	
+	'Language_number_1399' => '选择币种',
+	'Language_number_1400' => '暂未开放',
+	'Language_number_1401' => '暂未开放',
+	'Language_number_1402' => '暂未开放',
+	
+	
+	
+	
+	
+	
+	'Language_number_1403' => '钱包余额',
+	'Language_number_1404' => '资金记录',
+	'Language_number_1405' => '成功',
+	'Language_number_1406' => '成功',
+	'Language_number_1407' => '转出',
+	'Language_number_1408' => '兑换',
+	'Language_number_1409' => '转入',
+	
+	
+	
+	'Language_number_1410' => '我的收益',
+	'Language_number_1411' => '总收益',
+	'Language_number_1412' => 'JPD实时价格',
+	'Language_number_1413' => '今日收益',
+	'Language_number_1414' => '伙伴价值',
+	'Language_number_1415' => '普通会员',
+	'Language_number_1416' => '用戶',
+	'Language_number_1417' => '收益记录',
+	'Language_number_1418' => '兑换',
+	
+	
+	
+	
+	
+	'Language_number_1419' => '兑换',
+	'Language_number_1420' => 'ETH余额',
+	'Language_number_1421' => 'JPD余额',
+	'Language_number_1422' => '推广期免手续费',
+	'Language_number_1423' => '最小兑换',
+	'Language_number_1424' => '输入FRCW数量',
+	'Language_number_1425' => '兑换ETH数量',
+	'Language_number_1426' => '输入交易密码',
+	'Language_number_1427' => '兑换',
+	'Language_number_1428' => '请输入FRCW数量',
+	'Language_number_1429' => 'FRCW最少兑换100',
+	'Language_number_1430' => '请输入交易密码',
+	
+	
+	
+	'Language_number_1431' => 'indexvc1',
+	'Language_number_1432' => '实名认证后才可操作！',
+	'Language_number_1433' => '复制保存私钥',
+	'Language_number_1434' => '关闭',
+	'Language_number_1435' => '注册成功',
+	'Language_number_1436' => '私钥',
+	'Language_number_1437' => '账号',
+	'Language_number_1438' => '离线保存',
+	'Language_number_1439' => '请复制黏贴密钥到安全、离线的地方保存。切勿保存至邮箱、记事本、网盘、聊天工具等，非常危险',
+	
+	
+	
+	'Language_number_1440' => '设置收币地址',
+	
+	
+	'Language_number_1441' => '请先设置收币地址',
+	
+	'Language_number_1442' => '转出历史地址',
+	'Language_number_1443' => '无更多数据！',
+	'Language_number_1444' => '手续费：',
+	'Language_number_1445' => '需支付（含手续费）：',
+	'Language_number_1446' => '矿工费:',
+	'Language_number_1447' => 'EOS Memo 标签',
+	'Language_number_1448' => 'EOS Memo 标签',
+	
+	
+	'Language_number_1449' => '填写转入的数量',
+	'Language_number_1450' => '非必填',
+	'Language_number_1451' => '填写转币的地址(必填)',
+	'Language_number_1452' => '填写EOS Memo 标签(必填)',
+	'Language_number_1453' => '请先设置收币地址',
+	'Language_number_1454' => '请先设置收币地址',
+	'Language_number_1455' => '请先设置收币地址',
+	'Language_number_1456' => '请先设置收币地址',
+	'Language_number_1457' => '请先设置收币地址',
+	'Language_number_1458' => '请先设置收币地址',
+	'Language_number_1459' => '请先设置收币地址',
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+];

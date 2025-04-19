@@ -1,0 +1,24 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('announcement')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>系统消息</h1>
+				</div>
+				<div class="shellInfo">
+					<div class="title">
+						<h2>{$data.title_ch}</h2>
+						<p class="time">{$data.pub_time}</p>
+						<p>{$data.content_ch|htmlspecialchars_decode}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

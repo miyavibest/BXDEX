@@ -1,0 +1,34 @@
+	{include file="public/header"}
+	<body class="wallet feed">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('feedbackList')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1250}</h1>
+				</div>
+				<div class="view-header">
+					<h4 class="feedtitle">{$Think.lang.Language_number_1251}</h4>
+					<ul>
+						<li class="feedlist">
+							<div>
+								<img src="{$data.thumb}" alt="">
+							</div>
+							<div>
+								<p class="text">{$data.content}</p>
+							</div>
+						</li>
+					</ul>
+					<h4 class="feedtitle">{$Think.lang.Language_number_1252}</h4>
+					<div class="reply">
+						<p>{$data.suggest|htmlspecialchars_decode}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

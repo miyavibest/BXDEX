@@ -1,0 +1,45 @@
+	{include file="public/header"}
+	<body class="wallet bitinfo">
+		<div id="app">
+			<div>
+				<div class="header">
+					<a href="{:url('openamount/index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1227}</h1>
+				</div>
+				<div class="bit">
+					<ul>
+					{volist name="list" id="vo"}
+						<li class="flex-box bit_list">
+							<div class="flex-list bittype"><span><img src="__INDEX__/images/{$vo['logo']}" alt=""></span> <span>
+									<p style="text-transform: uppercase;">{$vo['coin']}</p>
+								</span></div>
+							<div class="flex-list bittime">
+								<p style="text-transform: uppercase;">{if condition="$vo['inout'] eq 'in'"}{$Think.lang.Language_number_1228}{else/} {$Think.lang.Language_number_1229}{/if}{$vo['num']}{$vo['coin']}</p>
+								<p>{:date("Y-m-d H:i:s",$vo['add_time'])}</p>
+							</div>
+						</li>
+					{/volist}
+					{volist name="listp" id="vo"}
+						<li class="flex-box bit_list">
+							<div class="flex-list bittype"><span><img src="__INDEX__/images/{$vo['logo']}" alt=""></span> <span>
+									<p style="text-transform: uppercase;">{$vo['coin']}</p>
+								</span></div>
+							<div class="flex-list bittime">
+								<p style="text-transform: uppercase;">{if condition="$vo['type'] eq '1'"}量化转入{else/}量化转出{/if}审核中{$vo['sjnum']}{$vo['coin']}</p>
+								<p>{:date("Y-m-d H:i:s",$vo['time'])}</p>
+							</div>
+						</li>
+					{/volist}
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

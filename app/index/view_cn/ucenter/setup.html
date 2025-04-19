@@ -1,0 +1,40 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="earnings">
+					<div class="header headerw">
+						<a href="{:url('my/index')}" class="icon-left">
+							<img src="__INDEX__/images/left.png" alt="">
+						</a>
+						<h1>系统设置</h1>
+					</div>
+				</div>
+				<div class="set_box"></div>
+				<div class="set_box">
+					<div class="set_box">
+						<div class="set_list list_x username"><span>用戶账户</span> <span>86{$phone}</span></div>
+						<div class="set_list list_x"><a href="{:url('lang')}" class=""><span>语言</span>
+								<span class="lan">简体中文</span> <i class="icon"></i></a></div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="exit"><button type="button">退出</button></div>
+		</div>
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$('button').click(function(){
+				$.get('{:url("logout")}', {type:'logout'}, function(res){
+					if (res.code == 1) {
+						location.href = res.url;
+					}
+				});
+			});
+		</script>
+
+
+	</body>
+</html>

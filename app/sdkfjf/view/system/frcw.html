@@ -1,0 +1,86 @@
+{include file="common/head"/}
+<style type="text/css">
+    .layui-timeline-item{
+        padding-bottom: 5px;
+        margin-left: 20px;
+    }
+</style>
+<div class="layui-fluid"><div class="layui-card">
+<div class="layui-card-body">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>FRCW价格</legend>
+    </fieldset>
+    <ul class="layui-timeline">
+        {volist name="$list" id="vo"}
+        <li class="layui-timeline-item">
+            <i class="layui-icon layui-timeline-axis"></i>
+            <div class="layui-timeline-content layui-text">
+                <h5 class="layui-timeline-title">
+                日期: {$vo.pub_time|date='Y-m-d',###}
+                &nbsp;&nbsp;&nbsp;&nbsp;价格: {$vo.price|sprintf4}
+                </h5>
+            </div>
+        </li>
+        {/volist}
+    </ul>  
+
+    <form class="layui-form layui-form-pane" method="post" action="" enctype="multipart/form-data">
+        <div class="layui-form-item">
+            <label class="layui-form-label">价格(单位$)</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="number" name="price" class="layui-input" value="" lay-verify="required">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">日&nbsp;&nbsp;&nbsp;&nbsp;期</label>
+            <div class="layui-input-inline" style="width:400px;">
+                <input type="text" name="pub_time" lay-verify="required" class="layui-input" id="date1" placeholder="yyyy-MM-dd">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-input-inline" style="width:400px;">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">{:lang('submit')}</button>
+            </div>
+        </div>
+    </form>
+</div>
+{include file="common/foot"/}
+
+
+<script>
+layui.use(['form','laydate','upload'], function() {
+    var form  = layui.form,
+        $     = layui.$,
+        laydate = layui.laydate,
+        layer = layui.layer,
+        upload = layui.upload;
+
+    //年选择器
+    laydate.render({
+        elem: '#date1'
+        //,type: 'datetime'
+        //,format: 'yyyy-MM-dd HH:mm'
+    });
+
+    //监听提交
+    form.on('submit(submit)', function(data) {
+        var loading = layer.load(1, { shade: [0.1, '#fff'] });
+        $.post("{:url('frcw')}", data.field, function(res) {
+            layer.close(loading);
+            if (res.code > 0) {
+                layer.msg(res.msg, { time: 1800, icon: 1 }, function() {
+                    location.href = res.url;
+                });
+            } else {
+                layer.msg(res.msg, { time: 1800, icon: 2 });
+            }
+        });
+    });
+
+
+
+});
+</script>
+</body>
+</html>

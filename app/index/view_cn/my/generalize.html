@@ -1,0 +1,12 @@
+	{include file="public/header"}
+	<body class="wallet bgW">
+		<div id="app" style="background:url('/static/index/images/qcodebg.jpg');background-size: 100% 100%;">
+			<div style="top: 51%;width: 50%;left: 25%;position: absolute;">
+				<img alt="Scan me!" style="display: block;width: 100%;" src="http://qr.liantu.com/api.php?text={$url}">
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

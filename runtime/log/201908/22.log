@@ -1,0 +1,2858 @@
+---------------------------------------------------------------
+[ 2019-08-22T17:25:06+08:00 ] 101.89.239.238 GET frcw1.52codes.cn/sdkfjf
+[运行时间：0.115988s] [吞吐率：8.62req/s] [内存消耗：2,397.33kb] [文件加载：44]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:06+08:00 ] 101.89.239.238 GET frcw1.52codes.cn/sdkfjf/login/index.html
+[运行时间：0.031395s] [吞吐率：31.85req/s] [内存消耗：2,337.95kb] [文件加载：42]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'referer' => '',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'cookie' => 'PHPSESSID=i82hstvbest59n42v21ktjo6u0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:06+08:00 ] 101.89.239.238 GET frcw1.52codes.cn/sdkfjf/login/createverify.html
+[运行时间：0.032721s] [吞吐率：30.56req/s] [内存消耗：2,325.88kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H143 Safari/600.1.4',
+  'accept' => '*/*',
+  'cookie' => 'PHPSESSID=i82hstvbest59n42v21ktjo6u0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en,*',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:31+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf
+[运行时间：0.024735s] [吞吐率：40.43req/s] [内存消耗：2,429.51kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:31+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/login/index.html
+[运行时间：0.022152s] [吞吐率：45.14req/s] [内存消耗：2,370.03kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:32+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/login/createverify.html
+[运行时间：0.026694s] [吞吐率：37.46req/s] [内存消耗：2,357.88kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:39+08:00 ] 114.96.33.132 POST frcw1.52codes.cn/sdkfjf/login/index.html
+[运行时间：0.057671s] [吞吐率：17.34req/s] [内存消耗：3,941.74kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '43',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'mkwe',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_admin` [ RunTime:0.002771s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:41+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/index/index.html
+[运行时间：0.058702s] [吞吐率：17.04req/s] [内存消耗：3,698.70kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_auth_rule` [ RunTime:0.002703s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_auth_rule` WHERE  (  menustatus=1 ) ORDER BY `sort` [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:41+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/index/main.html
+[运行时间：0.044698s] [吞吐率：22.37req/s] [内存消耗：2,617.00kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->main[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:44+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/infolist/czlb.html
+[运行时间：0.031068s] [吞吐率：32.19req/s] [内存消耗：2,636.83kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'czlb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->czlb[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/czlb.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:44+08:00 ] 114.96.33.132 POST frcw1.52codes.cn/sdkfjf/infolist/czlb.html
+[运行时间：0.038885s] [吞吐率：25.72req/s] [内存消耗：3,767.42kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'czlb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/czlb.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->czlb[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000356s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.002359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_record` WHERE  `phone` LIKE '%%' LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `phone` LIKE '%%' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:45+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/infolist/congbi.html
+[运行时间：0.025302s] [吞吐率：39.52req/s] [内存消耗：2,637.51kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/congbi.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:45+08:00 ] 114.96.33.132 POST frcw1.52codes.cn/sdkfjf/infolist/congbi.html
+[运行时间：0.037817s] [吞吐率：26.44req/s] [内存消耗：3,760.57kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/congbi.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.004255s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_user_tibi` WHERE  `type` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `order_sn`,`member_phone`,`number`,`updatetime`,`status`,`address`,`eosmemo`,`id`,`coin` FROM `clt_user_tibi` WHERE  `type` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:45+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/infolist/index.html
+[运行时间：0.028319s] [吞吐率：35.31req/s] [内存消耗：2,636.70kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:46+08:00 ] 114.96.33.132 POST frcw1.52codes.cn/sdkfjf/infolist/index.html
+[运行时间：0.036955s] [吞吐率：27.06req/s] [内存消耗：3,758.25kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_record` WHERE  `type` LIKE '转入' OR `type` LIKE '转出' LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `phone`,`coin`,`num`,`id`,`type`,`inout`,`add_time` FROM `clt_coin_record` WHERE  `type` LIKE '转入' OR `type` LIKE '转出' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:25:47+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/infolist/tibi.html
+[运行时间：0.024150s] [吞吐率：41.41req/s] [内存消耗：2,637.73kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'tibi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->tibi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/tibi.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:25:47+08:00 ] 114.96.33.132 POST frcw1.52codes.cn/sdkfjf/infolist/tibi.html
+[运行时间：0.053283s] [吞吐率：18.77req/s] [内存消耗：3,820.40kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'tibi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/tibi.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->tibi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000425s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_user_tibi` WHERE  `type` = 2 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `order_sn`,`member_phone`,`number`,`number2`,`updatetime`,`status`,`address`,`id`,`coin` FROM `clt_user_tibi` WHERE  `type` = 2 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.005520s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.002251s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_coininfo` [ RunTime:0.002103s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 8  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_transfer_token` [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transfer_token` WHERE  `oid` = 3  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 8  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transfer_token` WHERE  `oid` = 1  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000205s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:26:46+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf
+[运行时间：0.022628s] [吞吐率：44.19req/s] [内存消耗：2,429.16kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:26:46+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/login/index.html
+[运行时间：0.024128s] [吞吐率：41.45req/s] [内存消耗：2,370.09kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/login/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:26:48+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/login/createverify.html
+[运行时间：0.028559s] [吞吐率：35.02req/s] [内存消耗：2,358.09kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:13+08:00 ] 115.60.87.79 POST frcw1.52codes.cn/sdkfjf/login/index.html
+[运行时间：0.045134s] [吞吐率：22.16req/s] [内存消耗：3,941.95kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'content-length' => '43',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => 'bkwb',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Login->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_admin` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:16+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/index/index.html
+[运行时间：0.025434s] [吞吐率：39.32req/s] [内存消耗：2,596.46kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:16+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/index/main.html
+[运行时间：0.025629s] [吞吐率：39.02req/s] [内存消耗：2,616.79kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->main[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002470s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000194s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:33+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/index.html
+[运行时间：0.032819s] [吞吐率：30.47req/s] [内存消耗：3,535.46kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:33+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/index.html
+[运行时间：0.055611s] [吞吐率：17.98req/s] [内存消耗：3,711.83kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/index.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005819s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' LIMIT 1 [ RunTime:0.003236s ]
+[ sql ] [ SQL ] SELECT `m`.*,`n`.`frcw`,`n`.`usdt`,`n`.`doge`,`n`.`ltc`,`n`.`btc`,`n`.`eth`,`n`.`eos`,`n`.`bchsv`,`m`.`parent_id` FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' ORDER BY `m`.`id` DESC LIMIT 0,20 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000187s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:34+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/index2.html
+[运行时间：0.033321s] [吞吐率：30.01req/s] [内存消耗：3,535.53kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/index2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:34+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/index2.html
+[运行时间：0.052127s] [吞吐率：19.18req/s] [内存消耗：3,741.70kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/index2.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT `m`.*,`n`.`frcw`,`n`.`usdt`,`n`.`doge`,`n`.`ltc`,`n`.`btc`,`n`.`eth`,`n`.`eos`,`n`.`bchsv`,`m`.`parent_id`,`m`.`id` FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' ORDER BY `m`.`id` DESC LIMIT 0,20 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_opencoin` [ RunTime:0.002326s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 20 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 19 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 18 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 17 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 16 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 15 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 14 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 13 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 12 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 11 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 10 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 9 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 8 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 6 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 5 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 4 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 3 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:35+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/pinfosign1.html
+[运行时间：0.030438s] [吞吐率：32.85req/s] [内存消耗：3,535.14kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign1[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/pinfosign1.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:35+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/pinfosign1.html
+[运行时间：0.035272s] [吞吐率：28.35req/s] [内存消耗：3,685.77kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/pinfosign1.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign1[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_pinfosign` [ RunTime:0.002420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 1 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`name`,`idcard`,`img1`,`img2`,`img3`,`state`,`time` FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 1 ORDER BY `time` ASC LIMIT 0,20 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:36+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/pinfosign2.html
+[运行时间：0.033941s] [吞吐率：29.46req/s] [内存消耗：3,535.14kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/pinfosign2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:36+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/pinfosign2.html
+[运行时间：0.037056s] [吞吐率：26.99req/s] [内存消耗：3,686.86kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/pinfosign2.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_pinfosign` [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 2 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`name`,`idcard`,`img1`,`img2`,`img3`,`state`,`time` FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 2 ORDER BY `time` ASC LIMIT 0,20 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:36+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/pinfosign3.html
+[运行时间：0.031465s] [吞吐率：31.78req/s] [内存消耗：3,535.14kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign3[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/pinfosign3.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:36+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/pinfosign3.html
+[运行时间：0.036037s] [吞吐率：27.75req/s] [内存消耗：3,688.48kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'pinfosign3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/pinfosign3.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->pinfosign3[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_pinfosign` [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 3 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`name`,`idcard`,`img1`,`img2`,`img3`,`state`,`time` FROM `clt_pinfosign` WHERE  `username` LIKE '%%'  AND `state` = 3 ORDER BY `time` ASC LIMIT 0,20 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:38+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/infolist/tibi.html
+[运行时间：0.028538s] [吞吐率：35.04req/s] [内存消耗：2,638.05kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'tibi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->tibi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/tibi.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:38+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/infolist/tibi.html
+[运行时间：0.040728s] [吞吐率：24.55req/s] [内存消耗：3,820.88kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'tibi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/tibi.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->tibi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_user_tibi` WHERE  `type` = 2 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `order_sn`,`member_phone`,`number`,`number2`,`updatetime`,`status`,`address`,`id`,`coin` FROM `clt_user_tibi` WHERE  `type` = 2 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_coininfo` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 8  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_transfer_token` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transfer_token` WHERE  `oid` = 3  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 8  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transfer_token` WHERE  `oid` = 1  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:40+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/infolist/congbip.html
+[运行时间：0.025247s] [吞吐率：39.61req/s] [内存消耗：2,637.88kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbip',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbip[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/congbip.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:40+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/infolist/congbip.html
+[运行时间：0.066329s] [吞吐率：15.08req/s] [内存消耗：3,851.48kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbip',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/congbip.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbip[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000817s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_tijiao` [ RunTime:0.002629s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_tijiao` LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_tijiao` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'usdt' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '17358880002' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '17358880002' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_coininfo` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 17  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_out_transactioncallback` [ RunTime:0.001986s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transactioncallback` WHERE  `oid` = 12  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '17358880002' LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 17  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transactioncallback` WHERE  `oid` = 11  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'usdt' LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'ltc' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15710029343' LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15826153608' LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'eth' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_coininfo` WHERE  `member_id` = 8  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_out_transactioncallback` WHERE  `oid` = 6  AND `coin` = 'eth' LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'btc' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'usdt' LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '13264242088' LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'ltc' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'usdt' LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15710029343' LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `address`,`address1`,`address2`,`address3`,`address4`,`address5`,`address6`,`address7`,`address8`,`address9`,`address10`,`eosmemo1`,`eosmemo2`,`eosmemo3`,`eosmemo4`,`eosmemo5`,`eosmemo6`,`eosmemo7`,`eosmemo8`,`eosmemo9`,`eosmemo10`,`name` FROM `clt_coin_name` WHERE  `name` = 'ltc' LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15710029343' LIMIT 1 [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:41+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/infolist/czlb.html
+[运行时间：0.022665s] [吞吐率：44.12req/s] [内存消耗：2,637.08kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'czlb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->czlb[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/czlb.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:41+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/infolist/czlb.html
+[运行时间：0.033840s] [吞吐率：29.55req/s] [内存消耗：3,767.98kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'czlb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/czlb.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->czlb[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000420s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_record` WHERE  `phone` LIKE '%%' LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `phone` LIKE '%%' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:47+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/infolist/congbi.html
+[运行时间：0.025137s] [吞吐率：39.78req/s] [内存消耗：2,637.68kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/congbi.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:47+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/infolist/congbi.html
+[运行时间：0.033570s] [吞吐率：29.79req/s] [内存消耗：3,761.06kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'congbi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/congbi.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->congbi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_user_tibi` WHERE  `type` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT `order_sn`,`member_phone`,`number`,`updatetime`,`status`,`address`,`eosmemo`,`id`,`coin` FROM `clt_user_tibi` WHERE  `type` = 1 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:48+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/infolist/index.html
+[运行时间：0.025161s] [吞吐率：39.74req/s] [内存消耗：2,637.00kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/infolist/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:27:49+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/infolist/index.html
+[运行时间：0.043395s] [吞吐率：23.04req/s] [内存消耗：3,758.80kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'infolist',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/infolist/index.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Infolist->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Infolist.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_record` WHERE  `type` LIKE '转入' OR `type` LIKE '转出' LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `phone`,`coin`,`num`,`id`,`type`,`inout`,`add_time` FROM `clt_coin_record` WHERE  `type` LIKE '转入' OR `type` LIKE '转出' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:58+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/config/index.html
+[运行时间：0.043012s] [吞吐率：23.25req/s] [内存消耗：3,523.66kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Config->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/config/index.html [ array (
+  0 => 'cset1',
+  1 => 'cset4',
+  2 => 'cset5',
+  3 => 'cset6',
+  4 => 'cset7',
+  5 => 'cset11',
+  6 => 'cset12',
+  7 => 'cset13',
+  8 => 'cset14',
+  9 => 'cset15',
+  10 => 'cset16',
+  11 => 'cset17',
+  12 => 'cset18',
+  13 => 'cset21',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_config2` [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT `set1` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT `set4` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `set5` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `set6` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `set7` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `set11` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `set12` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `set13` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `set14` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `set15` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `set16` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT `set17` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `set18` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `set21` FROM `clt_config2` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:27:58+08:00 ] 115.60.87.79 POST frcw1.52codes.cn/sdkfjf/config/index.html
+[运行时间：0.034853s] [吞吐率：28.69req/s] [内存消耗：3,567.41kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'config',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/config/index.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Config->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Config.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_admin_config` [ RunTime:0.002433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_admin_config` LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT `name`,`title`,`value`,`id`,`status`,`update_time` FROM `clt_admin_config` ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:28:22+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/mingxi.html?id=20
+[运行时间：0.037696s] [吞吐率：26.53req/s] [内存消耗：3,727.38kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'mingxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->mingxi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/mingxi.html [ array (
+  0 => 'uid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:28:22+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/mingxi.html?id=20
+[运行时间：0.034660s] [吞吐率：28.85req/s] [内存消耗：3,697.47kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'mingxi',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/mingxi.html?id=20',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'id' => '20',
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->mingxi[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000383s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_record` WHERE  `phone` = '17702342529' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT `phone`,`coin`,`num`,`type`,`inout`,`add_time`,`id` FROM `clt_coin_record` WHERE  `phone` = '17702342529' ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:29:00+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/myteam.html?id=20
+[运行时间：0.036513s] [吞吐率：27.39req/s] [内存消耗：3,749.26kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'myteam',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/index2.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->myteam[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/myteam.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.002155s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `parent_id` = 20 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:29:09+08:00 ] 219.155.10.15 GET frcw1.52codes.cn/sdkfjf/ucenter/index2.html
+[运行时间：0.032082s] [吞吐率：31.17req/s] [内存消耗：3,535.53kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/ucenter/index2.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:29:09+08:00 ] 219.155.10.15 POST frcw1.52codes.cn/sdkfjf/ucenter/index2.html
+[运行时间：0.053442s] [吞吐率：18.71req/s] [内存消耗：3,741.70kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'ucenter',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/ucenter/index2.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\sdkfjf\controller\Ucenter->index2[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Ucenter.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT `m`.*,`n`.`frcw`,`n`.`usdt`,`n`.`doge`,`n`.`ltc`,`n`.`btc`,`n`.`eth`,`n`.`eos`,`n`.`bchsv`,`m`.`parent_id`,`m`.`id` FROM clt_member m LEFT JOIN `clt_coin` `n` ON `n`.`member_id`=`m`.`id` WHERE  `m`.`phone` LIKE '%%' ORDER BY `m`.`id` DESC LIMIT 0,20 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_opencoin` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 20 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 19 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 18 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 17 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 16 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 15 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 14 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 13 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 12 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 11 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 10 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 9 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 8 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 7 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 6 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 5 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 4 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `coin_name`,`money` FROM `clt_user_opencoin` WHERE  `member_id` = 3 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`phone` FROM `clt_member` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000177s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:32:48+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/auth/adminlist.html
+[运行时间：0.038816s] [吞吐率：25.76req/s] [内存消耗：2,502.89kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'auth',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Auth->adminList[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Auth.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/auth/admin_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:32:48+08:00 ] 115.60.87.79 POST frcw1.52codes.cn/sdkfjf/auth/adminlist.html
+[运行时间：0.034295s] [吞吐率：29.16req/s] [内存消耗：3,466.05kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'auth',
+    2 => 'adminlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/auth/adminlist.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Auth->adminList[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Auth.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_admin` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `a`.*,`ag`.`title` FROM `clt_admin` `a` LEFT JOIN `clt_auth_group` `ag` ON `a`.`group_id`=`ag`.`group_id` [ RunTime:0.001768s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:32:54+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/usdt.html
+[运行时间：0.036221s] [吞吐率：27.61req/s] [内存消耗：3,531.37kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'usdt',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->usdt[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/usdt.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000415s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.002412s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 12 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:33:00+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/usdth.html
+[运行时间：0.036552s] [吞吐率：27.36req/s] [内存消耗：3,523.67kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'usdth',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->usdth[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/usdth.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdth` [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_usdth` ORDER BY `pub_time` DESC LIMIT 12 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:33:02+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/usdtl.html
+[运行时间：0.041533s] [吞吐率：24.08req/s] [内存消耗：3,523.67kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'usdtl',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->usdtl[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/usdtl.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdtl` [ RunTime:0.007353s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_usdtl` ORDER BY `pub_time` DESC LIMIT 12 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:33:10+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/frcw.html
+[运行时间：0.033866s] [吞吐率：29.53req/s] [内存消耗：3,534.30kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'frcw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->frcw[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/frcw.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000364s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.002522s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 12 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:33:21+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/fee.html
+[运行时间：0.024129s] [吞吐率：41.44req/s] [内存消耗：2,477.88kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'fee',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->fee[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/fee.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:33:21+08:00 ] 115.60.87.79 POST frcw1.52codes.cn/sdkfjf/system/fee.html
+[运行时间：0.030965s] [吞吐率：32.29req/s] [内存消耗：3,636.84kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'fee',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/system/fee.html',
+  'content-length' => '15',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '20',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->fee[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_coin_name` WHERE  `open` > 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` > 1 ORDER BY `id` ASC LIMIT 0,20 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:33:40+08:00 ] 115.60.87.79 GET frcw1.52codes.cn/sdkfjf/system/editfee.html?id=3
+[运行时间：0.033959s] [吞吐率：29.45req/s] [内存消耗：3,559.56kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'system',
+    2 => 'editfee',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'cookie' => 'PHPSESSID=mvjschrkppsvvknre9ldclpfk4',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/system/fee.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\System->editFee[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/system/edit_fee.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000485s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2019-08-22T17:36:59+08:00 ] 223.167.152.70 GET frcw1.52codes.cn/sdkfjf
+[运行时间：0.024069s] [吞吐率：41.55req/s] [内存消耗：2,428.30kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T17:42:04+08:00 ] 101.91.60.109 GET frcw1.52codes.cn/sdkfjf
+[运行时间：0.021664s] [吞吐率：46.16req/s] [内存消耗：2,428.09kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-22T19:34:19+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/index/index.html
+[运行时间：0.041811s] [吞吐率：23.92req/s] [内存消耗：3,699.16kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/login/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/index.html [ array (
+  0 => 'menus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000483s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_auth_rule` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_auth_rule` WHERE  (  menustatus=1 ) ORDER BY `sort` [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2019-08-22T19:34:19+08:00 ] 114.96.33.132 GET frcw1.52codes.cn/sdkfjf/index/main.html
+[运行时间：0.024553s] [吞吐率：40.73req/s] [内存消耗：2,617.00kb] [文件加载：48]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sdkfjf',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://frcw1.52codes.cn/sdkfjf/index/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=7645n9b4f55odgjrpqe3abqad0',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\sdkfjf\controller\Index->main[ /www/wwwroot/frcw1.52codes.cn/app/sdkfjf/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/sdkfjf/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000199s ]

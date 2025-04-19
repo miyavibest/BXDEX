@@ -1,0 +1,50 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw"><a href="Setup.html" class="icon-left"><img src="__INDEX__/images/left.png"
+						 alt=""></a>
+					<h1>{$Think.lang.Language_number_1256}</h1>
+				</div>
+				<div>
+					<ul class="lan">
+						<li class="flex-box">
+							<div class="flex-list left" onclick="langen()">English</div>
+							<div class="flex-list right">
+							{if condition=" ($_SESSION['langtemsetv'] eq 'en-us') "}
+							<img src="__INDEX__/images/dui.png" alt="">
+							{/if}
+							
+							</div>
+						</li>
+						<li class="flex-box">
+							<div class="flex-list left" onclick="langcn()">简体中文</div>
+							<div class="flex-list right">
+							{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+							<img src="__INDEX__/images/dui.png" alt="">
+							{/if}
+							
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px");
+			
+			
+			
+			function langcn() {
+				$.post('{:url("/index/index/langcn")}', {}, function(res){
+					location.reload();
+				});
+			}
+			function langen() {
+				$.post('{:url("/index/index/langen")}', {}, function(res){
+					location.reload();
+				});
+			}
+		</script>
+	</body>
+</html>

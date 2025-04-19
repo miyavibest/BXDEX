@@ -1,0 +1,37 @@
+	{include file="public/header"}
+	<body class="wallet">
+		<div class="about">
+			<div class="header headerw">
+				<a href="{:url('my/index')}" class="icon-left">
+					<img src="__INDEX__/images/left.png" alt="">
+				</a>
+				<h1>关于我们</h1>
+			</div>
+			<div class="aboutlogo"><img src="__INDEX__/images/aboutlogo.png" alt=""></div>
+			<div>
+				<ul class="about_list">
+					<a href="{:url('agreement')}" class="">
+						<li class="flex-box">
+							<div class="flex-list left">使用协议</div>
+							<div class="flex-list"><i class="icon"></i></div>
+						</li>
+					</a>
+					<a href="{:url('server')}" class="">
+						<li class="flex-box">
+							<div class="flex-list left">服务协议</div>
+							<div class="flex-list"><i class="icon"></i></div>
+						</li>
+					</a>
+					<li class="flex-box">
+						<div class="flex-list left">版本</div>
+						<div class="flex-list right" style="color: rgb(201, 200, 205);">1.0.1</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

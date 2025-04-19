@@ -1,0 +1,35 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="header headerw">
+					<a href="{:url('feedback')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1253}</h1>
+				</div>
+				<div class="view-header">
+					<ul>
+						{volist name="$data" id="vo"}
+						<a href="{:url('feedbackInfo', ['id'=>$vo.id])}" class="">
+							<li class="feedlist">
+								<div>
+									<img {notempty name="$vo.thumb"} src="{$vo.thumb}" {else} src="__INDEX__/images/pic.png" {/notempty}  alt="">
+								</div>
+								<div>
+									<p style="font-size:12px;text-indent: 2em;">{$vo.content}</p>
+									<p class="stutas stutasby"> {eq name="$vo.status" value="0"} {$Think.lang.Language_number_1254} {else} {$Think.lang.Language_number_1255} {/eq}</p>
+									<p class="time">{$vo.pub_time|date='Y-m-d H:i',###}</p>
+								</div>
+							</li>
+						</a>
+						{/volist}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

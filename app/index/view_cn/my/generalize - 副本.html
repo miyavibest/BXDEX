@@ -1,0 +1,31 @@
+	{include file="public/header"}
+	<body class="wallet bgW">
+		<div id="app">
+			<div class="generalize">
+				<div class="header">
+					<a href="{:url('index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>邀请好友</h1>
+				</div>
+				<div class="content">
+					<div class="recode">
+						<div class="logo"><img src="__INDEX__/images/landlogo.png" alt=""></div>
+						<div class="recode_img">
+							<div id="qrcode" title="Scan me!">
+								<img alt="Scan me!" style="display: block;" width="180px" height="180px" src="http://qr.liantu.com/api.php?text={$url}">
+							</div>
+							<h5>手机扫一扫，邀请好友</h5>
+							<h5>数字资产，您的安全管家</h5>
+						</div>
+						<div></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

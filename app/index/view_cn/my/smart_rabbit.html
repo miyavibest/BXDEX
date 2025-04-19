@@ -1,0 +1,145 @@
+	{include file="public/header"}
+	<link rel="stylesheet" href="__STATIC__/src/css/dialog.css" />
+	<body class="wallet">
+		<div id="app" class="smart">
+			<div>
+				<div class="header">
+					<a href="{:url('index')}" class="icon-left">
+						<img src="__INDEX__/images/left.png" alt="">
+					</a>
+					<h1>量化交易</h1> 
+					<a href="{:url('bitinfo')}" class="icon-right">
+						<img src="__INDEX__/images/jl.png" alt="">
+					</a>
+				</div>
+				<div class="bit">
+					<ul>
+						{volist name="$lists" id="vo"}
+						<li class="flex-box bit_list">
+							<div class="flex-list bittype">
+								<span><img src="__INDEX__/images/{$vo.logo}" alt=""></span> 
+								<span style="font-size:12px;">{$vo.name|strtoupper}</span>
+							</div>
+							<div class="flex-list">
+								<span class="off bitok">
+								{eq name="$vo.open" value="1"}已开放{else}未开放{/eq}
+								</span>
+							</div>
+							<div class="flex-list"><span attr-id="{$vo.id}" class="btnokbtm">开放</span></div>
+							<div class="flex-list"><span class="btnnoup">转出</span></div>
+						</li>
+						{/volist}
+					</ul>
+				</div>
+				<div class="openview" style="display: none;">
+					<div class="setview">
+						<div>
+							<div class="openview_info">
+								<h4>开启量化钱包</h4>
+								<p>已开放DOGE 0</p>
+								<p>余额DOGE 0</p>
+							</div>
+						</div>
+						<div><input name="number" value="" placeholder="输入开放数量" type="text"></div>
+						<div><input name="bypass1" value="" placeholder="输入交易密码" type="password"></div>
+						<div><button type="button" attr-id="" id="btn1">确定</button></div>
+						<div class="hidebtn"><img src="__INDEX__/images/close.png"
+							 alt=""></div>
+					</div>
+				</div>
+				<div class="openview" style="display: none;">
+					<div class="setview locksetview">
+						<div>
+							<div class="openview_info">
+								<h4>输入转出数量</h4>
+								<p>可转DOGE 0</p>
+							</div>
+						</div>
+						<div><input name="" value="" placeholder="输入转出数量" type="text"></div>
+						<div><input name="" value="" placeholder="输入交易密码" type="password"></div>
+						<div><button type="button" id="btn2">确定</button></div>
+						<div class="hidebtn"><img src="__INDEX__/images/close.png"
+							 alt=""></div>
+					</div>
+				</div>
+				<!-- 只有DOGE转出有这个提示 -->
+				<div class="openview" style="display: none;">
+					<div>
+						<div class="confirmview">
+							<h4>提示</h4>
+							<p>启动量化交易不满30天解,锁手续费5%</p>
+							<div><button type="button">解锁</button> <button type="button">取消</button></div>
+						</div>
+					</div>
+				</div>
+				 
+				
+			</div>
+		</div>
+		<script src="__STATIC__/src/lib/zepto.min.js"></script>
+	    <script src="__STATIC__/src/js/dialog.js"></script>
+		<script>
+			$('#btn1').click(function(){
+				// $(".openview").hide();
+				// $(".openview").eq(1).show();
+				var number = $("input[name=number]").val();
+				if (number == "") {
+		            checkMsg('请输入开启数量');
+		            return false;
+		        }
+		        var bypass = $("input[name=bypass1]").val();
+				if (bypass == "") {
+		            checkMsg('请输入交易密码');
+		            return false;
+		        }
+		        var coinid = $(this).attr('attr-id');
+		        $.post('{:url("openmoney")}', {number:number,bypass:bypass,coinid:coinid}, function(res){
+		        	if (res.code == 1) {
+		        		$(document).dialog({
+		        			type : 'toast',
+					        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+					        infoText: res.msg,
+					        autoClose: 1000,
+					        onClosed: function(){
+				    			location.href = res.url;
+					        },
+					    });
+		        	} else {
+		        		checkMsg(res.msg);
+		        	}
+		        });
+			});
+
+
+
+
+			$(".btnokbtm").click(function(){
+				$(".openview").eq(0).show();
+				var id = $(this).attr('attr-id');
+				$('#btn1').attr('attr-id', id);
+
+			})
+			$(".btnnoup").click(function(){
+				$(".openview").eq(1).show()
+			})
+
+			$(".confirmview button").eq(1).click(function(){
+				$(".openview").hide()
+			})
+			$(".hidebtn").click(function(){
+				$(".openview").hide()
+			})
+
+			function checkMsg(msg) {
+		      	$(document).dialog({
+			        type : 'toast',
+			        infoIcon: '__STATIC__/src/images/icon/loading.gif',
+			        infoText: msg,
+			        autoClose: 1500
+			    });
+		    }
+			
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+		</script>
+	</body>
+</html>

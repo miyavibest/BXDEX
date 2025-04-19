@@ -1,0 +1,41 @@
+	{include file="public/header"}
+	<body class="wallet">
+		<div id="app">
+			<div class="partner">
+				<div class="header">
+					<a href="{:url('index')}" class="icon-left">
+						<img src="__INDEX__/images/left1.png" alt="">
+					</a>
+					<h1>{$Think.lang.Language_number_1179}</h1>
+				</div>
+				<div>
+					<ul id="phone"></ul>
+					<ul style="display: none;"></ul>
+					<ul id="phone">
+					<a href="{:url('partnerp')}"><li class="userparlist"  style=" display:flex;"><img src="__INDEX__/images/logopp.jpg" style="height:36px"><label style="display: block;height: 36px;line-height: 36px;">我的伙伴</label><span style="display: block;height: 36px;line-height: 36px;">></span></li></a>
+					<li class="userparlist"  style=" display:flex;"><img src="__INDEX__/images/logopp.jpg" style="height:36px"><label style="display: block;height: 36px;line-height: 36px;">团队实名人数</label><span style="display: block;height: 36px;line-height: 36px;">{$datap.smnum}</span></li>
+					<li class="userparlist"  style=" display:flex;"><img src="__INDEX__/images/logopp.jpg" style="height:36px"><label style="display: block;height: 36px;line-height: 36px;">分享量化总额</label><span style="display: block;height: 36px;line-height: 36px;">{$datap.lianghuazonge1} $</span></li>
+					<li class="userparlist"  style=" display:flex;"><img src="__INDEX__/images/logopp.jpg" style="height:36px"><label style="display: block;height: 36px;line-height: 36px;">团队量化总额</label><span style="display: block;height: 36px;line-height: 36px;">{$datap.zonge} $</span></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		</div>
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$(function(){
+				$.get('{:url("partner")}', {'id':'id'}, function(res){
+						html = '';
+						$.each(res.data, function(k, v){
+							html += '<li class="userparlist">';
+							html +=	'<p>'+v.phone+'</p>';
+							html +=	'<p class="openno">'+v.open+'</p>';
+							html += '</li>';
+						});
+						$('#phone').html(html);
+					});
+			})
+		</script>
+	</body>
+</html>

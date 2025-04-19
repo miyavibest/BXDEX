@@ -1,0 +1,216 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"/www/wwwroot/frcw.52codes.cn/public/../app/sdkfjf/view/ucenter/myteam.html";i:1550920306;s:61:"/www/wwwroot/frcw.52codes.cn/app/sdkfjf/view/common/head.html";i:1546849872;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><?php echo config('sys_name'); ?>后台管理</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="/static/common/layuiadmin/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="/static/common/layuiadmin/style/admin.css" media="all">
+
+    <script>
+    /^http(s*):\/\//.test(location.href) || alert('请先部署到 localhost 下再访问');
+    </script>
+</head>
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>团队</title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<script src="/static/admin/a1/rem.js"></script> 
+		<script type="text/javascript" src="/static/admin/a1/jquery.min.js" ></script>
+		<link rel="stylesheet" type="text/css" href="/static/admin/a1/base.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/admin/a1/page.css"/>
+
+	</head>
+	<style>
+	.liebiao .content .list {
+		padding: 1% 0;
+	}
+	</style>
+	
+	<body>
+		<div class="clearfloat main">
+			<a href="javascript:history.go(-1)" class="layui-btn">返回上一页</a>
+			<div class="liebiao clearfloat">
+				<div class="content clearfloat" style="width: auto;padding-left: 30px;">
+					<?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): if( count($data)==0 ) : echo "" ;else: foreach($data as $keyv=>$datai): ?>
+					<div class="list clearfloat fl ztdiv zt-tree">
+						
+						<div class="you clearfloat fl" data-username="<?php echo $datai['phone']; ?>" style="margin-left: 0;">
+							<div class="shang clearfloat">
+								<div class="left clearfloat fl">
+									<p class="tit" style="font-size: 18px;">+ <?php echo $datai['phone']; ?></p>
+									
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<?php endforeach; endif; else: echo "" ;endif; ?>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		
+		<script type="text/javascript">
+			$(function() {
+				$('.circle').each(function(index, el) {
+					var num = $(this).find('span').text() * 3.6;
+					if(num <= 180) {
+						$(this).find('.right').css('transform', "rotate(" + num + "deg)");
+					} else {
+						$(this).find('.right').css('transform', "rotate(180deg)");
+						$(this).find('.left').css('transform', "rotate(" + (num - 180) + "deg)");
+					}
+				});
+
+			});
+			
+			function ztM(){
+				$(".ztdiv").fadeToggle();
+			}
+			
+			function tdM(){
+				$(".tddiv").fadeToggle();
+			}
+
+            $('.zt-tree').on('click', '.fla', function () {
+                var $this = $(this);
+                var username = $this.data('username');
+                if (!$this.hasClass('active')) {
+                    $.ajax({
+                        url: '/admin/ucenter/myteamdo.html?id='+username,
+                        type: 'POST',
+                        data: {
+                            username: username
+                        },
+                        success: function (res) {
+                            var data = JSON.parse(res);
+                            console.log(data);
+                            if (data.length === 0){ alert("已无下级");return false;}
+                            var html = '';
+                            for (var i = 0; i < data.length; i++) {
+                                html += '<li><div class="fla" data-username="' + data[i].phone + '"><span class="ic open"></span><span class="ftext">' + "+ "+data[i].phone + '</span></div>';
+                                html += '</li>';
+                            }
+                            $this.after('<ul class="ful">' + html + '</ul>');
+                            $this.next().show();
+                            $this.addClass('active');
+                        },
+                        error: function () {
+                            alert('网络发生错误');
+                        }
+                    });
+                }
+                if ($(this).next().is(':hidden')) {
+                    $(this).children('.open').removeClass('open').addClass('close');
+                    $(this).next().show();
+                } else {
+                    $(this).children('.close').removeClass('close').addClass('open');
+                    $(this).next().hide();
+                }
+            }).on('click', '.you', function () {
+                var $this = $(this);
+                var username = $(this).data('username');
+                $.ajax({
+                    url: '/admin/ucenter/myteamdo.html?id='+username,
+                    type: 'POST',
+                    data: {
+                        username: username
+                    },
+                    success: function (res) {
+                        $this.next('.foder').remove();
+                        var data = JSON.parse(res);
+                        console.log(data);
+                        if (data.length === 0){ alert("已无下级");return false;}
+                        var html = '';
+                        for (var i = 0; i < data.length; i++) {
+                            html += '<li><div class="fla" data-username="' + data[i].phone + '"><span class="ic open"></span><span class="ftext">' + "+ "+data[i].phone + '</span></div>';
+                            html += '</li>';
+                        }
+                        $this.parent().append('<div class="foder"><ul class="ful">' + html + '</ul></div>');
+                        /*var zNodes = [
+                            {id:'1',pid:'0',name:"A"},
+                            {id:'11',pid:'1',name:"A1"},
+                            {id:'12',pid:'1',name:"A2"},
+                            {id:'13',pid:'1',name:"A3"},
+                            {id:'2',pid:'0',name:"234234234"},
+                            {id:21,pid:2,name:"B1"},
+                            {id:22,pid:2,name:"B2"},
+                            {id:23,pid:2,name:"B3"},
+                            {id:3,pid:0,name:"234234234"},
+                            {id:31,pid:3,name:"C1"},
+                            {id:32,pid:3,name:"C2"},
+                            {id:33,pid:3,name:"C3"},
+                            {id:34,pid:31,name:"x"},
+                            {id:35,pid:31,name:"y"},
+                            {id:36,pid:31,name:"z"},
+                            {id:37,pid:36,name:"z1123"},
+                            {id:38,pid:37,name:"z123123123"},
+                            {id:4,pid:0,name:"234432"}
+                        ];
+                        console.log(data);
+                        console.log(zNodes);
+                        var html = new TreeMenu(zNodes).init(0);
+                        $this.parent().append('<div class="foder">' + html + '</div>').find('li').each(function () {
+                            if ($(this).children('ul').length === 0) {
+                                $(this).children('.fla').find('.ic').addClass('over').removeClass('open');
+                            }
+                        });*/
+                    },
+                    error: function () {
+                        alert('网络发生错误');
+                    }
+                });
+            });
+
+            /*function TreeMenu(a) {
+                this.tree = a || [];
+                this.groups = {};
+            }
+
+            TreeMenu.prototype = {
+                init: function (pid) {
+                    this.group();
+                    return this.getDom(this.groups[pid]);
+                },
+                group: function () {
+                    for (var i = 0; i < this.tree.length; i++) {
+                        if (this.groups[this.tree[i].pid]) {
+                            this.groups[this.tree[i].pid].push(this.tree[i]);
+                        } else {
+                            this.groups[this.tree[i].pid] = [];
+                            this.groups[this.tree[i].pid].push(this.tree[i]);
+                        }
+                    }
+                },
+                getDom: function (a) {
+                    if (!a) {
+                        return '';
+                    }
+                    var html = '<ul class="ful">';
+                    for (var i = 0; i < a.length; i++) {
+                        html += '<li><div class="fla"><span class="ic open"></span><span class="ftext">' + a[i].name + '</span></div>';
+                        html += this.getDom(this.groups[a[i].id]);
+                        html += '</li>';
+                    }
+                    html += '</ul>';
+                    return html;
+                }
+            };*/
+		</script>
+		<!--footer end-->
+	</body>
+
+</html>

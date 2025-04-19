@@ -1,0 +1,2749 @@
+---------------------------------------------------------------
+[ 2019-08-14T20:58:30+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.039984s] [吞吐率：25.01req/s] [内存消耗：3,581.20kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22',
+  'if-none-match' => '"5cf6324b-3d9"',
+  'if-modified-since' => 'Tue, 04 Jun 2019 08:56:43 GMT',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[/www/wwwroot/frcw1.52codes.cn/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2019-08-14T20:59:56+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.033683s] [吞吐率：29.69req/s] [内存消耗：3,664.82kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:09+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.057887s] [吞吐率：17.28req/s] [内存消耗：2,741.12kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:09+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.022523s] [吞吐率：44.40req/s] [内存消耗：2,500.90kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:19+08:00 ] 59.36.129.66 GET frcw1.52codes.cn/
+[运行时间：0.031531s] [吞吐率：31.71req/s] [内存消耗：3,663.36kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:19+08:00 ] 59.36.129.66 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.026959s] [吞吐率：37.09req/s] [内存消耗：2,528.98kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'referer' => 'http://frcw1.52codes.cn/',
+  'cookie' => 'PHPSESSID=hdca9468n0hee6l55lt2k65g07;',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'Keep-Alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:20+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.022582s] [吞吐率：44.28req/s] [内存消耗：2,531.48kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://149.129.106.35:1229/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:21+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.026660s] [吞吐率：37.51req/s] [内存消耗：2,500.84kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:30+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/checkverify.html
+[运行时间：0.023081s] [吞吐率：43.33req/s] [内存消耗：2,510.84kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '9',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+)
+[ info ] [ PARAM ] array (
+  'code' => '6639',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->checkVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:30+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/sendmobile.html
+[运行时间：0.458525s] [吞吐率：2.18req/s] [内存消耗：3,531.71kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'sendmobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '15321005369',
+  'type' => 'login',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->sendMobile[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_mobile_code` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT `count` FROM `clt_mobile_code` WHERE  `account` = '15321005369'  AND `event` = 'login' LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] UPDATE `clt_mobile_code`  SET `account`='15321005369',`count`=130,`send_time`=1565787630,`expire_time`=1565787750,`code`='999999',`event`='login'  WHERE  `account` = '15321005369'  AND `event` = 'login' [ RunTime:0.003881s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:36+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.034168s] [吞吐率：29.27req/s] [内存消耗：3,621.26kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '15321005369',
+  'verify' => '999999',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_mobile_code` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_mobile_code` WHERE  `account` = '15321005369'  AND `event` = 'login' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:38+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.090026s] [吞吐率：11.11req/s] [内存消耗：4,262.70kb] [文件加载：58]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:38+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/static/index/js/maps/swiper.min.js.map
+[运行时间：0.021480s] [吞吐率：46.56req/s] [内存消耗：1,961.44kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'maps' => 'swiper.min.js.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:40+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/my/index/nav/4.html
+[运行时间：0.070873s] [吞吐率：14.11req/s] [内存消耗：3,981.55kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\My->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/My.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/my/index.html [ array (
+  0 => 'price_now',
+  1 => 'data_coin',
+  2 => 'total_price',
+  3 => 'level',
+  4 => 'level2',
+  5 => 'level3',
+  6 => 'arrrlevel3',
+  7 => 'personComain',
+  8 => 'total_num',
+  9 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:41+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/information/index/nav/3.html
+[运行时间：0.038094s] [吞吐率：26.25req/s] [内存消耗：3,833.96kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/my/index/nav/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Information->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Information.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/information/index.html [ array (
+  0 => 'info',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000385s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_information` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_information` ORDER BY `id` DESC [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:41+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/static/index/js/maps/swiper.min.js.map
+[运行时间：0.018888s] [吞吐率：52.94req/s] [内存消耗：1,961.44kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'maps' => 'swiper.min.js.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:42+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/
+[运行时间：0.032046s] [吞吐率：31.21req/s] [内存消耗：3,665.34kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:42+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.023397s] [吞吐率：42.74req/s] [内存消耗：2,530.68kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:43+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/market/index/nav/2.html
+[运行时间：0.103831s] [吞吐率：9.63req/s] [内存消耗：3,947.05kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'market',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/information/index/nav/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Market->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Market.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/market/index.html [ array (
+  0 => 'lists',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdth` [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdth` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdtl` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdtl` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `name` FROM `clt_coin_name` ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `price` ASC LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `price` DESC LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_cointimepinfo` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'eos' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('eos' , '4.0325' , '4.1297' , '3.9674' , '4.0325' , '1565787643') [ RunTime:0.005069s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'ltc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('ltc' , '83.018' , '86.343' , '82.701' , '83.018' , '1565787643') [ RunTime:0.005936s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'btc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('btc' , '10631.98' , '11266.31' , '10409.51' , '10631.98' , '1565787643') [ RunTime:0.003366s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'usdt' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('usdt' , '122' , '0.9956' , '0.9956' , '122' , '1565787643') [ RunTime:0.002422s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `price` ASC LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `price` DESC LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'eth' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('eth' , '207.28' , '210.9' , '204.1' , '207.28' , '1565787643') [ RunTime:0.002384s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'etc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('etc' , '5.9037' , '6.1703' , '5.7435' , '5.9037' , '1565787643') [ RunTime:0.002303s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'xrp' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('xrp' , '0.2935' , '0.2986' , '0.2932' , '0.2935' , '1565787643') [ RunTime:0.002571s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'bchsv' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('bchsv' , '145.236' , '154.471' , '139.888' , '145.236' , '1565787643') [ RunTime:0.005897s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'doge' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('doge' , '0.0028032' , '0.0028537' , '0.0027784' , '0.0028032' , '1565787643') [ RunTime:0.002790s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:43+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/user/createverify.html
+[运行时间：0.024417s] [吞吐率：40.96req/s] [内存消耗：2,501.25kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'createverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'image/webp,image/sharpp,image/apng,image/tpg,image/*,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->createVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:00:43+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index/nav/1.html
+[运行时间：0.109968s] [吞吐率：9.09req/s] [内存消耗：4,061.17kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/market/index/nav/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000384s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:00:44+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/static/index/js/maps/swiper.min.js.map
+[运行时间：0.018499s] [吞吐率：54.06req/s] [内存消耗：1,961.44kb] [文件加载：36]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=16b5f1d1e2c1ca-082d3dbc750fc9-514d2f1f-100200-16b5f1d1e2f22; PHPSESSID=vrnadmsgqv7ahn0e8l7pqrb030; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'maps' => 'swiper.min.js.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:01:02+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/checkverify.html
+[运行时间：0.022477s] [吞吐率：44.49req/s] [内存消耗：2,511.12kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '9',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3',
+)
+[ info ] [ PARAM ] array (
+  'code' => '9279',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->checkVerify[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:01:02+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/sendmobile.html
+[运行时间：0.461973s] [吞吐率：2.16req/s] [内存消耗：3,532.26kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'sendmobile',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '15321005369',
+  'type' => 'login',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->sendMobile[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_mobile_code` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT `count` FROM `clt_mobile_code` WHERE  `account` = '15321005369'  AND `event` = 'login' LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] UPDATE `clt_mobile_code`  SET `account`='15321005369',`count`=131,`send_time`=1565787662,`expire_time`=1565787782,`code`='999999',`event`='login'  WHERE  `account` = '15321005369'  AND `event` = 'login' [ RunTime:0.003936s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:08+08:00 ] 221.218.209.110 POST frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.032866s] [吞吐率：30.43req/s] [内存消耗：3,621.35kb] [文件加载：52]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'accept' => '*/*',
+  'origin' => 'http://frcw1.52codes.cn',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '15321005369',
+  'verify' => '999999',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000347s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_mobile_code` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_mobile_code` WHERE  `account` = '15321005369'  AND `event` = 'login' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000229s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:10+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.087546s] [吞吐率：11.42req/s] [内存消耗：4,060.55kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/user/logins.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000250s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:12+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/my/index/nav/4.html
+[运行时间：0.063114s] [吞吐率：15.84req/s] [内存消耗：3,771.88kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\My->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/My.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/my/index.html [ array (
+  0 => 'price_now',
+  1 => 'data_coin',
+  2 => 'total_price',
+  3 => 'level',
+  4 => 'level2',
+  5 => 'level3',
+  6 => 'arrrlevel3',
+  7 => 'personComain',
+  8 => 'total_num',
+  9 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000927s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000457s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:13+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/information/index/nav/3.html
+[运行时间：0.035343s] [吞吐率：28.29req/s] [内存消耗：3,641.49kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/my/index/nav/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Information->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Information.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/information/index.html [ array (
+  0 => 'info',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000418s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_information` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_information` ORDER BY `id` DESC [ RunTime:0.000204s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:15+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/market/index/nav/2.html
+[运行时间：0.101462s] [吞吐率：9.86req/s] [内存消耗：3,751.77kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'market',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/information/index/nav/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Market->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Market.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/market/index.html [ array (
+  0 => 'lists',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000824s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdth` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdth` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdtl` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdtl` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `name` FROM `clt_coin_name` ORDER BY `id` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `price` ASC LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_frcw` ORDER BY `price` DESC LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_cointimepinfo` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'eos' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('eos' , '4.0324' , '4.1297' , '3.9674' , '4.0324' , '1565787675') [ RunTime:0.003838s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'ltc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('ltc' , '82.973' , '86.343' , '82.701' , '82.973' , '1565787675') [ RunTime:0.002576s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'btc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('btc' , '10625.15' , '11266.31' , '10409.51' , '10625.15' , '1565787675') [ RunTime:0.003579s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'usdt' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('usdt' , '122' , '0.9956' , '0.9956' , '122' , '1565787675') [ RunTime:0.003577s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `price` ASC LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `price`,`pub_time` FROM `clt_usdt` ORDER BY `price` DESC LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'eth' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('eth' , '207.2' , '210.9' , '204.1' , '207.2' , '1565787675') [ RunTime:0.003329s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'etc' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('etc' , '5.9018' , '6.1703' , '5.7435' , '5.9018' , '1565787675') [ RunTime:0.002369s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'xrp' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('xrp' , '0.2935' , '0.2986' , '0.2932' , '0.2935' , '1565787675') [ RunTime:0.002320s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'bchsv' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('bchsv' , '145.236' , '154.471' , '139.888' , '145.236' , '1565787675') [ RunTime:0.002067s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_cointimepinfo` WHERE  `coin` = 'doge' ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] INSERT INTO `clt_cointimepinfo` (`coin` , `last` , `high` , `low` , `price` , `time`) VALUES ('doge' , '0.0028032' , '0.0028537' , '0.0027784' , '0.0028032' , '1565787675') [ RunTime:0.002036s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:15+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index/nav/1.html
+[运行时间：0.075290s] [吞吐率：13.28req/s] [内存消耗：4,061.25kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/market/index/nav/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000564s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:17+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/wallet/earnings.html
+[运行时间：0.072099s] [吞吐率：13.87req/s] [内存消耗：4,147.04kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'earnings',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index/nav/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Wallet->earnings[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Wallet.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/wallet/earnings.html [ array (
+  0 => 'list',
+  1 => 'price_now',
+  2 => 'personComain',
+  3 => 'total_num',
+  4 => 'total_price',
+  5 => 'level',
+  6 => 'level2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `phone` = '15321005369' ORDER BY `id` DESC [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:18+08:00 ] 58.247.212.141 GET frcw1.52codes.cn/
+[运行时间：0.033517s] [吞吐率：29.84req/s] [内存消耗：3,663.91kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000417s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:19+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index/nav/1.html
+[运行时间：0.078223s] [吞吐率：12.78req/s] [内存消耗：4,061.32kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/market/index/nav/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000451s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:20+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/wallet/current/id/3.html
+[运行时间：0.060717s] [吞吐率：16.47req/s] [内存消耗：4,088.95kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index/nav/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Wallet->current[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Wallet.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/wallet/current.html [ array (
+  0 => 'record',
+  1 => 'user_tibi',
+  2 => 'tijiao',
+  3 => 'status_arr',
+  4 => 'name',
+  5 => 'num',
+  6 => 'price',
+  7 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `name` FROM `clt_coin_name` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `phone` = '15321005369'  AND `coin` = 'btc' [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_user_tibi` WHERE  `member_id` = 8  AND `type` = 2  AND `coin` = 'btc' [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_tijiao` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_tijiao` WHERE  `name` = '15321005369'  AND `type` = 'btc' [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:21+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.126222s] [吞吐率：7.92req/s] [内存消耗：4,060.83kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/wallet/current/id/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000445s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000196s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:23+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/wallet/current/id/4.html
+[运行时间：0.055692s] [吞吐率：17.96req/s] [内存消耗：3,858.50kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Wallet->current[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Wallet.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/wallet/current.html [ array (
+  0 => 'record',
+  1 => 'user_tibi',
+  2 => 'tijiao',
+  3 => 'status_arr',
+  4 => 'name',
+  5 => 'num',
+  6 => 'price',
+  7 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000734s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `name` FROM `clt_coin_name` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `phone` = '15321005369'  AND `coin` = 'usdt' [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_user_tibi` WHERE  `member_id` = 8  AND `type` = 2  AND `coin` = 'usdt' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_tijiao` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_tijiao` WHERE  `name` = '15321005369'  AND `type` = 'usdt' [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:23+08:00 ] 58.251.121.186 GET frcw1.52codes.cn/index/wallet/current/id/4.html
+[运行时间：0.034443s] [吞吐率：29.03req/s] [内存消耗：3,708.66kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000398s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:23+08:00 ] 58.251.121.186 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.024344s] [吞吐率：41.08req/s] [内存消耗：2,529.84kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'accept-encoding' => 'deflate, gzip',
+  'referer' => 'http://frcw1.52codes.cn/index/wallet/current/id/4.html',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G35 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/750 Core/UIWebView NetType/2G Mem/117',
+  'connection' => 'Close',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:01:24+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.103553s] [吞吐率：9.66req/s] [内存消耗：4,060.82kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/wallet/current/id/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:25+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/wallet/current/id/5.html
+[运行时间：0.053057s] [吞吐率：18.85req/s] [内存消耗：3,876.43kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Wallet->current[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Wallet.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/wallet/current.html [ array (
+  0 => 'record',
+  1 => 'user_tibi',
+  2 => 'tijiao',
+  3 => 'status_arr',
+  4 => 'name',
+  5 => 'num',
+  6 => 'price',
+  7 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `name` FROM `clt_coin_name` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `phone` = '15321005369'  AND `coin` = 'eth' [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_user_tibi` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_user_tibi` WHERE  `member_id` = 8  AND `type` = 2  AND `coin` = 'eth' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_tijiao` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_tijiao` WHERE  `name` = '15321005369'  AND `type` = 'eth' [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:27+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.079623s] [吞吐率：12.56req/s] [内存消耗：4,060.82kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/wallet/current/id/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/index/index.html [ array (
+  0 => 'date_str',
+  1 => 'price',
+  2 => 'price_cur',
+  3 => 'price_plus',
+  4 => 'price_rate',
+  5 => 'data_coin',
+  6 => 'total_price',
+  7 => 'level',
+  8 => 'level2',
+  9 => 'frcw_num',
+  10 => 'cur_price',
+  11 => 'list',
+  12 => 'nav',
+  13 => 'type',
+  14 => 'status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_usdt` [ RunTime:0.000791s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_usdt` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT `price` FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lianghua` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lianghua` WHERE  `uid` = 8  AND `status` = 0 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,7 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1,1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_lunbo` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_lunbo` WHERE  `type` = 1 [ RunTime:0.000192s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:28+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/information/index/nav/3.html
+[运行时间：0.034695s] [吞吐率：28.82req/s] [内存消耗：3,641.45kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Information->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Information.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/information/index.html [ array (
+  0 => 'info',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_information` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_information` ORDER BY `id` DESC [ RunTime:0.000221s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:29+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/information/newsinfo/id/19.html
+[运行时间：0.039198s] [吞吐率：25.51req/s] [内存消耗：3,831.20kb] [文件加载：56]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'newsinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/information/index/nav/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Information->newsInfo[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Information.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/information/news_info.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000373s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_information` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_information` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:30+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/information/index/nav/3.html
+[运行时间：0.035069s] [吞吐率：28.52req/s] [内存消耗：3,641.45kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Information->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Information.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/information/index.html [ array (
+  0 => 'info',
+  1 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_information` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_information` ORDER BY `id` DESC [ RunTime:0.000198s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:30+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/my/index/nav/4.html
+[运行时间：0.085260s] [吞吐率：11.73req/s] [内存消耗：3,772.16kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/information/index/nav/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\My->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/My.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/my/index.html [ array (
+  0 => 'price_now',
+  1 => 'data_coin',
+  2 => 'total_price',
+  3 => 'level',
+  4 => 'level2',
+  5 => 'level3',
+  6 => 'arrrlevel3',
+  7 => 'personComain',
+  8 => 'total_num',
+  9 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000732s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:31+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/wallet/earnings.html
+[运行时间：0.068889s] [吞吐率：14.52req/s] [内存消耗：3,934.72kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'earnings',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/my/index/nav/4.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Wallet->earnings[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/Wallet.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/wallet/earnings.html [ array (
+  0 => 'list',
+  1 => 'price_now',
+  2 => 'personComain',
+  3 => 'total_num',
+  4 => 'total_price',
+  5 => 'level',
+  6 => 'level2',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `phone` = '15321005369' ORDER BY `id` DESC [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:34+08:00 ] 221.218.209.110 GET frcw1.52codes.cn/index/my/index/nav/4.html
+[运行时间：0.079619s] [吞吐率：12.56req/s] [内存消耗：3,772.16kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'my',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 9; VOG-AL10 Build/HUAWEIVOG-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36 V1_AND_SQ_8.1.0_1232_YYB_D QQ/8.1.0.4150 NetType/WIFI WebP/0.3.0 Pixel/1080 StatusBarHeight/75 SimpleUISwitch/0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,image/tpg,*/*;q=0.8',
+  'referer' => 'http://frcw1.52codes.cn/index/information/index/nav/3.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.9,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=ppe4o14l3fe6iuvhi13ful4cd3; frcw_uid=8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\My->index[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/My.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/my/index.html [ array (
+  0 => 'price_now',
+  1 => 'data_coin',
+  2 => 'total_price',
+  3 => 'level',
+  4 => 'level2',
+  5 => 'level3',
+  6 => 'arrrlevel3',
+  7 => 'personComain',
+  8 => 'total_num',
+  9 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_member` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_frcw` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_name` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_coin_name` WHERE  `open` <> 1  AND `id` IN (4,3,5) [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT `btc` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `usdt` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `eth` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT `frcw` FROM `clt_coin` WHERE  `member_id` = 8 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT MAX(price) AS tp_max FROM `clt_frcw` LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_frcw` ORDER BY `pub_time` DESC LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_coin_record` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `add_time` >= 1565712000  AND `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '15321005369' LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `clt_member` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `id` FROM `clt_member` WHERE  `phone` = '15321005369' LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 8 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 11 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 15 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 17 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`phone` FROM `clt_member` WHERE  `parent_id` = 18 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '18014303736' LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17039103674' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880002' LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT SUM(num) AS tp_sum FROM `clt_coin_record` WHERE  `coin` = 'frcw'  AND `inout` = 'in'  AND ( `type` <> '系统充值' AND `type` <> '转入' AND `type` NOT LIKE '%关闭量化%' )  AND `phone` = '17358880009' LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:01:46+08:00 ] 58.247.206.140 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.023268s] [吞吐率：42.98req/s] [内存消耗：2,528.49kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-14T21:02:17+08:00 ] 61.151.207.205 GET frcw1.52codes.cn/index/market/index/nav/2.html
+[运行时间：0.039933s] [吞吐率：25.04req/s] [内存消耗：3,584.46kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'market',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '2',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000437s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:19+08:00 ] 101.91.60.106 GET frcw1.52codes.cn/index/index/index/nav/1.html
+[运行时间：0.039930s] [吞吐率：25.04req/s] [内存消耗：3,668.44kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:19+08:00 ] 61.151.207.186 GET frcw1.52codes.cn/index/information/index/nav/3.html
+[运行时间：0.037455s] [吞吐率：26.70req/s] [内存消耗：3,546.79kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'information',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'nav' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000448s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:20+08:00 ] 61.151.178.166 GET frcw1.52codes.cn/index/index/index.html
+[运行时间：0.036735s] [吞吐率：27.22req/s] [内存消耗：3,667.66kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:23+08:00 ] 61.129.8.179 GET frcw1.52codes.cn/index/wallet/earnings.html
+[运行时间：0.062427s] [吞吐率：16.02req/s] [内存消耗：3,707.35kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'earnings',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.028446s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:30+08:00 ] 61.151.178.236 GET frcw1.52codes.cn/index/wallet/current/id/5.html
+[运行时间：0.032924s] [吞吐率：30.37req/s] [内存消耗：3,707.73kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) 			Chrome/55.0.2883.95 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000353s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:34+08:00 ] 101.89.29.86 GET frcw1.52codes.cn/index/wallet/current/id/3.html
+[运行时间：0.032066s] [吞吐率：31.19req/s] [内存消耗：3,707.96kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2141.400 QQBrowser/9.5.10219.400',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000390s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:39+08:00 ] 61.129.6.151 GET frcw1.52codes.cn/index/wallet/current/id/4.html
+[运行时间：0.031366s] [吞吐率：31.88req/s] [内存消耗：3,707.52kb] [文件加载：53]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'wallet',
+    2 => 'current',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;dbname=frcw1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_system` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `open` FROM `clt_system` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2019-08-14T21:02:42+08:00 ] 61.129.6.151 GET frcw1.52codes.cn/index/user/logins.html
+[运行时间：0.034034s] [吞吐率：29.38req/s] [内存消耗：2,529.41kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://frcw1.52codes.cn/index/wallet/current/id/4.html',
+  'cookie' => 'PHPSESSID=mfv0et3h7ajv6inejj3kcr9eg2',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'host' => 'frcw1.52codes.cn',
+  'connection' => 'keep-alive',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/lang/zh-cn.php
+[ info ] [ RUN ] app\index\controller\User->logins[ /www/wwwroot/frcw1.52codes.cn/app/index/controller/User.php ]
+[ info ] [ VIEW ] /www/wwwroot/frcw1.52codes.cn/public/../app/index/view/user/logins.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

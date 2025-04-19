@@ -1,0 +1,53 @@
+	{include file="public/header"}
+	<body class="wallet setBox">
+		<div id="app">
+			<div>
+				<div class="earnings">
+					<div class="header headerw">
+						<a href="{:url('my/index')}" class="icon-left">
+							<img src="__INDEX__/images/left.png" alt="">
+						</a>
+						<h1>{$Think.lang.Language_number_1284}</h1>
+					</div>
+				</div>
+				<div class="set_box"></div>
+				<div class="set_box">
+					<div class="set_box">
+						<div class="set_list list_x username"><span>{$Think.lang.Language_number_1285}</span> <span>86{$phone}</span></div>
+						<div class="set_list list_x"><a href="{:url('lang')}" class=""><span>{$Think.lang.Language_number_1286}</span>
+								<span class="lan">
+								
+								{if condition=" ($_SESSION['langtemsetv'] eq 'zh-cn') "}
+								
+								简体中文
+								
+								{/if}
+								
+								{if condition=" ($_SESSION['langtemsetv'] eq 'en-us') "}
+								
+								English
+								
+								{/if}
+								</span> <i class="icon"></i></a></div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="exit"><button type="button">{$Think.lang.Language_number_1287}</button></div>
+		</div>
+
+		<script>
+			$(".size").css("font-size", $("body").width() * 0.0625 + "px")
+			$('button').click(function(){
+				$.get('{:url("logout")}', {type:'logout'}, function(res){
+					if (res.code == 1) {
+						location.href = res.url;
+					}
+				});
+			});
+		</script>
+
+
+	</body>
+</html>
