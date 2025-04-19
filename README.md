@@ -1,12 +1,17 @@
-ThinkPHP 5.0
+BXDEX
 ===============
+![截屏2025-04-19 17 46 55](https://github.com/user-attachments/assets/2d2d99ec-19ba-40fd-ab2f-9c9020193b53)
 
-[![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
-[![Latest Stable Version](https://poser.pugx.org/topthink/think/v/stable)](https://packagist.org/packages/topthink/think)
-[![Latest Unstable Version](https://poser.pugx.org/topthink/think/v/unstable)](https://packagist.org/packages/topthink/think)
-[![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
+![截屏2025-04-19 17 46 46](https://github.com/user-attachments/assets/e172934d-1f5a-4727-b978-7251195703b2)
 
-ThinkPHP5在保持快速开发和大道至简的核心理念不变的同时，PHP版本要求提升到5.4，对已有的CBD模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，是ThinkPHP突破原有框架思路的颠覆之作，其主要特性包括：
+![截屏2025-04-19 17 46 39](https://github.com/user-attachments/assets/01b109b7-e053-44fa-bb23-e343f237e695)
+
+![截屏2025-04-19 17 46 32](https://github.com/user-attachments/assets/f8cf4bd4-0f74-424b-afc0-acdf08149715)
+
+![截屏2025-04-19 17 46 24](https://github.com/user-attachments/assets/d3dc4706-41a7-40c0-9b37-57b20a22f7b1)
+
+![截屏2025-04-19 17 46 17](https://github.com/user-attachments/assets/a9761acf-b629-4a5e-b5cb-68833fe8fb78)
+
 
  + 基于命名空间和众多PHP新特性
  + 核心功能组件化
